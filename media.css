@@ -1,0 +1,9120 @@
+@charset "utf-8";
+@media all and (min-width: 1700px){
+	.bottom_search,
+	.btn_open{
+		display:none;
+	}
+}
+
+@media all and (min-width: 1550px) and (max-width: 1700px){
+	.vertual_cont {
+		width:70%;
+	}
+	.result_part li{
+		padding:0 10px;
+	}
+	.bottom_search,
+	.btn_open{
+		display:none;
+	}
+	/* 메인 - 모바일 솔루션 */
+	.holder_bu_center{
+		top:89px;
+		margin-left:-140px;
+	}
+	/* section3 - eXPIS 전자기술교범 */
+	.img_phone01{
+		width:21%;
+		top:37%;
+	}
+	.img_phone02{
+		left: 21%;
+		width:21%;
+	}
+	.img_phone03{
+		top:23%;
+	}
+	/* section2 - vr/ar/mr 가상현실 */
+	.vr_box01,
+	.vr_box02,
+	.vr_box03{
+		background-position: center 80px;
+	}
+	.vr_box:hover .vr_box01,
+	.vr_box:hover .vr_box02,
+	.vr_box:hover .vr_box03 {
+		background-position: center 80px;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view,
+	.vr_box:hover .vr_box02 .btn_vr_view,
+	.vr_box:hover .vr_box03 .btn_vr_view{
+		top:200px;
+		height:34px;
+		line-height:34px;
+	}
+}
+@media all and (min-width: 1460px) and (max-width: 1550px){
+	/* 메인 - 모바일 솔루션 */
+	#wrapper_bu{
+		margin-top:260px;
+	}
+	.mobile_tile{
+		margin-left:-134px;
+		width:22.5%;
+	}
+	.bg_mobile_tile{
+		left:52.3%;
+		top:62px;
+		width:18%;
+	}
+	.holder_bu_center{
+		top:77px;
+		margin-left:-102px;
+		width:17%;
+	}
+	.holder_bu_awayR1{
+		top:92px;
+		left:59%;
+		width:15%;
+	}
+	.holder_bu_awayR2{
+		top:130px;
+	}
+	.holder_bu_awayR3{
+		top:160px;
+	}
+	.holder_bu_awayL1{
+		top:92px;
+		left:26%;
+		width:15%;
+	}
+	.holder_bu_awayL2{
+		top:128px;
+		left:13%;
+	}
+	.holder_bu_awayL3{
+		top:160px;
+		left:3%;
+	}
+	/* section3 - eXPIS 전자기술교범 */
+	.img_phone01{
+		width:22%;
+		top:43%;
+	}
+	.img_phone02{
+		left: 21%;
+		width:22%;
+	}
+	.img_phone03{
+		top:23%;
+	}
+	/* section2 - vr/ar/mr 가상현실 */
+	.vr_box01,
+	.vr_box02,
+	.vr_box03{
+		height:35%;
+		background-position:center 70px;
+		padding:30px 10px;
+	}
+	.vr_box:hover .vr_box01,
+	.vr_box:hover .vr_box02,
+	.vr_box:hover .vr_box03:hover{
+		background-position: center 70px;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view,
+	.vr_box:hover .vr_box02 .btn_vr_view,
+	.vr_box:hover .vr_box03 .btn_vr_view{
+		top:180px;
+		height:34px;
+		line-height:34px;
+	}
+	/* 컨텐츠 모바일 솔루션 */
+	.on_cont{
+		bottom:-80%;
+		padding:20px 40px;
+	}
+}
+@media all and (min-width: 1300px) and (max-width: 1460px){
+	/* 헤더 - 네비게이션 */
+	.nav_illust_box{
+		display:none !important;
+	}
+	.nav_dep2{
+		width:260px;
+		left:-378px;
+	}
+	.nav_dep2.vr_dep{
+		width:524px;
+		left:-246px;
+	}
+	.nav_dep2.notec{
+		left:163px;
+	}
+	.nav_dep2 > ul > li.vr_width1,
+	.nav_dep2 > ul > li.vr_width2,
+	.nav_dep2 > ul > li.vr_width3{
+		width:260px;
+	}
+	.nav_dep2.vr_dep:after{
+		left:260px;
+	}
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:9%;
+	}
+	#wrapper_bu{
+		margin-top:260px;
+	}
+	.mobile_tile{
+		margin-left:-125px;
+		width:22.5%;
+	}
+	.bg_mobile_tile{
+		margin-left:-102px;
+		top:60px;
+		width:18%;
+	}
+	.holder_bu_center{
+		top:69px;
+		margin-left:-94px;
+		width:17%;
+	}
+	.holder_bu_awayR1{
+		top:78px;
+		left:59%;
+		width:15%;
+	}
+	.holder_bu_awayR2{
+		top:100px;
+	}
+	.holder_bu_awayR3{
+		top:133px;
+	}
+	.holder_bu_awayL1{
+		top:78px;
+		left:26%;
+		width:15%;
+	}
+	.holder_bu_awayL2{
+		top:100px;
+		left:13%;
+	}
+	.holder_bu_awayL3{
+		top:133px;
+		left:3%;
+	}
+	
+	/* section3 - eXPIS 전자기술교범 */
+	#section3{
+		padding-top:9%;
+	}
+	.img_phone01{
+		width:23%;
+		top:38%;
+	}
+	.img_phone02{
+		left: 22%;
+		width:23%;
+	}
+	.img_phone03{
+		top:26%;
+	}
+	
+	.keyword_frame {
+		padding:30px;
+	}
+	/* section2 - vr/ar/mr 가상현실 */
+	#section2{
+		background-position: left 60%, right 60%;
+	}
+	.vr_box01,
+	.vr_box02,
+	.vr_box03{
+		width:17%;
+		height:32%;
+		padding:30px 10px;
+		background-position: center 70px;
+		background-size:110%;
+	}
+	.vr_box01{
+		left:22%;
+	}
+	.vr_box02{
+		left:41%;
+	}
+	.vr_box03{
+		left:60%;
+	}
+	.vr_box:hover .vr_box01,
+	.vr_box:hover .vr_box02,
+	.vr_box:hover .vr_box03 {
+		background-position: center 70px;
+		background-size:110%;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view,
+	.vr_box:hover .vr_box02 .btn_vr_view,
+	.vr_box:hover .vr_box03 .btn_vr_view{
+		top:170px;
+		height:34px;
+		line-height:34px;
+	}
+	.company_text_info {
+		padding:0 30px;
+	}
+	
+	/*  */
+	.spec_box {
+		width:95%;
+	}
+	
+	.spec_img {
+	    height:570px;
+	}
+	
+	.spec_data.part li div {
+		height:70px;
+	}
+	
+	
+	/* 컨텐츠 모바일 솔루션 */
+	.on_cont{
+		bottom:-80%;
+		padding:17px 30px;
+	}
+	.on_cont ul{
+		font-size:13px;
+	}
+	.on_cont strong{
+		font-size:22px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:40px 30px;
+	}
+}
+
+@media all and (max-width: 1300px) {
+	
+	
+	/* 헤더 - 네비게이션 */
+	.nav_illust_box{
+		display:none !important;
+	}
+	.nav_dep2{
+		width:260px;
+		left:-378px;
+	}
+	.nav_dep2.vr_dep{
+		width:524px;
+		left:-246px;
+	}
+	.nav_dep2.notec{
+		left:163px;
+	}
+	.nav_dep2 > ul > li.vr_width1,
+	.nav_dep2 > ul > li.vr_width2,
+	.nav_dep2 > ul > li.vr_width3{
+		width:260px;
+	}
+	.nav_dep2.vr_dep:after{
+		left:260px;
+	}
+	.map_side {
+		left:20px;
+		margin-left:0;
+	}
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:10%;
+	}
+	#wrapper_bu{
+		margin-top:260px;
+	}
+	.mobile_tile{
+		margin-left:-117px;
+		width:22.5%;
+	}
+	.bg_mobile_tile{
+		margin-left:-94px;
+		top:52px;
+		width:18%;
+	}
+	.holder_bu_center{
+		top:61px;
+		margin-left:-92px;
+		width:17%;
+	}
+	.holder_bu_awayR1{
+		top:78px;
+		left:59%;
+		width:15%;
+	}
+	.holder_bu_awayR2{
+		top:100px;
+	}
+	.holder_bu_awayR3{
+		top:133px;
+	}
+	.holder_bu_awayL1{
+		top:78px;
+		left:26%;
+		width:15%;
+	}
+	.holder_bu_awayL2{
+		top:100px;
+		left:13%;
+	}
+	.holder_bu_awayL3{
+		top:133px;
+		left:3%;
+	}
+	
+	/* section3 - eXPIS 전자기술교범 */
+	#section3{
+		padding-top:10%;
+	}
+	.img_phone01{
+		width:24%;
+		top:38%;
+	}
+	.img_phone02{
+		width:24%;
+		left:22%;
+	}
+	.img_phone03{
+		top:30%;
+		width:58%;
+		right:-5%;'
+	}
+	
+	.keyword_frame {
+		padding:30px;
+	}
+	/* section2 - vr/ar/mr 가상현실 */
+	#section2{
+		background-position: left 60%, right 60%;
+	}
+	.vr_box01,
+	.vr_box02,
+	.vr_box03{
+		width:18%;
+		height:32%;
+		padding:30px 10px;
+		background-position: center 70px;
+		background-size:110%;
+	}
+	.vr_box01{
+		left:20%;
+	}
+	.vr_box02{
+		left:40%;
+	}
+	.vr_box03{
+		left:60%;
+	}
+	.vr_box:hover .vr_box01,
+	.vr_box:hover .vr_box02,
+	.vr_box:hover .vr_box03 {
+		background-position: center 70px;
+		background-size:110%;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view,
+	.vr_box:hover .vr_box02 .btn_vr_view,
+	.vr_box:hover .vr_box03 .btn_vr_view{
+		top:170px;
+		height:34px;
+		line-height:34px;
+	}
+	.company_text_info {
+		padding:0 30px;
+	}
+	
+	.spec_box {
+		width:90%;
+	}
+	.tit_explain {
+		padding:0 20px; 
+	}
+	/* 컨텐츠 모바일 솔루션 */
+	.bxslider_02 > li{
+		width:4.47% !important;
+		margin-right:2%;
+	}
+	.on_cont{
+		bottom:-83%;
+		padding:17px 30px;
+	}
+	.on_cont ul{
+		font-size:13px;
+	}
+	.on_cont strong{
+		font-size:22px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:40px 30px;
+	}
+	
+	/* expis system */
+	.expis_form {
+		background-size:68em;	
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+	    position: relative;
+	    margin: 0 auto;
+	    width: 704px;
+	    padding: 60px 0 59px;
+	    height: 100%;
+	    box-sizing: border-box;
+	}
+	
+	
+	
+	
+	
+}
+
+@media all and (min-width: 1200px) and (max-width: 1700px){
+	.vertual_cont {
+		width:85%;
+	}
+	.bottom_search,
+	.btn_open{
+		display:none;
+	}
+	/*-------------- 교육훈련 운용 시뮬레이션 --------------*/
+	/* 이미지 슬라이드 - 이미지 영역 */
+	.slide,
+	.slide02 {
+		height:562px;
+	}
+	
+	/* eXPIS */
+	.feature_form .col li div {
+		height:155px; 
+	}
+	.result_part li{
+		padding:0 10px;
+	}
+	
+}
+@media all and (max-width: 1218px){
+	.sitemap_form{
+		width:100%;
+		left:inherit;
+		margin-left:inherit;
+	}
+}
+@media all and (max-width: 1200px){
+	.btn_close {
+		top:0;
+	}
+	.vertual_cont {
+		width:95%;
+	}
+	.vertual_cont .col:nth-child(1) p, .vertual_cont .col:nth-child(1) div {
+		margin-right:-128px;
+	}
+	.vertual_cont .col:nth-child(3) p, .vertual_cont .col:nth-child(3) div {
+		margin-left:-128px;
+	}
+	/* 메인 - eXPIS 전자기술교범 */
+	.img_phone01{
+		width:24%;
+		top:42%;
+	}
+	.img_phone02{
+		width:24%;
+		top:58%;
+		left:22%;
+	}
+	.img_phone03{
+		top:33%;
+		width:58%;
+	}
+	/* 공지사항 팝업창 */
+	.notice_popup{
+		width:80%;
+		margin-left:-40%;
+	}
+	.bottom_search,
+	.btn_open{
+		display:none;
+	}
+	
+	/*-------------- 교육훈련 운용 시뮬레이션 --------------*/
+	/* 이미지 슬라이드 - 이미지 영역 */
+	.slide,
+	.slide02 {
+		height:520px;
+	}
+	/* 시뮬레이션 스펙 테이블 */
+	.spec_video{
+		width:100%;
+		height:480px;
+		margin:0;
+	}
+	.spec_video.img03,
+	.spec_video.img04 {
+		height: 480px;
+		background-size: contain;
+	}
+	.character_data{
+		width:100%;
+		margin-top:10px;
+		padding-left:0;
+	}
+	.character_ul li div{
+		height:100px;
+		text-align:center;
+	}
+	
+	.character_data.part li {
+		width:50%;
+		float:left;
+	}
+	
+	
+	
+	/*-------------- 교육용 증강현실 --------------*/
+	/* 모바일 vr 지게차 */
+	.education_vr{
+		height:540px;
+	}
+	.mobile_box{
+		height:430px;
+	}
+		
+	/*--------------  eXPIS --------------*/
+	.feature_form .col li div {
+		height:170px; 
+	}
+	
+	.cbt_info {
+		width:80%;
+		min-width:auto;
+		margin:0px auto 40px;
+	}
+	
+
+	.cbt_info h3 {
+		position:relative;
+		left:0;
+		right:0;
+		top:0;
+		padding:2em 10px 0;
+		margin:0;
+		height:auto;
+		width:auto;
+		color:#fff;
+		font-size:20px;
+		font-weight:600;
+		background:none;
+	}
+	
+	.cbt_info ul {
+		padding-top:2em;
+	}
+	.cbt_info li {
+		padding-top:0;
+		height:auto;
+	}
+	.cbt_info li strong {
+		position:relative;
+		width:auto;
+		height:40px;
+		line-height:40px;
+		border-radius:0;
+	}
+	.cbt_info li.category_1 strong {
+		top:inherit;
+		right: inherit;
+	}
+	.cbt_info li.category_2 strong {
+		top:inherit;
+		left:inherit;
+		border-left:1px solid #52a3bb;
+	}
+	.cbt_info li.category_3 strong {
+		right: inherit;
+		bottom:inherit;
+	}
+	.cbt_info li.category_4 strong {
+		left: inherit;
+		bottom:inherit;
+		border-left:1px solid #4474a2;
+	}
+	.cbt_info li p {
+		padding:10px 18px;
+		border-top:0;
+		color:#000;
+		border-left:1px solid #ddd;
+		background-color:#fff;
+	}
+	.cbt_info li.category_1 p:before, 
+	.cbt_info li.category_2 p:before,
+	.cbt_info li.category_3 p:before,
+	.cbt_info li.category_4 p:before {
+		background:none;
+	}
+	.cbt_info li.category_1 p,
+	.cbt_info li.category_2 p,
+	.cbt_info li.category_3 p,
+	.cbt_info li.category_4 p {
+		margin:0;
+	}
+	
+	/* 도형 아래 이미지 */
+	.cbt_ico_function {
+		display:block;
+		width:80%;
+		min-width:auto;
+	}
+	.cbt_ico_function:after {
+		content:"";
+		display:block;
+		clear:both;
+		*zoom:1;
+	}
+	.cbt_ico_function li {
+		float:left;
+		padding:10px;
+		width:33.3%;;
+		border: 1px solid rgba(255, 255, 255, 0.2);
+		border-width:0 1px 1px 0;
+		box-sizing: border-box;
+	}
+	.cbt_ico_function li:before {
+		border-left:0;
+	}
+	.cbt_ico_function li:first-child {
+		border-left:1px solid rgba(255, 255, 255, 0.2);
+	}
+	.cbt_ico_function li:nth-child(1),
+	.cbt_ico_function li:nth-child(2),
+	.cbt_ico_function li:nth-child(3) {
+		border-top:1px solid rgba(255, 255, 255, 0.2);
+	}
+	.cbt_ico_function li:nth-child(4){
+		border-left:1px solid rgba(255, 255, 255, 0.2);
+	}
+
+
+	/* --------- site map  ---------- */
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:10%;
+	}
+	#wrapper_bu{
+		margin-top:260px;
+	}
+	.mobile_tile{
+		margin-left:-100px;
+		width:22.5%;
+	}
+	.bg_mobile_tile{
+		margin-left:-82px;
+		top:46px;
+		width:18%;
+	}
+	.holder_bu_center{
+		top:57px;
+		margin-left:-82px;
+		width:17.8%;
+	}
+	.holder_bu_awayR1{
+		top:78px;
+		left:59%;
+		width:15%;
+	}
+	.holder_bu_awayR2{
+		top:100px;
+	}
+	.holder_bu_awayR3{
+		top:133px;
+	}
+	.holder_bu_awayL1{
+		top:78px;
+		left:26%;
+		width:15%;
+	}
+	.holder_bu_awayL2{
+		top:100px;
+		left:13%;
+	}
+	.holder_bu_awayL3{
+		top:133px;
+		left:3%;
+	}
+	/* section2 - vr/ar/mr 가상현실 */
+	#section2{
+		background-position: left 60%, right 60%;
+	}
+	.vr_box01,
+	.vr_box02,
+	.vr_box03{
+		width:20%;
+		height:32%;
+		padding:30px 10px;
+		background-position: center 70px;
+		background-size:110%;
+	}
+	.vr_box01{
+		left:19%;
+	}
+	.vr_box02{
+		left:40%;
+	}
+	.vr_box03{
+		left:61%;
+	}
+	.vr_box:hover .vr_box01,
+	.vr_box:hover .vr_box02,
+	.vr_box:hover .vr_box03 {
+		background-position: center 70px;
+		background-size:110%;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view,
+	.vr_box:hover .vr_box02 .btn_vr_view,
+	.vr_box:hover .vr_box03 .btn_vr_view{
+		top:170px;
+		height:34px;
+		line-height:34px;
+	}
+	.spec_box {
+		width:95%;
+	}
+	
+	.character_data.part li:last-child > div {
+		height:109px;
+	}
+	
+	.character_data.part.equipped_spec li:last-child > div {
+		height:86px;
+	}
+	.tit_explain {
+		padding:0 20px; 
+	}
+	
+	
+	/* expis system */
+	.expis_form {
+		height: 640px;
+	}
+	.expis_tab_box {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    left: 0;
+	}
+	.expis_tab_box ul.tabs {
+		display: inline-block;
+	}
+	.expis_tab_box ul.tabs li {
+	    display: block;
+	    margin-top:0;
+	    margin-left:15px;
+	    float: left;
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+		padding: 140px 0 59px;
+	}
+}
+
+
+@media all and (max-width:1155px) {
+	.cbt_tab_box ul.tabs li a {
+		height:64px;
+		padding:15px 10px;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(1) a,
+	.cbt_tab_box ul.tabs li:nth-child(3) a,
+	.cbt_tab_box ul.tabs li:nth-child(5) a,
+	.cbt_tab_box ul.tabs li:nth-child(6) a {
+		padding-top:24px;
+	} 
+	/* 컨텐츠 모바일 솔루션 */
+	.on_cont{
+		bottom:-80%;
+		padding:20px 30px;
+	}
+	.on_cont ul{
+		font-size:13px;
+	}
+	.on_cont strong{
+		font-size:22px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:40px 30px;
+	}
+	
+	.video_spec_gp iframe {
+		width:100%;
+		height:461px;
+	}
+	
+	/* C.I 소개 */
+	.symbol_txt{
+		width:100%;
+		float:inherit;
+	}
+	.symbol_img{
+		width:100%;
+		float:inherit;
+		margin-top:20px;
+	}
+	.color_red{
+		background-position:0 36px;
+	}
+	.color_red strong{
+		height:auto;
+		padding:16px 40px 8px;
+	}
+	.color_red p{
+		display:block;
+		padding: 0 0 0 40px;
+	}
+}
+
+
+
+@media all and (max-width: 1100px) {
+	/* 헤더 - 네비게이션 */
+	.nav_illust_box{
+		display:none !important;
+	}
+	.nav_dep2{
+		width:250px;
+		left:-353px;
+	}
+	.nav_dep2.vr_dep{
+		width:524px;
+		left:-231px;
+	}
+	.nav_dep2.notec{
+		left:155px;
+	}
+	.nav_dep2 > ul > li.vr_width1,
+	.nav_dep2 > ul > li.vr_width2,
+	.nav_dep2 > ul > li.vr_width3{
+		width:250px;
+	}
+	.nav_dep2.vr_dep:after{
+		left:250px;
+	}
+	
+	
+	
+	/*-------------- 교육훈련 운용 시뮬레이션 --------------*/
+	/* 이미지 슬라이드 - 이미지 영역 */
+	.slide,
+	.slide02 {
+		height:480px;
+	}
+	/*-------------- 교육용 증강현실 --------------*/
+	/* 모바일 vr 지게차 */
+	.education_vr{
+		height:490px;
+	}
+	.mobile_box{
+		height:370px;
+	}
+	/* section2 - vr/ar/mr 가상현실 */
+	#section2{
+		background-position: left 60%, right 60%;
+	}
+	.vr_box01,
+	.vr_box02,
+	.vr_box03{
+		width:20%;
+		height:32%;
+		padding:30px 10px;
+		background-position: center 70px;
+		background-size:120%;
+	}
+	.vr_box01{
+		left:18%;
+	}
+	.vr_box02{
+		left:40%;
+	}
+	.vr_box03{
+		left:62%;
+	}
+	.vr_box:hover .vr_box01,
+	.vr_box:hover .vr_box02,
+	.vr_box:hover .vr_box03 {
+		background-position: center 70px;
+		background-size:120%;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view,
+	.vr_box:hover .vr_box02 .btn_vr_view,
+	.vr_box:hover .vr_box03 .btn_vr_view{
+		top:170px;
+		height:34px;
+		line-height:34px;
+	}
+	/*--------------  eXPIS --------------*/
+	.feature_form .part {
+		width:100%;
+		float:none;
+	}
+	.feature_form .part.customizing .feature_topic:before {
+		background:none;
+	}
+	.feature_form .col.left {
+		padding:0;
+	}
+	.feature_form .col.right {
+		padding:0;
+	}
+	.feature_form .col.right:before {
+		border:0;
+	}
+	
+	.feature_form .part .feature_topic {
+		padding:16px 22%;
+	}
+	.feature_form .part .feature_topic strong {
+		padding-bottom:5px;
+		font-size:16px;
+	}
+	.feature_form .part .feature_topic p {
+		font-size:13px;
+		line-height: normal;
+	}
+	.feature_form .col li div {
+		height:125px;
+	}
+	.result_part li {
+		padding:0 10px;
+	}
+	.half {
+		width:100%;
+		float:none;
+	}
+	.half.left {
+		padding-right:0;
+		padding-bottom:20px;
+	}
+	.half.right {
+		padding-left:0;
+		padding-bottom:20px;
+	}
+	
+	/* 메인 - eXPIS 전자기술교범 */
+	.img_phone01{
+		width:24%;
+		top:43%;
+	}
+	.img_phone02{
+		width:24%;
+		top:59%;
+	}
+	.img_phone03{
+		top:32%;
+		width:60%;
+	}
+	
+	/* expis system */
+	.expis_form {
+		height:597px;
+	    background-size: 60em;
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+		padding: 156px 0 52px;
+		width: 623px;
+	}
+	
+
+
+}
+
+@media all and (max-width: 1025px) {
+	.bottom_search,
+	.btn_open{
+		display:none;
+	}
+	/*-------------- 교육훈련 운용 시뮬레이션 --------------*/
+	/* 이미지 슬라이드 - 이미지 영역 */
+	.slide,
+	.slide02 {
+		height:450px;
+	}
+	.result_part li {
+		padding:0 10px;
+	}
+
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:13%;
+	}
+	#wrapper_bu{
+		margin-top:260px;
+	}
+	.mobile_tile{
+		margin-left:-94px;
+		width:22.5%;
+	}
+	.bg_mobile_tile{
+		margin-left:-76px;
+		top:39px;
+		width:18%;
+	}
+	.holder_bu_center{
+		top:51px;
+		margin-left:-79px;
+		width:17.8%;
+	}
+	.holder_bu_awayR1{
+		top:78px;
+		left:59%;
+		width:15%;
+	}
+	.holder_bu_awayR2{
+		top:100px;
+	}
+	.holder_bu_awayR3{
+		top:133px;
+	}
+	.holder_bu_awayL1{
+		top:78px;
+		left:26%;
+		width:15%;
+	}
+	.holder_bu_awayL2{
+		top:100px;
+		left:13%;
+	}
+	.holder_bu_awayL3{
+		top:133px;
+		left:3%;
+	}
+	/* 컨텐츠 모바일 솔루션 */
+	.bxslider_02 > li{
+		width:4.5% !important;
+		margin-right:2%;
+	}
+	.on_cont{
+		bottom:-83%;
+		padding:17px 30px;
+	}
+	.on_cont ul{
+		font-size:13px;
+	}
+	.on_cont strong{
+		font-size:22px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:40px 30px;
+	}
+	/* 컨텐츠 모바일 솔루션 */
+	.on_cont{
+		bottom:-78%;
+		padding:20px 30px;
+	}
+	.on_cont ul{
+		font-size:13px;
+	}
+	.on_cont strong{
+		font-size:22px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:40px 30px;
+	}
+}
+
+   
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	#section2, #section3{
+		padding-top:15%;
+	}
+	nav,
+	.btn_groupware,
+	.menu,
+	.bottom_search,
+	.btn_open {
+		display:none;
+	}
+	#section0, #section1{
+		padding:20% 0 0 0;
+	}
+	
+	.main_txt_box{
+		margin:24% auto 0;
+	}
+	.util ul {
+	    padding: 20px 15px 20px 0;
+	}
+	.util ul a {
+		font-size:0.9em;
+	}
+	
+	footer address p span a,
+	footer address .email {
+		color:#dcaa15;
+	}
+	
+	/* section2 - vr/ar/mr 가상현실 */
+	.vr_box01,
+	.vr_box02,
+	.vr_box03{
+		top: 42%;
+		width:20%;
+		height:33%;
+		padding:30px 10px;
+		background-position:center 80px;
+		background-size:130%;
+	}
+	.vr_box01{
+		left:18%;
+	}
+	.vr_box02{
+		left:40%;
+	}
+	.vr_box03{
+		left:62%;
+	}
+	.vr_box:hover .vr_box01,
+	.vr_box:hover .vr_box02,
+	.vr_box:hover .vr_box03{
+		background-position: center 80px;
+		background-size:130%;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view,
+	.vr_box:hover .vr_box02 .btn_vr_view,
+	.vr_box:hover .vr_box03 .btn_vr_view{
+		top:160px;
+		height:34px;
+		line-height:34px;
+	}
+	.btn_view{
+		font-size:.9em;
+	}
+	/* VR 크기 */
+	#section0{
+		background-size:80%, cover;
+	}
+	/* vr/ar 가상현실 */
+	#section2{
+		padding: 15% 10% 10% 10%;
+		background-position:left 60%, right 60%;
+	}
+	/* sub 헤더 */
+	.sub_head{
+		height:335px;
+		background-size:cover !important;
+	}
+	.sub_head strong {
+		margin-bottom:4px;
+		padding-top:3.5em;
+		font-size:33px;
+	}
+	.sub_head p{
+		width:50%;
+		margin: 0 auto;
+		font-size:15px;
+		line-height:19px;
+	}
+	
+	
+	/* 탭 */
+	.tab_box {
+		bottom:37px;
+	}
+	ul.tabs li a {
+		width:170px;
+		height:55px;
+		line-height:54px;
+		font-size:16px;
+	}
+	ul.tabs li span:first-child {
+		margin-left:-18px;
+		width:52px;
+	}
+	ul.tabs li span.btn_company {
+		background-position:center -9px;
+	}
+	ul.tabs li span.btn_history {
+		background-position:center -78px;
+	}
+	ul.tabs li span.btn_ci {
+		background-position:center -582px;
+		background-size:64px;
+	}
+	ul.tabs li span.btn_location {
+		background-position:center -150px;
+	}
+	
+	/* vr/ar/mr 탭 아이콘 */
+	ul.tabs li span.btn_simulation {
+		background-position:center -359px;
+	}
+	ul.tabs li span.btn_education {
+		background-position:center -429px;
+	}
+	ul.tabs li span.btn_sensor {
+		background-position:center -499px;
+	}
+	ul.tabs li span.btn_augmented {
+		background-position:center -568px;
+	}
+	
+	/* 전자식교보재  탭 아이콘 */
+	ul.tabs li span.btn_expis {
+		background-position:center -218px;
+	}
+	ul.tabs li span.btn_cbt {
+		background-position:center -288px;
+	}
+	
+	
+	/* 솔루션 탭 */
+	ul.tabs.tab04 li {
+		margin-left:3px;
+	}
+	ul.tabs.tab04 li a {
+		width:200px;
+	}
+	ul.tabs.tab04 li span:first-child {
+		margin-left:-6px;
+		width:39px;
+	}	
+		
+	
+	/* 4d 실사 스포츠 시뮬레이션 */
+	.keyword_box .img_box_horizontal02{
+		width:100% !important;
+		transition:.5s;
+	}
+	.keyword_box .img_box_vertical02{
+		width:100% !important;
+		height:220px;
+		transition:.5s;
+		float:left;
+	}
+	.keyword_box .img_box_vertical02.box_img03{
+		background: url(../img/sub/img_sub_cont03.PNG) no-repeat 0px 0;
+	}
+	.keyword_box .img_box_vertical02.box_img03 div{
+		position:relative;
+		width:50%;
+		height:220px;
+		padding:40px 20px;
+		margin-top:0px;
+		box-sizing:border-box;
+		background-color: #117e9e;
+		float:right;
+		transition: .5s;
+		text-align:left;
+		color: #fff;
+	}
+	.keyword_box .img_box_vertical02.box_img03:hover div{
+		width:100%;
+		margin-top:0;
+		transition: .5s;
+		text-align:center;
+	}
+	.keyword_box .img_box_vertical02s.box_img03 div:before{
+		position:absolute;
+		left:-40px;
+		top:0px;
+		content:"";
+		display: block;
+		width:40px;
+		height:220px;
+		background: url(../img/sub/bg_box_img03_2.png) no-repeat left top;
+	}
+	.spec_box{
+		width:95%;
+	}
+	.spec_img{
+		width:100%;
+		height:400px;
+	}
+	.spec_data{
+		width:100%;
+		margin-top:10px;
+	}
+	.spec_ul02 li{
+		width:100%;
+		border-right:1px solid #ccc;
+		background-size:100px !important;
+		background-position: 3.3% center !important;
+		border-right:0;
+	}
+	.keyword_box .img_box_horizontal01{
+		width:100%;
+		transition:.5s;
+	}
+	.keyword_box .img_box_horizontal01.box_img02{
+		background-position: right 0 ;
+	}
+	.keyword_box .img_box_horizontal01.box_img02 div{
+		float:left;
+	}
+	.keyword_box .img_box_horizontal01.box_img02 div:before{
+		right:-40px;
+		left:inherit;
+		background:url(../img/sub/bg_box_img05_2.PNG) no-repeat left top;
+	}
+	.keyword_box .img_box_horizontal01.box_img03{
+		background-position: 0 0;
+	}
+	.keyword_box .img_box_horizontal01.box_img03 div{
+		float:right;
+	}
+	.keyword_box .img_box_horizontal01.box_img03 div:before{
+		left:-40px;
+		right:inherit;
+		background:url(../img/sub/bg_box_img06_2.PNG) no-repeat left top;
+	}
+
+
+	.spec_ul01 li{
+		width:25%;
+		padding-top:76px;
+		line-height: 60px;
+		background-position:center -12px !important;
+		background-size:95px !important;
+		border-right:1px solid #ddd;
+	}
+	.spec_ul01 li:nth-child(4n){
+		border-right:0;
+	}
+	.spec_ul01 li > span{
+		width:100%;
+		text-align:center;
+	}
+	.spec_ul02 li > span{
+		height:100px;
+	}
+	.vertual_cont {
+		width:95%;
+	}
+	.vertual_cont .col:nth-child(1),
+	.vertual_cont .col:nth-child(3) {
+		padding-top:20px;
+	}
+	.vertual_cont .col:nth-child(1) p, 
+	.vertual_cont .col:nth-child(1) div {
+		margin-right:-88px;
+	}
+	
+	.vertual_cont .col:nth-child(3) p, 
+	.vertual_cont .col:nth-child(3) div {
+		margin-left:-88px;
+	}
+	.vertual_cont .col div {
+		height:299px;
+	}
+	
+	/* -------------- 공지사항  --------------*/
+	.top_search{
+		padding: 20px 50px;
+	}
+	.period{
+		width:50%;
+	}
+	.date{
+		width:49%;
+		margin: 0 0 0 1%
+	}
+	.item.search{
+		width:100%;
+		margin-top:10px;
+	}
+	.i_text.top_search_input{
+		width:80%;
+	}
+	.top_search_btn{
+	width:18%;
+	}
+	
+	.notice_box{
+		width:49%;
+	}
+	.notice_box:nth-child(2n){
+		margin-right:0;
+	}
+	
+	/* 공지사항 팝업창 */
+	.notice_popup{
+		width:80%;
+		top:50%;
+		margin-left:-40%;
+		margin-top:-240px;
+		height: 550px;
+		z-index:1000;
+	}
+	.notice_pop_bottom{
+		height:447px;
+	}
+	
+	
+	/*-------------- 360도 전 방향 가상훈련시스템 --------------*/
+	/* ETRI 이미지 박스 */
+	.etri_popup div{
+		width:100%;
+		height:auto;
+		background:#ee3542;
+		background-size:50%;
+		float:right;
+		padding:0 20px 20px;
+		box-sizing: border-box;
+		background-color:#fff;
+		color:#fff;
+		text-align: left;
+		box-shadow: 0px 0px 15px rgba(0,0,0, .4);
+	}
+	.etri_popup div .etri_pop_tit{
+		height: 50px;
+		line-height: 50px;
+		font-size:18px;
+		margin:0 -20px 20px -20px;
+		background: url(../img/sub/bg_etri_pup_tit.png) repeat-x 0 0;
+		padding-left:20px;
+		border-bottom:1px solid #ca303a;
+	}
+	.etri_info_img.two_box li,
+	.etri_info_img.three_box li{
+		border-color:#ddd;
+		height:108px;
+		line-height:18px;
+	}
+	.etri_info_img.two_box li span,
+	.etri_info_img.three_box li span{
+		font-size:14px;
+		line-height:15px;
+		color:#000;
+		background-size:65px !important;
+		background-position: center 4px !important;
+	}
+
+	.etri_info_img.two_box li span.etri_infographic01{
+		background:url(../img/sub/ico_etri_inforgraphic01_b.png) no-repeat center 0;
+	}
+
+	.etri_info_img.two_box li span.etri_infographic02{
+			background:url(../img/sub/ico_etri_inforgraphic02_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.three_box li span.etri_infographic03{
+			background:url(../img/sub/ico_etri_inforgraphic03_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.three_box li span.etri_infographic04{
+			background:url(../img/sub/ico_etri_inforgraphic04_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.three_box li span.etri_infographic05{
+			background:url(../img/sub/ico_etri_inforgraphic05_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.three_box li span.etri_infographic06{
+			background:url(../img/sub/ico_etri_inforgraphic06_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.three_box li span.etri_infographic07{
+			background:url(../img/sub/ico_etri_inforgraphic07_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.three_box li span.etri_infographic08{
+			background:url(../img/sub/ico_etri_inforgraphic08_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.two_box li span.etri_infographic09{
+			background:url(../img/sub/ico_etri_inforgraphic09_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.two_box li span.etri_infographic10{
+			background:url(../img/sub/ico_etri_inforgraphic10_b.png) no-repeat center 0;
+		}
+	.etri_popup div p{
+		font-size:14px;
+		color:#000;
+	}
+	.btn_etri_view{
+		z-index:9;
+	}
+	/* 기술 활용 분야 */
+	.bg_technology{
+		height:957px;
+		transition:.5s;
+	}
+	.technology_gp > div{
+		width:49%;
+		height:150px;
+		padding:20px 20px 20px 130px;
+		margin-right:2%;
+		margin-bottom:2%;
+		background-size:30% !important;
+		background-position: 20px center !important;
+		transition:.5s;
+	}
+	.technology_gp > div:nth-child(2),
+	.technology_gp > div:nth-child(4){
+		margin-right:0;
+	}
+	
+	
+	/* 연혁 */
+	.history_cont .history_title {
+		right:0;
+		bottom:auto;
+		width:100%;
+		background-position:left bottom;
+		background-size:7em;
+	}
+	.history_cont .history_title strong {
+		padding:15px 30px;
+		font-size:24px;
+		background-position:right 0;
+		background-size:7em;
+	}
+	.diagonal_line {
+		margin-top:0;
+		margin-left:-26em;
+	}
+	.history_cont ul {
+		padding-top:9em;
+		padding-left:0;
+	}
+	
+	.history_cont ul > li span {
+		width:30%;
+	}
+	.history_data {
+		width:70%;
+	}
+	
+	
+	/*-------------- 교육훈련 운용 시뮬레이션 --------------*/
+	/* 이미지 슬라이드 - 이미지 영역 */
+	.slide,
+	.slide02 {
+		height:445px;
+	}
+	
+	.btn_print{
+		display:block;
+		width:100px;
+		margin:0 auto;
+		background-position:30px center;
+	}
+	/*-------------- 교육용 증강현실 --------------*/
+	/* 모바일 vr 지게차 */
+	.education_vr{
+		height:430px;
+	}
+	.mobile_box{
+		height:310px;
+	}
+	
+	
+	/*--------------  eXPIS --------------*/
+	.feature_form .part {
+		width:100%;
+		float:none;
+	}
+	.feature_form .part.customizing .feature_topic:before {
+		background:none;
+	}
+	.feature_form .col.left {
+		padding:0;
+	}
+	.feature_form .col.right {
+		padding:0;
+	}
+	.feature_form .col.right:before {
+		border:0;
+	}
+	
+	.feature_form .part .feature_topic {
+		padding:16px 22%;
+	}
+	.feature_form .part .feature_topic strong {
+		padding-bottom:5px;
+		font-size:16px;
+	}
+	.feature_form .part .feature_topic p {
+		font-size:13px;
+		line-height: normal;
+	}
+	.feature_form .col li div {
+		height:125px;
+	}
+	.result_part li {
+		padding:0 10px;
+	}
+	.half {
+		width:100%;
+		float:none;
+	}
+	.half.left {
+		padding-right:0;
+		padding-bottom:20px;
+	}
+	.half.right {
+		padding-left:0;
+		padding-bottom:20px;
+	}
+	
+	/* 사업실적 */
+	.result_part li {
+		width:100%;
+		height:auto;
+		text-align:left;
+		padding:15px;
+		border-top:0;
+		border-left:0;
+	}
+	.result_part li:first-child {
+		border-top:2px solid #c43742;
+	}
+	.result_part .half li {
+		width:100%;
+	}
+	.result_part .half.trisection li {
+		width:100%;
+	}
+	.keyword_box.training .img_box_vertical02.box_img03 div{
+		background-color: #286aab;
+	}
+	
+	/* 슬라이드 이미지 */
+/* 	.sys_rolling li span { */
+/* 		position:relative; */
+/* 	} */
+/* 	.sys_rolling li span img { */
+/* 		position: absolute; */
+/* 	    left: 50%; */
+/* 	    width: auto; */
+/* 	    height: 170px; */
+/* 	    margin-left:-151px; */
+/* 	    bottom:0; */
+/* 	} */
+	.sys_rolling li {
+		width: 50% !important;
+	}
+	.sys_rolling li {
+	    width: 5.23% !important;
+	    margin-right: 2% !important;
+	}
+	.sys_rolling li:before {
+		left: -60px;
+	}
+	
+	/* cbt */
+	.cbt .cbt_special {
+		display:block;
+	}
+	.cbt .cbt_special .cbt_video {
+		width:100%;
+		height:400px;
+	}
+	.cbt .cbt_special .part {
+		margin-top:15px;
+		padding-left:0;
+		width:100%;
+	}
+	.cbt .cbt_special .part li p {
+		padding:30px 15px;
+		height:auto;
+		line-height:normal;
+	}
+	.cbt .cbt_special .part li .ico {
+		top:15px;
+	}
+	.spec_data .spec_ul02 li {
+		background-position:6px center !important;
+		background-size:5em !important;
+	}
+	.spec_ul02 .spec_ico01,
+	.spec_ul02 .spec_ico02,
+	.spec_ul02 .spec_ico03 {
+		padding-left:95px;
+	}
+	.spec_ul02 li > span {
+		width:100%;
+	}
+	
+	/* footer */
+	footer address div {
+		float:none;
+	}
+	footer address img {
+		float:none;
+		padding:20px 20px 0;
+	}
+	footer address p span {
+		display:block;
+		padding-left:0;
+	}
+	
+	
+	/**/
+	.keyword_frame .col.experience,
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.exhibition,
+	.keyword_frame .col.contents {
+		background-size:100%;
+		height:577px;
+	}
+	.keyword_frame .col.experience,
+	.keyword_frame .col.exhibition {
+		padding-top:18em;
+	}
+	
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.contents {
+		padding-bottom:18em;
+		background-position:0 bottom;
+	}
+	.keyword_frame .col.experience:hover,
+	.keyword_frame .col.exhibition:hover {
+		padding-top:0;
+	}
+	
+	.keyword_frame .col.lifelike:hover,
+	.keyword_frame .col.contents:hover {
+		padding-bottom:0;
+	}
+	
+	
+	.keyword_frame .col .info {
+		width:100%;
+	}
+	.keyword_frame .col.left.experience:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_experience.gif);
+		background-color:#4c4c4c ;
+		background-position:0 90%, 88% 75%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	
+	.keyword_frame .col.left.lifelike:hover .info {
+	    background-image: url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_lifelike.gif);
+	    background-color: #2d4674;
+	    background-position: 0 90%, 88% 75%;
+	    background-repeat: repeat-x, no-repeat;
+	}
+	
+	.keyword_frame .col.right.contents:hover .info {
+	    background-image: url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_contents.gif);
+	    background-color: #c59c0c;
+	    background-position: 0 90%, 88% 75%;
+	    background-repeat: repeat-x, no-repeat;
+	}
+	.keyword_frame .col.right.exhibition:hover .info {
+	    background-image: url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_exhibition.gif);
+	    background-color: #ee3542;
+	    background-position: 0 93%, 88% 75%;
+	    background-repeat: repeat-x, no-repeat;
+	}
+	
+	
+	/* 화살표 방향 */
+	.keyword_frame .col .info:before {
+		left: calc(50% - 20px);
+	}
+	
+	.keyword_frame .col.top .info.gray:before {
+		top:-20px;
+		left:45%;
+		border-width:0 20px 20px 20px;
+		border-color:#4c4c4c transparent #4c4c4c transparent;
+	}
+	.keyword_frame .col.bottom .info.blue:before {
+		top:inherit;
+		bottom:-20px;
+		left:45%;
+		border-width:20px 20px 0 20px;
+		border-color:#2d4674 transparent transparent transparent;
+	}
+	.keyword_frame .col.top .info.red:before {
+		top:-20px;
+		left:45%;
+		right: inherit;
+		border-width:0 20px 20px 20px;
+		border-color:#ee3542 transparent #ee3542 transparent;
+	}
+	.keyword_frame .col.bottom .info.camel:before {
+		top:inherit;
+		bottom:-20px;
+		right: inherit;
+		border-width:20px 20px 0 20px;
+		border-color:#c59c0c transparent transparent transparent;
+	}
+	
+	/*  */	
+	.keyword_frame.frame_03 .col.top:hover {
+		padding-top:15em;
+	}
+	.keyword_frame.frame_03 .col.bottom:hover {
+		padding-bottom:15em; 
+	}
+	
+	
+	.remote {
+		display:none;
+	}
+	.btn_tab_share{
+		display:block;
+	}
+	
+	/* 컨텐츠 모바일 솔루션 */
+	.bxslider_02 > li{
+		width:4.47% !important;
+		margin-right:0.3% !important;
+	}
+	.on_cont{
+		bottom:-78%;
+		padding:17px 30px;
+	}
+	.on_cont .on_sub_tit{
+		font-size:12px;
+		padding: 2px 15px 2px;
+	}
+	.on_cont ul{
+		font-size:13px;
+	}
+	.on_cont ul li div span{
+		display:block;
+		opacity:.7;
+	}
+	.on_cont strong{
+		font-size:22px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:20px 30px;
+	}
+	.mobile_off_box:hover > .on_cont strong{
+		margin-top:20px;
+	}
+	
+	/* sitemap */
+	.sitemap_form {
+		top:0;
+		margin:0 auto;
+	}
+	.sitemap_form .site_gp {
+		position:fixed;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		border:0;
+		background-color:#fff;
+		height:100%;
+	}
+	.sitemap_form .site_box,
+	.sitemap_form .site_box.solution,
+	.sitemap_form .site_box.notification  {
+		width:100%;
+		height:auto;
+	}
+	.sitemap_form .site_cont {
+		height:auto;
+		border-right:0;
+		padding:78px 30px 20px;
+	}
+	.sitemap_form .site_tit strong,
+	.sitemap_form .site_tit span {
+		float:left;
+		line-height:28px;
+	}
+	.sitemap_form .site_tit span {
+		padding-left:10px;
+	}
+	.sitemap_form .site_tit {
+		height:59px;
+		line-height:60px;
+	}
+	.sitemap_form .site_tit.site_bg01,
+	.sitemap_form .site_tit.site_bg02,
+	.sitemap_form .site_tit.site_bg03 {
+		background-position:left bottom;
+		background-size: 4em;
+	}
+	.sitemap_form .btn_close {
+		top:0;
+		height:59px;
+	}
+	.sitemap_form .solution_ul strong {
+		border-bottom:1px solid #ec454e;
+	}
+	.sitemap_form .site_tit {
+		padding:18px 30px 18px 95px;
+	}
+	
+	/* 사이트맵 */
+	.sitemap_form .site_util li {
+		width:50%;
+		height:auto;
+		border:1px solid #ddd;
+		border-width:1px 0 0 1px;
+	}
+	.sitemap_form .site_util li a {
+		margin:2px 30px;
+		line-height:55px;
+	}
+	.keyword_frame.frame_03 .col.bottom:hover {
+		padding-bottom:0;
+	}
+	.keyword_frame.frame_03 .col.top:hover {
+		padding-top:0;
+	}
+	
+	
+	/* expis system */
+	.expis_form {
+	    height:490px;
+	    background-size: 50em;
+	}
+	.expis_tab_box ul.tabs li a {
+		width: 70px;
+	    height: 70px;
+	    line-height: 39px;
+	    font-size: 15px;
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+	    padding: 123px 0 44px;
+	    width: 518px;
+	}
+	/* 회사 홍보 동영상 */
+	.video_pup{
+		margin-left:-357px;
+		margin-top:-225px;
+		width:700px;
+		height:410px;
+	}
+	
+}
+@media all and (max-width: 880px) {
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:15%;
+	}
+	#wrapper_bu{
+		display:none;
+	}
+	/* section3 - eXPIS 전자기술교범 */
+	#section3{
+		padding-top:15%;
+	}
+	.intro.expis{
+		text-align:center;
+		padding-left:0;
+	}
+	.img_phone01{
+		width:32%;
+		left:5%;
+		top:50%;
+	}
+	.img_phone02{
+		width:35%;
+		left:31%;
+		top:75%;
+	} 
+	.img_phone03{
+		top:36%;
+		width:70%;
+		right:-4%;
+	}
+	@keyframes img_phone03{
+		0%{margin-right:0px;  margin-top:20px;transition: .5s;}
+		100%{margin-right:0; margin-top:0; transition:.5s;}
+	}
+	
+	.character_data.part li {
+		width:100%;
+	}
+	.character_data.part li > div,
+	.character_data.part li:last-child > div {
+		height:auto;
+	}
+	.slide, .slide02 {
+    	height: 378px;
+	}
+	/* 컨텐츠 모바일 솔루션 */
+	.bxslider_02 > li{
+		width:6.8% !important;
+		margin-right:0.4% !important;
+	}
+	.on_cont{
+		bottom:-81%;
+		padding:23px 40px;
+	}
+	.on_cont .on_sub_tit{
+		font-size:12px;
+		padding: 2px 15px 2px;
+	}
+	.on_cont ul{
+		font-size:13px;
+	}
+	.on_cont ul li div span{
+		display:block;
+		opacity:.7;
+	}
+	.on_cont strong{
+		font-size:22px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:20px 40px;
+	}
+	.mobile_off_box:hover > .on_cont strong{
+		margin-top:40px;
+	}
+	/* 회사 홍보 동영상 */
+	.video_pup{
+		margin-left: -308px;
+	    margin-top: -205px;
+	    width: 610px;
+	    height: 372px;
+	}
+	
+	
+	.function_ul02 li div {
+		height:85px;
+	}
+	
+	
+	
+}
+@media all and (max-width: 880px) {
+	.cbt_tab_box ul.tabs li {
+		width:33.3%;
+	}
+	.cbt_tab_box ul.tabs li a {
+		height:auto;
+		padding:15px;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(1) a, 
+	.cbt_tab_box ul.tabs li:nth-child(3) a, 
+	.cbt_tab_box ul.tabs li:nth-child(5) a, 
+	.cbt_tab_box ul.tabs li:nth-child(6) a {
+		padding:15px;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(4) {
+		border-left:0;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(4),
+	.cbt_tab_box ul.tabs li:nth-child(5),
+	.cbt_tab_box ul.tabs li:nth-child(6) {
+		border-top:1px solid #3e4c58;
+	}
+	
+	
+}
+
+
+@media all and (min-width:769px) and (max-width: 860px){
+	ul.tabs.tab04 li span {
+		display:block;
+		float:left;
+	}
+	ul.tabs.tab04 li a {
+		width:172px;
+	}
+	ul.tabs.tab04 li:nth-child(2) a {
+		width:199px;
+	}
+	ul.tabs.tab04 li:nth-child(3) a {
+		width:184px;
+	}
+	ul.tabs.tab04 li span:first-child {
+		margin-left:3px;
+		width:41px;
+	}
+	
+	/**/
+	.keyword_frame .col.experience,
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.exhibition,
+	.keyword_frame .col.contents {
+		background-size:100%;
+		height:513px;
+	}
+	.keyword_frame .col.experience,
+	.keyword_frame .col.exhibition {
+		padding-top:16em;
+	}
+	.keyword_frame .col.experience:hover,
+	.keyword_frame .col.exhibition:hover {
+		padding-top:0;
+	}
+	
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.contents {
+		padding-bottom:16em;
+		background-position:0 bottom;
+	}
+	.keyword_frame .col.lifelike:hover,
+	.keyword_frame .col.contents:hover {
+		padding-bottom:0;
+	}
+	
+	.keyword_frame .col .info {
+		width:100%;
+	}
+	
+	.keyword_frame .col.left.experience:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_experience.gif);
+		background-color:#4c4c4c ;
+		background-position:0 90%, 88% 75%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame .col.left.experience .info {
+		background:#4c4c4c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.left.lifelike:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_lifelike.gif);
+		background-color:#2d4674 ;
+		background-position:0 90%, 88% 75%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame .col.left.lifelike .info {
+		background:#2d4674 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.left.exhibition:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_exhibition.gif);
+		background-color:#ee3542;
+		background-position:0 90%, 88% 75%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame .col.left.exhibition .info {
+		background:#ee3542 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.left.contents:hover .info {
+		background:#c59c0c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.left.contents .info {
+		background:#c59c0c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	.keyword_frame .col.right.contents:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_contents.gif);
+		background-color:#c59c0c;
+		background-position:0 90%, 88% 75%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame .col.right.contents .info {
+		background:#c59c0c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	
+	.keyword_frame .col.right.exhibition:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_exhibition.gif);
+		background-color:#ee3542;
+		background-position:0 90%, 88% 75%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame .col.right.exhibition .info {
+		background:#ee3542 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	.keyword_frame.frame_03.expis .col.interactiv:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/ico_expis_01.gif);
+		background-color:#828a93 ;
+		background-position:0 90%, 85% 40%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03.expis .col.vr:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/ico_expis_02.gif);
+		background-color:#2d4674 ;
+		background-position:0 90%, 85% 40%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03.expis .col.scene:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/ico_expis_03.gif);
+		background-color:#296aae;
+		background-position:0 90%, 85% 40%;
+		background-repeat:repeat-x, no-repeat;
+	}
+		
+	
+	
+	.keyword_frame.frame_03 .col:hover .info.charcoal {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d01.gif);
+		background-color:#828a93;
+		background-position:0 90%, 95% 60%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03 .col:hover .info.blue {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d02.gif);
+		background-color:#2d4674;
+		background-position:0 90%, 95% 40%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03 .col:hover .info.navy {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d03.gif);
+		background-color:#296aae;
+		background-position:0 90%, 95% 45%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	
+	
+	
+	/* section2 - vr/ar/mr 가상현실 */
+	.vr_box01,
+	.vr_box02,
+	.vr_box03{
+		top:42%;
+		width:20%;
+		height:33%;
+		padding:30px 10px;
+		background-position:center 77px;
+		background-size:130%;
+	}
+	.vr_box01{
+		left:18%;
+	}
+	.vr_box02{
+		left:40%;
+	}
+	.vr_box03{
+		left:62%;
+	}
+	
+	/* 솔루션 3개 이미지 */
+	.keyword_frame.frame_03 .col {
+		width:100%;
+	}
+	.keyword_frame.frame_03 .col.left {
+		padding-top:0;
+		padding-left:50%;
+		height:208px;
+		background-position:left 0;
+		background-size: 52%;
+	}
+	.keyword_frame.frame_03 .col.right {
+		padding-bottom:0;
+		padding-right:50%;
+		height:208px;
+		background-position:right 0;
+		background-size: 52%;
+	}
+	.keyword_frame.frame_03 .col.left:hover {
+		padding-left:0;
+	}
+	.keyword_frame.frame_03 .col.right:hover  {
+		padding-right:0;
+	}
+	.keyword_frame.frame_03 .col.top:hover {
+		padding-top:0;
+	}
+	.keyword_frame.frame_03 .col.bottom:hover {
+		padding-bottom:0;
+	}
+	
+	/* 화살표 색상 */
+	.keyword_frame.frame_03 .col .info:before {
+		top: calc(50% - 20px);
+	}
+	.keyword_frame.frame_03 .col.left .info.charcoal:before {
+		top:50%;
+		left:-20px;
+		margin-top:-32px;
+		border-width:20px 20px 20px 0;
+		border-color:transparent #828a93 transparent transparent;
+	}
+	.keyword_frame.frame_03 .col.right .info.blue:before {
+		right:-20px;
+		bottom:50%;
+    	left: inherit;
+    	margin-bottom:-20px;
+		border-width:20px 0 20px 20px;
+		border-color: transparent transparent transparent #2d4674;
+	}
+	.keyword_frame.frame_03 .col.top .info.navy:before {
+		top:50%;
+		left:-20px;
+		margin-top:-24px;
+		border-width:20px 20px 20px 0;
+		border-color: transparent #296aae transparent transparent;
+	}
+	
+	
+	
+	/* 회사소개 */
+	.company_cont .company_img {
+		background-size:90%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:24%;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:36.5%;
+	}
+	.company_cont .company_img .com_col:first-child strong,
+	.company_cont .company_img .com_col:first-child p {
+		margin-left:-15px;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong,
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:-15px;
+	}
+
+	.spec_video.img03,
+	.spec_video.img04 {
+		height:390px;
+		background-size: contain;
+	}
+
+	.keyword_frame.frame_03.expis .col.left {
+		height:265px;
+		background-size:51% 100%;
+		background-position:0;
+	}
+	.keyword_frame.frame_03.expis .col.right {
+		height:265px;
+		background-size:51% 100%;
+		background-position:100%;
+	}
+	
+	
+
+}
+
+
+/* 768 ---------------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 768px) {
+	.video_example_gp video {
+		max-height:324px;
+	}
+	
+	/**/
+	.keyword_frame .col.experience,
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.exhibition,
+	.keyword_frame .col.contents {
+		background-size:100%;
+		height:513px;
+	}
+	.keyword_frame .col.experience,
+	.keyword_frame .col.exhibition {
+		padding-top:16em;
+	}
+	.keyword_frame .col.experience:hover,
+	.keyword_frame .col.exhibition:hover {
+		padding-top:0;
+	}
+	
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.contents {
+		padding-bottom:16em;
+		background-position:0 bottom;
+	}
+	.keyword_frame .col.lifelike:hover,
+	.keyword_frame .col.contents:hover {
+		padding-bottom:0;
+	}
+	
+	.keyword_frame .col .info {
+		width:100%;
+	}
+	
+	#section2, #section3{
+		padding-top:18%;
+	}
+	nav,
+	.btn_groupware,
+	.menu,
+	.remote,
+	.etri_box:before,
+	.etri_box:after {
+		display:none;
+	}
+	.btn_tab_share{
+		display:block;
+	}
+	.util ul {
+	    padding: 20px 15px 20px 0;
+	}
+	
+	footer address p span a,
+	footer address .email {
+		color:#dcaa15;
+	}
+	
+	#section0, #section1{
+		padding:20% 0 0 0;
+	}
+	.main_txt_box{
+		margin:35% auto 0;
+	}
+	/* 타이틀  폰트 사이즈 */
+	.intro.expis_view{
+		text-align:center;
+		padding-left:0;
+	}
+	.intro strong,
+	.main_title {
+		font-size:2.4em;
+		font-weight: 600;
+		padding-left:0;
+	}
+	.intro p,
+	.main_sub_title {
+		padding-top:20px;
+		padding-bottom:25px;
+		padding-left:0;
+		font-size:1.1em;
+		line-height:24px;
+	}
+	
+	#section1 .intro strong {
+		font-size:1.6em;
+		text-align:center;
+	}
+	#section1 .intro p {
+		padding-top:20px;
+		padding-bottom:20px;
+		padding-left:0;
+		font-size:0.9em;
+		line-height:18px;
+	}
+	/* VR 크기 */
+	#section0{
+		background-size:80%, cover;
+	}
+
+	/* 더보기 버튼 */
+	.btn_view {
+		padding:10px 45px 10px 30px;
+		font-size:1em;
+	}
+	/* 컨텐츠 */
+	.cont_sub_box{
+		padding-bottom:100px;
+	}
+	.cont_tit{
+		font-size:28px;
+		line-height:normal;
+		padding:40px 0 20px;
+	}
+	.tit_explain{
+		width:100%;
+		padding:0 30px;
+		font-size:16px;
+		line-height:22px;
+		box-sizing:border-box;
+	}
+	.cont_tit02{
+		font-size:26px;
+		line-height:30px;
+		margin-top:15px;
+		background-size:200%;
+	}
+	.cont_tit03{
+		font-size:26px;
+		line-height:30px;
+	}
+	#companyView3 .notice_explain_gp {
+		margin:0 auto;
+	}
+	
+	/* vr/ar 가상현실 */
+	#section2{
+		padding: 15% 0% 0% 0%;
+		background:	url(../img/img_visual_03.jpg) no-repeat;
+		background-size:cover;
+	}
+	.vr_box01,
+	.vr_box02,
+	.vr_box03{
+		width:25%;
+		height:30%;
+		padding:30px 10px;
+		background-position: center 85px;
+		background-size:130%;
+	}
+	.vr_box01{
+		left:10%;
+	}
+	.vr_box02{
+		left:37%;
+	}
+	.vr_box03{
+		left:64%;
+	}
+	.vr_box:hover .vr_box01,
+	.vr_box:hover .vr_box02,
+	.vr_box:hover .vr_box03 {
+		background-position: center 85px;
+		background-size:130%;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view,
+	.vr_box:hover .vr_box02 .btn_vr_view,
+	.vr_box:hover .vr_box03 .btn_vr_view{
+		top:170px;
+		height:34px;
+		line-height:34px;
+	}
+	/* sub 헤더 */
+	.sub_head{
+		height:260px;
+/* 		background-size:150% !important; */
+/* 		background-position:center 59px !important; */
+/* 		padding-top:75px; */
+	}
+	
+	.sub_head.notice{
+		height:190px;
+	}
+	.sub_head.mobile {
+		height:260px;
+	}
+	.sub_head strong {
+		padding-top:3.7em;
+		font-size:25px;
+		margin-bottom:0;
+	}
+	.sub_head.mobile strong {
+		padding-top: 5em;
+	}
+	.sub_head p{
+		width:70%;
+		font-size:14px;
+		line-height:18px;
+		padding:0 20px 0;
+	}
+	
+	
+	
+	
+	/* 탭 */
+	.tab_box {
+		bottom:22px;
+	}
+	ul.tabs li a {
+		width:125px;
+		height:47px;
+		line-height:45px;
+		font-size:15px;
+	}
+	ul.tabs li span:first-child {
+	    margin-left:-12px;
+		width:40px;
+		background-size:4em;
+	}
+	ul.tabs li span.btn_company {
+		background-position:center -9px;
+	}
+	ul.tabs li span.btn_history {
+		background-position:center -69px;
+	}
+	ul.tabs li span.btn_ci {
+		background-position:center -547px;
+	}
+	ul.tabs li span.btn_location {
+		background-position:center -129px;
+	}
+	
+	/* vr/ar/mr 탭 아이콘 */
+	ul.tabs li span.btn_simulation {
+		background-position:-7px -310px;
+	}
+	ul.tabs li span.btn_education {
+		background-position:5px -370px;
+	}
+	ul.tabs li span.btn_sensor {
+		background-position:center -431px;
+	}
+	ul.tabs li span.btn_augmented {
+		background-position:-8px -490px;
+	}
+	
+	
+	/* 전자식교보재  탭 아이콘 */
+	ul.tabs li span.btn_expis {
+		background-position:center -188px;
+	}
+	ul.tabs li span.btn_cbt {
+		background-position:center -248px;
+	}
+	
+	
+	.company_sub_topic{
+		font-size:16px;
+		padding-bottom:20px;
+	}
+	/*-------------- 360도 전 방향 가상훈련시스템 --------------*/
+	/* ETRI 박스 */
+	.etri_box{
+		margin-bottom:40px;
+	}
+	
+	/* 4d 실사 스포츠 시뮬레이션 */
+
+	.keyword_box{
+		width:90%;
+	}
+	.keyword_box .img_box_horizontal02{
+		width:100% !important;
+		width:100%;
+		height:265px;
+		overflow:hidden;
+		float:left;
+	}
+	.keyword_box .img_box_vertical02{
+		width:100% !important;
+		height:265px;
+		float:left;
+	}
+	.keyword_box .img_box_horizontal02.box_img01,
+	.keyword_box .img_box_horizontal02.box_img02,
+	.keyword_box .img_box_vertical02.box_img03{
+		background-position:0 0 !important;
+		background-size:100% auto !important;
+	}
+	
+	.keyword_box .img_box_horizontal02.box_img01 div,
+	.keyword_box .img_box_horizontal02.box_img02 div,
+	.keyword_box .img_box_vertical02.box_img03 div{
+		position:relative;
+		width:100%;
+		height:140px;
+		padding:40px 20px;
+		margin-top:140px;
+		box-sizing:border-box;
+		float:right;
+		transition: .5s;
+		text-align:left;
+		color: #fff;
+	}
+	.keyword_box .img_box_horizontal02.box_img01:hover div,
+	.keyword_box .img_box_horizontal02.box_img02:hover div,
+	.keyword_box .img_box_vertical02.box_img03:hover div,
+	.keyword_box .img_box_horizontal01.box_img01:hover div,
+	.keyword_box .img_box_horizontal01.box_img02:hover div,
+	.keyword_box .img_box_horizontal01.box_img03:hover div,
+	.keyword_box .img_box_horizontal01.box_img04:hover div{
+		text-align:left;
+		margin-top:140px;
+	}
+	.keyword_box .img_box_horizontal02.box_img01 div:before,
+	.keyword_box .img_box_horizontal02.box_img02 div:before,
+	.keyword_box .img_box_vertical02.box_img03 div:before{
+		display:none;
+	}
+	.keyword_box .img_box_vertical02.box_img03:hover div{
+		margin-top:140px;
+	}
+
+	.keyword_box .img_box_horizontal01 {
+		width:100%;
+		height:267px;
+		transition:.5s;
+		background-size:cover !important;
+		background-position: 0 0 !important;
+	}
+	.keyword_box .img_box_horizontal01 div{
+		width:100%;
+		height:140px;
+		margin-top:140px;
+		padding:20px;
+	}
+	.keyword_box .img_box_horizontal01.box_img01 {
+	}
+	
+	.keyword_box .img_box_horizontal01 div strong {
+		font-size:16px;
+		font-weight:600;
+		margin-bottom:6px;
+		letter-spacing:0;
+	}
+	.keyword_box .img_box_horizontal01 div p,
+	.keyword_box .img_box_horizontal02 div p,
+	.keyword_box .img_box_vertical02 div p  {
+		font-size:13px;
+	}
+	
+	.keyword_box .img_box_horizontal02 div strong {
+		font-size:16px;
+		font-weight:600;
+		margin-bottom:6px;
+		letter-spacing:0;
+	}
+	.keyword_box .img_box_vertical02 div strong {
+		font-size:16px;
+		font-weight:600;
+		margin-bottom:6px;
+		letter-spacing:0;
+	}
+	.keyword_box .img_box_horizontal02.box_img01 div, 
+	.keyword_box .img_box_horizontal02.box_img02 div, 
+	.keyword_box .img_box_vertical02.box_img03 div {
+		padding:20px;
+	}
+	
+	.spec_data{
+		width:100%;
+	}
+	.spec_box{
+		width:100%;
+		overflow:hidden;
+	}
+	.spec_img{
+		width:100%;
+		height:400px;
+	}
+	.spec_tit{
+		width:100%;
+		height:34px;
+		line-height:34px;
+		font-size:16px;
+		background-size:137px;
+	}
+	.spec_ul02{
+		width:100%;
+		margin-top:10px;
+	}
+	.spec_ul02 li{
+		width:100%;
+		border-right:1px solid #ccc;
+		background-size:100px !important;
+		background-position: 3.3% center !important;
+		border-right:0;
+	}
+	.spec_ul02 li > span{
+		height:100px;
+	}
+	.spec_ul01{
+		width:100%;
+		margin-top:10px;
+	}
+	.spec_ul01 li{
+		width:50%;
+		padding-top:76px;
+		line-height: 60px;
+		background-position:center -12px !important;
+		background-size:95px !important;
+		border-right:1px solid #ddd;
+	}
+	.spec_ul01 li:nth-child(2n){
+		border-right:0;
+	}
+	.spec_ul01 li > span{
+		width:100%;
+		text-align:center;
+	}
+
+	.sub_content {
+		/* width: 90%; */
+	}
+	
+	.vertual_cont .col:nth-child(1),
+	.vertual_cont .col:nth-child(3) {
+		padding-top:25px;
+	}
+	.vertual_cont .col:nth-child(1) p, 
+	.vertual_cont .col:nth-child(1) div {
+		margin-right:-70px;
+	}
+	
+	.vertual_cont .col:nth-child(3) p, 
+	.vertual_cont .col:nth-child(3) div {
+		margin-left:-70px;
+	}
+	.vertual_cont .col div {
+		height:250px;
+	}
+	.vertual_cont .col:nth-child(2) p {
+		margin-bottom: -21px;
+	}
+	.vertual_cont .col:nth-child(2) div {
+		height:290px;
+	}
+	
+	
+	
+	/*-------------- 공지사항 --------------*/
+	.top_search{
+		display:none;
+	}
+	.notice_box{
+		width:100%;
+		margin-right:0;
+	}
+	.notice_box .txt_box{
+		height:86px;
+	}
+	.bottom_search{
+		padding:20px;
+	}
+	.bottom_search{
+		display:block;
+	}
+	.btn_open{
+		display:inline-block;
+	}
+	.bottom_search .item.search{
+		width:100%;
+	}
+	.bottom_search .period{
+		width:100%;
+		margin-bottom:10px;
+	}
+	.bottom_search .date{
+		width:100%;
+		margin:0;
+	}
+	.bottom_search div{
+		float:left;
+	}
+	.bottom_search span{
+		float:left;
+		width:8%;
+	}
+	.bottom_search .period a{
+		width:32%;
+	}
+	/*-------------- 오시는 길 --------------*/
+	.cont_sub_tit{
+		font-size:16px;
+	}
+	.notice_explain_gp{
+		margin-bottom:20px;
+	}
+	.btn_print{
+		display:block;
+		width:52px;
+		margin:0 auto;
+		font-size:16px;
+		background-position:10px center;
+	}
+	.tabs.tab03 li{
+/* 		width:33.3% !important; */
+		border-right:0;
+	}
+	.tabs.tab03 li:last-child{
+		border-right:0;
+/* 		width:33.4% !important; */
+	}
+	.tabs.location_ul{
+		background-color:#fff;
+		line-height:50px;
+	}
+	ul.tabs.location_ul li{
+		width:33% !important;
+		border-right:0;
+		border-top:0;
+		border-bottom:0;
+		margin:0;
+		float:left;
+	}
+	ul.tabs.location_ul li:last-child{
+		width:34% !important;
+	}
+	ul.tabs.location_ul li:after{
+		top:18px;
+		left:0;
+		width:1px;
+		height:10px;
+		border-left:1px solid #ddd;
+		background-color:#fff;
+		
+	}
+	ul.tabs.location_ul li a{
+		font-size:15px;
+		height:45px;
+		line-height:45px;
+	}
+	ul.tabs.location_ul li:first-child a {
+		border-left:0;
+	}
+	
+	/*-------------- 360도 전 방향 가상훈련시스템 --------------*/
+	/* ETRI 이미지 박스 */
+	.etri_popup div{
+		width:100%;
+		height:auto;
+		background:#ee3542;
+		background-size:50%;
+		float:right;
+		padding:0 20px 20px;
+		box-sizing: border-box;
+		background-color:#fff;
+		color:#fff;
+		text-align: left;
+		box-shadow: 0px 0px 15px rgba(0,0,0, .4);
+	}
+	.etri_popup div .etri_pop_tit{
+		height: 50px;
+		line-height: 50px;
+		font-size:18px;
+		margin:0 -20px 20px -20px;
+		background: url(../img/sub/bg_etri_pup_tit.png) repeat 0 0;
+		padding-left:20px;
+		border-bottom:1px solid #ca303a;
+	}
+	.etri_info_img.two_box li,
+	.etri_info_img.three_box li{
+		border-color:#ddd;
+		height:108px;
+		line-height:18px;
+	}
+	.etri_info_img.two_box li span,
+	.etri_info_img.three_box li span{
+		font-size:14px;
+		color:#000;
+		background-size:65px !important;
+		background-position: center 4px !important;
+	}
+
+	.etri_info_img.two_box li span.etri_infographic01{
+		background:url(../img/sub/ico_etri_inforgraphic01_b.png) no-repeat center 0;
+	}
+
+	.etri_info_img.two_box li span.etri_infographic02{
+			background:url(../img/sub/ico_etri_inforgraphic02_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.three_box li span.etri_infographic03{
+			background:url(../img/sub/ico_etri_inforgraphic03_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.three_box li span.etri_infographic04{
+			background:url(../img/sub/ico_etri_inforgraphic04_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.three_box li span.etri_infographic05{
+			background:url(../img/sub/ico_etri_inforgraphic05_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.three_box li span.etri_infographic06{
+			background:url(../img/sub/ico_etri_inforgraphic06_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.three_box li span.etri_infographic07{
+			background:url(../img/sub/ico_etri_inforgraphic07_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.three_box li span.etri_infographic08{
+			background:url(../img/sub/ico_etri_inforgraphic08_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.two_box li span.etri_infographic09{
+			background:url(../img/sub/ico_etri_inforgraphic09_b.png) no-repeat center 0;
+		}
+
+	.etri_info_img.two_box li span.etri_infographic10{
+			background:url(../img/sub/ico_etri_inforgraphic10_b.png) no-repeat center 0;
+		}
+	.etri_popup div p{
+		font-size:14px;
+		color:#000;
+	}
+	.btn_etri_view{
+		z-index:9;
+		width:65px;
+		height: 65px;
+	}
+	.btn_etri_view.btn01{
+		top:21%;
+		left:22%;
+	}
+	.btn_etri_view.btn02{
+		top:39%;
+		left:0;
+	}
+	.btn_etri_view.btn03{
+		left:18%;
+		top:52%;
+	}
+	.btn_etri_view.btn04{
+		top:6%;
+		top:70%;
+	}
+	.btn_pup_close{
+		width:50px;
+		height:50px;
+		background-size:50px;
+	}
+	/* 기술 활용 분야 */
+	.technology_tit{
+		font-size:22px;
+		width:125px;
+		padding:0px 90px;
+		background-position:-30px center, 164px center;
+	}
+	.bg_technology{
+		height:1020px;
+		transition:.5s;
+		margin-top:-100px;
+	}
+	.technology_gp > div{
+		width:100%;
+		height:150px;
+		padding:20px 20px 20px 120px;
+		margin-right:2%;
+		margin-bottom:2%;
+		background-size:100px !important;
+		background-position: 20px center !important;
+		transition:.5s;
+	}
+	.technology_gp > div:nth-child(2),
+	.technology_gp > div:nth-child(4){
+		margin-right:0;
+	}	
+	.technology_gp > div strong{
+		margin-bottom:5px;
+	}
+	.technology_gp > div .technic_tit{
+		font-size:16px;
+		margin-bottom:5px;
+	}
+	
+	
+	/* 공지사항 팝업창 */
+	.notice_popup{
+		width:100%;
+		height:auto;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		margin-left:0;
+		margin-top:0;
+		z-index:999999;
+	}
+	.notice_tit_gp .notice_title {
+		width:100%;
+		white-space: normal;
+		word-break: break-word;
+		overflow: auto;
+	}
+	.notice_pop_body {
+		position:absolute;
+		top:51px;
+		right:0;
+		bottom:0;
+		left:0;
+		overflow-y:auto;
+		overflow-x:hidden;
+	}
+	.notice_pop_bottom {
+		height:auto;
+		overflow:visible;
+	}
+	
+	.notice_tit_gp .notice_util{
+		display:block;
+		float:inherit;
+		margin-top:7px;
+	}
+	.notice_pop_bottom{
+		height:378px;
+	}
+	.notice_content img{
+		width:100%;
+	}
+	
+	
+	/* 연혁 */
+	.history_cont {
+		width:90%;
+		padding:2em 0 0;
+	}
+	.history_cont .history_title {
+		position:relative;
+		right:0;
+		top:0;
+		bottom:auto;
+		width:100%;
+		background-position:left bottom;
+		background-size:7em;
+	}
+	.history_cont .history_title strong {
+		padding:15px 30px;
+		font-size:24px;
+		background-position:right 0;
+		background-size:7em;
+	}
+	.diagonal_line {
+		margin-top:0;
+		margin-left:-26em;
+	}
+	.history_cont ul {
+		padding-top:2em;
+		padding-left:0;
+	}
+	.history_cont ul > li span {
+		font-size:28px;
+	}
+	
+
+	.company_topic {
+		padding-top:35px;
+		padding-bottom:25px;
+		font-size:26px;
+		line-height:33px;
+	}
+	#companyView2 .notice_explain_gp {
+		margin:0 auto;
+	}
+	#companyView2 .notice_explain_gp {
+		margin:0 auto;
+	}
+	
+	/* C.I 소개 */
+	.ci_cont{
+		width:90%;
+		padding:.5em 0 0;
+	}
+	.symbol_box{
+		padding:30px;
+	}
+	.symbol_txt{
+		padding-top:0;
+	}
+	.symbol_txt strong{
+		font-size:24px;
+		margin-bottom:20px;
+		text-align:center;
+		line-height:28px;
+	}
+	.ci_tit strong{
+		font-size:24px;
+	}
+	.logo_div{
+		width:100%;
+		margin: 5px 0px;
+		font-size:14px;
+	}
+	.logo_gp{
+		padding:10px 30px;
+	}
+	
+	/*-------------- 교육훈련 운용 시뮬레이션 --------------*/
+	/* 이미지 슬라이드 - 이미지 영역 */
+	.slide,
+	.slide02 {
+		height:337px;
+	}
+	.spec_video{
+		height:350px;
+	}
+	.function_tit{
+		width:100%;
+		border:0;
+		background-color:#d81313;
+		color:#fff;
+		text-align:center;
+		font-size:17px;
+		padding:0;
+		height:42px;
+		line-height:45px;
+	}
+	.function_tit span{
+		display:inline-block;
+		margin-left:10px;
+		font-size:15px;
+	}
+	.function_ul{
+		width:100%;
+		border:0;
+	}
+	
+	/*--------------  eXPIS --------------*/
+	.cont_sub_box.feature {
+		padding:0;
+	}
+	.cont_sub_box.feature.expis_sys {
+		padding:40px 20px;
+	}
+	.feature_form {
+		width:90%;
+		padding-bottom:45px;
+	}
+	.feature_form .part {
+		width:100%;
+		float:none;
+	}
+	.feature_form .part.customizing .feature_topic:before {
+		background:none;
+	}
+	.feature_form .col.left {
+		padding:0;
+	}
+	.feature_form .col.right {
+		padding:0;
+	}
+	.feature_form .col.right:before {
+		border:0;
+	}
+	
+	.feature_form .part .feature_topic {
+		padding:16px 22%;
+	}
+	.feature_form .part .feature_topic strong {
+		padding-bottom:5px;
+		font-size:16px;
+	}
+	.feature_form .part .feature_topic p {
+		font-size:13px;
+		line-height: normal;
+	}
+	.feature_form .col li {
+		width:100% !important;
+	}
+	.feature_form .col li > * {
+		float:left;
+	}
+	.feature_form .col li {
+		position:relative;
+		padding-left:80px;
+		border-top:1px solid #ddd;
+		border-left:0;
+	}
+	.feature_form .col li:first-child {
+		border-top:2px solid #000;
+	}
+	.feature_form .col .ico {
+		position:absolute;
+		top:50%;
+		left:13px;
+		margin:0;
+		margin-top: -21px;
+	}
+	.feature_form .col li div {
+		padding:15px;
+		width:100%;
+		height:auto;
+		text-align:left;
+		box-sizing:border-box;
+	}
+	.feature_form .col li div strong {
+		padding-bottom:2px;
+		font-size:15px;
+	}
+	
+	.result_part li {
+		padding:0 10px;
+	}
+	.half {
+		width:100%;
+		float:none;
+	}
+	.half.left {
+		padding-right:0;
+		padding-bottom:20px;
+	}
+	.half.right {
+		padding-left:0;
+		padding-bottom:20px;
+	}
+	/* 사업실적 */
+	.result_part li {
+		width:100%;
+		height:auto;
+		text-align:left;
+		padding:15px;
+		border-top:0;
+		border-left:0;
+	}
+	.result_part li:first-child {
+		border-top:2px solid #c43742;
+	}
+	.result_part .half li {
+		width:100%;
+	}
+	.result_part .half.trisection li {
+		width:100%;
+	}
+	
+	.cont_sub_box.result {
+		margin-top:40px;
+		padding-left:0;
+		padding-right:0;
+		padding-bottom:60px;
+	}
+	.result_form {
+		width:90%;
+	}
+	
+	
+	/*--------  eXPIS top img  ---------*/
+	.keyword_box.training .img_box_horizontal02.box_img01 div, 
+	.keyword_box.training .img_box_horizontal02.box_img02 div, 
+	.keyword_box.training .img_box_vertical02.box_img03 div {
+		padding:22px 30px;
+		margin-top:210px;
+		height:auto;
+	}
+	
+	.keyword_box.training .img_box_horizontal02.box_img01:hover div,
+	.keyword_box.training .img_box_horizontal02.box_img02:hover div, 
+	.keyword_box.training .img_box_vertical02.box_img03:hover div, 
+	.keyword_box.training .img_box_horizontal01.box_img01:hover div, 
+	.keyword_box.training .img_box_horizontal01.box_img02:hover div, 
+	.keyword_box.training .img_box_horizontal01.box_img03:hover div, 
+	.keyword_box.training .img_box_horizontal01.box_img04:hover div {
+		margin-top:210px;
+	}
+	.keyword_box.training .img_box_horizontal02,
+	.keyword_box.training .img_box_vertical02 {
+		height:auto;
+	}
+	.keyword_box.training .img_box_horizontal02 div strong,
+	.keyword_box.training .img_box_vertical02 div strong {
+		font-size:16px;
+	}
+	
+	.keyword_frame .col.right.contents:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_contents.gif);
+		background-color:#c59c0c;
+		background-position:0 90%, 85% 75%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame .col.right.contents .info {
+		background:#c59c0c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	.keyword_frame .col.right.exhibition:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_exhibition.gif);
+		background-color:#ee3542;
+		background-position:0 90%, 85% 70%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame .col.right.exhibition .info {
+		background:#ee3542 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	
+	
+	/* 슬라이드 이미지 */
+	.sys_rolling {
+		width:90%;
+	}
+	.sys_rolling li {
+		width: 50% !important;
+	}
+	.sys_rolling li {
+	    width: 5% !important;
+	    margin-right: 2.25% !important;
+	}
+	.sys_rolling li:before {
+		left:-23%;
+	}
+	.sys_rolling li strong {
+		padding:15px 0 1px;
+		font-size:15px;
+	}
+	.sys_rolling li p {
+		font-size:14px;
+	}
+	
+	/* cbt */
+	.cbt .cbt_special {
+		display:block;
+		width:100%;
+	}
+	.cbt .cbt_special .cbt_video {
+		width:100%;
+	}
+	.cbt .cbt_special .part {
+		margin-top:15px;
+		padding-left:0;
+		width:100%;
+	}
+	.cbt .cbt_special .part li p {
+		padding:30px 15px;
+		height:auto;
+		line-height:normal;
+	}
+	.cbt .cbt_special .part li .ico {
+		top:15px;
+	}
+	
+	/* cbt 도형 이미지 */
+	.cbt_info,
+	.cbt_ico_function {
+		width:100%;
+	}
+	.cbt_ico_function li {
+		width:50%;
+	}
+	.cbt_ico_function li:nth-child(3n),
+	.cbt_ico_function li:nth-child(5) {
+		border-left: 1px solid rgba(255, 255, 255, 0.2);
+	}
+	.cbt_ico_function li:nth-child(3) {
+		border-top:0;
+	}
+	.cbt_ico_function li:nth-child(4),
+	.cbt_ico_function li:nth-child(6){
+		border-left:0;
+	}
+	.cbt_function {
+		padding:40px 30px 60px;
+	}
+	
+	.map_side {
+		position:relative;
+		width:auto;
+		height:auto;
+		top:0;
+		margin:0;
+	}
+	.map_side > * {
+		position:relative;
+		top:inherit;
+	}
+	.way_to_solt.daejeon,
+	.way_to_solt.sacheon {
+		top:inherit;
+	}
+	/* 오시는길 */
+	.company_info,
+	.way_to_solt {
+		width:100%;
+		border-width:1px 0 1px 0;
+	}
+	.company_info {
+		margin-bottom:0;
+/* 		margin-top:150px; */
+	}
+	.way_to_solt {
+		border-top:0;
+	}
+	.train_box > div p {
+		float:left;
+		padding:3px 0 3px 10px;
+		width:210px;
+	}
+	
+	
+	.spec_data .spec_ul02 li {
+		background-position:6px center !important;
+		background-size:5em !important;
+	}
+	.spec_ul02 .spec_ico01,
+	.spec_ul02 .spec_ico02,
+	.spec_ul02 .spec_ico03 {
+		padding-left:95px;
+	}
+	.spec_ul02 li > span {
+		width:100%;
+	}
+	
+	.notice_explain_gp {
+		width: 90%;
+	}
+	ul.tabs li a {
+		font-size:15px;
+	}
+	.slide,
+	.slide02,
+	.main_function {
+		width:90%;
+	}
+	.tit_explain {
+		padding:0 50px;
+	}
+	.character_ul li div strong {
+		font-size:15px;
+		margin-bottom:5px;
+	}
+	
+	.cbt_info h3 {
+		padding:2em 0 0;
+	}
+	
+	.cbt_info li p {
+		font-size:15px;
+		line-height:22px;
+	}
+	.cbt_ico_function li {
+		height:109px;
+	}
+	.cbt_ico_function li p {
+		font-size:13px;
+	}
+	
+	.cont_sub_box.mobile {
+		padding-bottom:90px;
+	}
+	.notice_list_wrap {
+		width:90%;
+	}
+	.bottom_search {
+		width:90%;
+	}
+	.notice_list_wrap {
+		padding-top:35px;
+	}
+	
+	.notice_nodata{
+		width:90%;
+	}
+	
+	/* footer */
+	footer address div {
+		float:none;
+	}
+	footer address img {
+		float:none;
+		padding:20px 20px 0;
+	}
+	footer address p span {
+		display:block;
+		padding-left:0;
+	}
+
+	.sub_head.solution strong {
+		padding-top:3.2em;
+	}
+	/* 솔루션 탭 */
+	.tab_box.tab_box04 {
+		bottom:13px;
+	}
+	ul.tabs.tab04 {
+		width:25em;
+	}
+	ul.tabs.tab04 li {
+		margin:0;
+		width:50%;
+		float:left;
+	}
+	ul.tabs.tab04 li:nth-child(2),
+	ul.tabs.tab04 li:nth-child(4) {
+		margin-left:-1px;
+	}
+	ul.tabs.tab04 li:nth-child(3),
+	ul.tabs.tab04 li:nth-child(4) {
+		margin-top:-1px;
+	}
+	
+	ul.tabs.tab04 li a {
+		width:100%;
+		height:43px;
+		line-height:41px;
+	}
+	
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:18%;
+	}
+	#wrapper_bu{
+		display:none;
+	}
+	#wrapper_mr{
+		margin-top:220px;
+	}
+	.mobile_tile02{
+		margin-left:-117px;
+	}
+	.bg_mobile_tile02{
+		top:55px;
+		margin-left:-98px;
+	}
+	.holder_mr_center{
+		top:57px;
+		margin-left:-93px;
+		width:31.4%;
+	}
+	.holder_mr_awayR1{
+		margin-left:-2px;
+	}
+	.holder_mr_awayL1{
+		left:7%;
+	}
+	.bg_mobile_hiddne_r02,
+	.bg_mobile_hiddne_l02{
+		width:42px;
+		background-position: -14px center;
+	}
+	/* section3 - eXPIS 전자기술교범 */
+	#section3{
+		padding-top:18%;
+	}
+	.img_phone01{
+		width:35%;
+		left:2%;
+		top:48%;
+	}
+	.img_phone02{
+		width:35%;
+		left:29%;
+		top:70%;
+	} 
+	.img_phone03{
+		top:35%;
+		width:75%;
+		right:-7%;
+	}
+	@keyframes img_phone03{
+		0%{margin-right:0px;  margin-top:20px;transition: .5s;}
+		100%{margin-right:0; margin-top:0; transition:.5s;}
+	}
+	
+	/**/
+	.keyword_frame {
+		padding:20px;
+	}
+	.keyword_frame .col.experience,
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.exhibition,
+	.keyword_frame .col.contents {
+		background-size:100%;
+		height:513px;
+	}
+	.keyword_frame .col.experience,
+	.keyword_frame .col.exhibition {
+		padding-top:16em;
+	}
+	
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.contents {
+		padding-bottom:16em;
+		background-position:0 bottom;
+	}
+	
+	.keyword_frame .col .info {
+		width:100%;
+	}
+	
+	.keyword_frame .col.left.experience:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_experience.gif);
+		background-color:#4c4c4c ;
+		background-position:0 90%, 85% 70%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame .col.left.experience .info {
+		background:#4c4c4c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.left.lifelike:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/simulation/ico_lifelike.gif);
+		background-color:#2d4674 ;
+		background-position:0 90%, 85% 70%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame .col.left.lifelike .info {
+		background:#2d4674 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.left.exhibition:hover .info {
+		background:#ee3542 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.left.exhibition .info {
+		background:#ee3542 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.left.contents:hover .info {
+		background:#c59c0c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.left.contents .info {
+		background:#c59c0c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	/* 화살표 방향 */
+	.keyword_frame .col .info:before {
+		left: calc(50% - 20px);
+	}
+	
+	.keyword_frame .col.top .info.gray:before {
+		top:-20px;
+		left:45%;
+		border-width:0 20px 20px 20px;
+		border-color:#4c4c4c transparent #4c4c4c transparent;
+	}
+	.keyword_frame .col.bottom .info.blue:before {
+		top:inherit;
+		bottom:-20px;
+		left:45%;
+		border-width:20px 20px 0 20px;
+		border-color:#2d4674 transparent transparent transparent;
+	}
+	.keyword_frame .col.top .info.red:before {
+		top:-20px;
+		left:45%;
+		right: inherit;
+		border-width:0 20px 20px 20px;
+		border-color:#ee3542 transparent #ee3542 transparent;
+	}
+	.keyword_frame .col.bottom .info.camel:before {
+		top:inherit;
+		bottom:-20px;
+		right: inherit;
+		border-width:20px 20px 0 20px;
+		border-color:#c59c0c transparent transparent transparent;
+	}
+	
+	/* 솔루션 3개 이미지 */
+	.keyword_frame.frame_03 .col {
+		width:100%;
+	}
+	.keyword_frame.frame_03 .col.left {
+		padding-top:0;
+		padding-left:50%;
+		height:203px;
+		background-position:left 0;
+		background-size:52%;
+	}
+	.keyword_frame.frame_03 .col.right {
+		padding-bottom:0;
+		padding-right:50%;
+		height:203px;
+		background-position:right 0;
+		background-size:52%;
+	}
+	.keyword_frame.frame_03 .col.top:hover {
+		padding-top:0;
+	}
+	.keyword_frame.frame_03 .col.bottom:hover {
+		padding-bottom:0;
+	}
+	.keyword_frame.frame_03 .col.left:hover {
+		padding-left:0;
+	}
+	.keyword_frame.frame_03 .col:hover .info {
+		padding:25px 10em 25px 25px;
+	}
+	.keyword_frame.frame_03 .col.right:hover  {
+		padding-right:0;
+	}
+	
+	
+	
+	/* 화살표 색상 */
+	.keyword_frame.frame_03 .col .info:before {
+		top: calc(50% - 20px);
+	}
+	.keyword_frame.frame_03 .col.left .info.charcoal:before {
+		top:50%;
+		left:-20px;
+		margin-top:-32px;
+		border-width:20px 20px 20px 0;
+		border-color:transparent #828a93 transparent transparent;
+	}
+	.keyword_frame.frame_03 .col.right .info.blue:before {
+		right:-20px;
+		bottom:50%;
+    	left: inherit;
+    	margin-bottom:-20px;
+		border-width:20px 0 20px 20px;
+		border-color: transparent transparent transparent #2d4674;
+	}
+	.keyword_frame.frame_03 .col.top .info.navy:before {
+		top:50%;
+		left:-20px;
+		margin-top:-24px;
+		border-width:20px 20px 20px 0;
+		border-color: transparent #296aae transparent transparent;
+	}
+	
+	
+	.keyword_frame.frame_03.expis .col.interactiv:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/ico_expis_01.gif);
+		background-color:#828a93 ;
+		background-position:0 90%, 90% 30%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03.expis .col.vr:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/ico_expis_02.gif);
+		background-color:#2d4674 ;
+		background-position:0 90%, 90% 30%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03.expis .col.scene:hover .info {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/ico_expis_03.gif);
+		background-color:#296aae;
+		background-position:0 90%, 90% 30%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	
+	
+	
+	
+	/* 회사소개 */
+	.company_cont .company_img {
+		background-size:90%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:24%;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:36.5%;
+	}
+	.company_cont .company_img .com_col:first-child strong,
+	.company_cont .company_img .com_col:first-child p {
+		margin-left:-15px;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong,
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:-15px;
+	}
+	
+	.spec_video.img03,
+	.spec_video.img04 {
+		height:390px;
+		background-size: contain;
+	}
+	
+	
+	/* map*/
+	.map_body {
+		height:auto;
+	}
+	.map_form {
+		height: 400px;
+	}
+	.map_side {
+	left:0;
+		padding-top:25em;
+		z-index:0;
+	}
+	
+	/* 컨텐츠 모바일 솔루션 */
+	.on_cont{
+		bottom:-79%;
+		padding:23px 50px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:20px 50px;
+	}
+	
+	
+ /* sitemap */
+	.sitemap_form {
+		margin:0 auto;
+		top:0;
+	}
+	.sitemap_form .site_gp {
+		position:fixed;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		border:0;
+		background-color:#fff;
+		height:100%;
+	}
+	.sitemap_form .site_box,
+	.sitemap_form .site_box.solution,
+	.sitemap_form .site_box.notification  {
+		width:100%;
+		height:auto;
+	}
+	.sitemap_form .site_cont {
+		height:auto;
+		border-right:0;
+		padding:78px 30px 20px;
+	}
+	.sitemap_form .site_tit strong,
+	.sitemap_form .site_tit span {
+		float:left;
+		line-height:28px;
+	}
+	.sitemap_form .site_tit span {
+		padding-left:10px;
+	}
+	.sitemap_form .site_tit {
+		height:59px;
+		line-height:60px;
+	}
+	.sitemap_form .site_tit.site_bg01,
+	.sitemap_form .site_tit.site_bg02,
+	.sitemap_form .site_tit.site_bg03 {
+		background-position:left bottom;
+		background-size: 4em;
+	}
+	.sitemap_form .btn_close {
+		top:0;
+		height:59px;
+	}
+	.sitemap_form .solution_ul strong {
+		border-bottom:1px solid #ec454e;
+	}
+	.sitemap_form .site_tit {
+		padding:18px 30px 18px 95px;
+	}
+	/* 사이트맵 */
+	.sitemap_form .site_util li {
+		width:50%;
+		height:auto;
+		border:1px solid #ddd;
+		border-width:1px 0 0 1px;
+	}
+	.sitemap_form .site_util li a {
+		margin:2px 0px 2px 30px;
+		line-height:55px;
+	}
+	.sitemap_form .site_util li.admin_li a span {
+		display:none;
+	}
+	.sitemap_form .site_util li a.ico_site_util04 {
+		padding:0;
+		padding-left: 50px;
+		height:auto;
+		line-height:55px;
+		background-position:4px center;
+		background-size:2.6em; 
+	}
+	.sitemap_form .site_util {
+		position:absolute;
+		bottom:0;
+	}
+	
+	
+	/* expis system */
+	.expis_form {
+	    height: 433px;
+	    background-size: 43em;
+	}
+	.expis_tab_box ul.tabs li a {
+		width: 70px;
+	    height: 70px;
+	    line-height: 39px;
+	    font-size: 15px;
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+		padding: 117px 0 37px;
+		width: 446px;
+	}
+	
+	.video_spec_gp iframe {
+		width:100%;
+		height:400px;
+	}
+	
+	/* 회사 홍보 동영상 */
+	.video_pup{
+		margin-left: -308px;
+	    margin-top: -205px;
+	    width: 610px;
+	    height: 372px;
+	}
+	.keyword_frame.frame_03.expis .col.interactiv {
+    	background: url(../img/training/experience_img_01.png) no-repeat left 0;
+    	background-size:52% 100%;
+	}
+	.keyword_frame.frame_03.expis .col.vr {
+	    background: url(../img/training/experience_img_02.png) no-repeat right 0;
+	    background-size:52% 100%;
+	}
+	.keyword_frame.frame_03.expis .col.scene {
+	    background: url(../img/training/experience_img_03.png) no-repeat left 0;
+	    background-size:52% 100%;
+	}
+	.keyword_frame.frame_03 .col.right {
+	    height: 325px;
+	}
+	
+	
+	
+}
+@media all and (min-width:700px) and (max-width: 760px){
+	/**/
+	.keyword_frame .col.experience,
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.exhibition,
+	.keyword_frame .col.contents {
+		background-size:100%;
+		height:465px;
+	}
+	.keyword_frame .col.experience,
+	.keyword_frame .col.exhibition {
+		padding-top:14.5em;
+	}
+	
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.contents {
+		padding-bottom:14.5em;
+		background-position:0 bottom;
+	}
+	.keyword_frame .col .info {
+		padding:25px;
+		width:100%;
+	}
+	.keyword_frame .col .info strong {
+		font-size:19px;	
+	}
+	.keyword_frame .col .info p,
+	.keyword_frame .col .info li {
+		font-size:16px;
+	}
+	.keyword_frame .col .info li {
+		padding-bottom:5px;
+	}
+	
+	.keyword_frame.frame_03 .col.left {
+		height:187px;
+	}
+	.keyword_frame.frame_03 .col.right {
+		height:187px;
+	}
+	
+	
+	
+	
+	/* 회사소개 */
+	.company_cont .company_img {
+		background-size:90%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:22%;
+		font-size:16px;
+		line-height:21px;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:38%;
+	}
+	.company_cont .company_img .com_col:first-child strong,
+	.company_cont .company_img .com_col:first-child p {
+		margin-left:-15px;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong,
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:-15px;
+	}
+	.company_cont .company_img .com_col strong {
+		font-size:16px;
+	}
+	.company_cont .company_img .com_col p {
+		padding-top: 37px;
+		font-size:15px;
+	}
+	
+	.spec_video.img03,
+	.spec_video.img04 {
+		height:320px;
+		background-size: contain;
+	}
+	
+	.keyword_frame.frame_03.expis .col.left {
+		height:265px;
+		background-size:51% 100%;
+		background-position:0;
+	}
+	.keyword_frame.frame_03.expis .col.right {
+		height:265px;
+		background-size:51% 100%;
+		background-position:100%;
+	}
+	
+	/* sitemap */
+	.sitemap_form {
+		margin:0 auto;
+		top:0;
+	}
+	.sitemap_form .site_gp {
+		position:fixed;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		border:0;
+		overflow-y:scroll;
+/* 		min-height:800px; */
+		background-color:#fff;
+		z-index:99999;
+	}
+	.sitemap_form .site_box,
+	.sitemap_form .site_box.notification  {
+		width:100%;
+	}
+	.sitemap_form .site_cont {
+		height:auto;
+		border-right:0;
+	}
+	.sitemap_form .site_tit strong,
+	.sitemap_form .site_tit span {
+		float:left;
+		line-height:28px;
+	}
+	.sitemap_form .site_tit {
+		height:59px;
+		line-height:60px;
+	}
+	.sitemap_form .site_tit.site_bg01,
+	.sitemap_form .site_tit.site_bg02,
+	.sitemap_form .site_tit.site_bg03 {
+		background-position:left bottom;
+		background-size: 4em;
+	}
+	.sitemap_form .btn_close {
+		top:0;
+		height:59px;
+	}
+	.sitemap_form .solution_ul strong {
+		border-bottom:1px solid #ec454e;
+	}
+	.sitemap_form .site_tit {
+		padding:18px 30px 18px 95px;
+	}
+	.sitemap_form .site_util {
+		position:absolute;
+		bottom:0;
+	}
+	
+	
+	.keyword_frame.frame_03 .col:hover .info.charcoal {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d01.gif);
+		background-color:#828a93;
+		background-position:0 90%, 95% 60%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03 .col:hover .info.blue {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d02.gif);
+		background-color:#2d4674;
+		background-position:0 90%, 95% 40%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03 .col:hover .info.navy {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d03.gif);
+		background-color:#296aae;
+		background-position:0 90%, 100% 45%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	
+	
+	/* expis system */
+	.expis_form {
+	    height: 433px;
+	    background-size: 43em;
+	}
+	.expis_tab_box ul.tabs li a {
+		width: 70px;
+	    height: 70px;
+	    line-height: 39px;
+	    font-size: 15px;
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+		padding: 117px 0 37px;
+		width: 446px;
+	}
+	
+}
+@media all and (min-width:650px) and (max-width: 700px){
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:18%;
+	}
+	#wrapper_bu{
+		display:none;
+	}
+	#wrapper_mr{
+		margin-top:220px;
+	}
+	.mobile_tile02{
+		margin-left:-117px;
+	}
+	.bg_mobile_tile02{
+		top:53px;
+		margin-left:-98px;
+	}
+	.holder_mr_center{
+		top:53px;
+		margin-left:-95px;
+	}
+	.holder_mr_awayR1{
+		margin-left:-2px;
+	}
+	.holder_mr_awayL1{
+		left:7%;
+	}
+	.bg_mobile_hiddne_r02,
+	.bg_mobile_hiddne_l02{
+		width:42px;
+		background-position: -14px center;
+	}
+	/* section3 - eXPIS 전자기술교범 */
+	#section3{
+		padding-top:18%;
+	}
+	.img_phone01{
+		width:35%;
+		left:2%;
+		top:48%;
+	}
+	.img_phone02{
+		width:35%;
+		left:29%;
+		top:70%;
+	} 
+	.img_phone03{
+		top:35%;
+		width:75%;
+		right:-7%;
+	}
+	@keyframes img_phone03{
+		0%{margin-right:0px;  margin-top:20px;transition: .5s;}
+		100%{margin-right:0; margin-top:0; transition:.5s;}
+	}
+	
+	/**/
+	.keyword_frame .col.experience,
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.exhibition,
+	.keyword_frame .col.contents {
+		background-size:100%;
+		height:390px;
+	}
+	.keyword_frame .col.experience,
+	.keyword_frame .col.exhibition {
+		padding-top:12.2em;
+	}
+	
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.contents {
+		padding-bottom:12.2em;
+		background-position:0 bottom;
+	}
+	.keyword_frame .col .info {
+		padding:25px;
+		width:100%;
+	}
+	.keyword_frame .col .info strong {
+		font-size:18px;	
+	}
+	.keyword_frame .col .info p,
+	.keyword_frame .col .info li {
+		font-size:16px;
+	}
+	.keyword_frame .col .info li {
+		padding-bottom:3px;
+	}
+	
+	.keyword_frame.frame_03 .col.left {
+		height:174px;
+	}
+	.keyword_frame.frame_03 .col.right {
+		height:174px;
+	}
+	
+	
+	
+	
+	/* 회사소개 */
+	.company_cont .company_img {
+		background-size:90%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:22%;
+		font-size:16px;
+		line-height:20px;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:38%;
+	}
+	.company_cont .company_img .com_col:first-child strong,
+	.company_cont .company_img .com_col:first-child p {
+		margin-left:-15px;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong,
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:-15px;
+	}
+	.company_cont .company_img .com_col strong {
+		font-size:16px;
+	}
+	.company_cont .company_img .com_col p {
+		padding-top:32px;
+		font-size:15px;
+	}
+	
+	.company_text_info {
+		padding:0 20px;
+	}
+	
+	.keyword_frame.frame_03.expis .col.left {
+		height:265px;
+		background-size:50% 100%;
+		background-position:0;
+	}
+	.keyword_frame.frame_03.expis .col.right {
+		height:265px;
+		background-size:50% 100%;
+		background-position:100%;
+	}
+	
+	
+	.keyword_frame.frame_03 .col:hover .info.charcoal {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d01.gif);
+		background-color:#828a93;
+		background-position:0 90%, 98% 60%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03 .col:hover .info.blue {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d02.gif);
+		background-color:#2d4674;
+		background-position:0 90%, 98% 35%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03 .col:hover .info.navy {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d03.gif);
+		background-color:#296aae;
+		background-position:0 90%, 98% 35%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03 .col:hover .info.charcoal {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d01.gif);
+		background-color:#828a93;
+		background-position:0 90%, 95% 60%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03 .col:hover .info.blue {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d02.gif);
+		background-color:#2d4674;
+		background-position:0 90%, 95% 40%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03 .col:hover .info.navy {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d03.gif);
+		background-color:#296aae;
+		background-position:0 90%, 95% 60%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	
+	/* 회사 홍보 동영상 */
+	.video_pup{
+		margin-left: -240px;
+	    margin-top: -190px;
+	    width: 474px;
+	    height: 300px;
+	}
+	
+	.promotion_video div iframe {
+		width:100%;
+		height:auto;
+	}
+}
+
+
+@media all and (min-width:600px) and (max-width: 650px){
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:18%;
+	}
+	#wrapper_bu{
+		display:none;
+	}
+	#wrapper_mr{
+		margin-top:250px;
+	}
+	.mobile_tile02{
+		margin-left:-104px;
+	}
+	.bg_mobile_tile02{
+		top:45px;
+		margin-left:-84px;
+	}
+	.holder_mr_center{
+		top:53px;
+		margin-left:-87px;
+	}
+	.holder_mr_awayL1{
+		top:67px;
+		left:8%;
+	}
+	.holder_mr_awayR1{
+		top:67px;
+	}
+	.holder_mr_awayL2,
+	.holder_mr_awayR2{
+		top:84px;
+	}
+	.holder_mr_awayL3,
+	.holder_mr_awayR3{
+		top:84px;
+	}
+	.bg_mobile_hiddne_r02,
+	.bg_mobile_hiddne_l02{
+		width:40px;
+		background-position: -14px center;
+	}
+	/* section3 - eXPIS 전자기술교범 */
+	#section3{
+		padding-top:18%;
+	}
+	.img_phone01{
+		width:35%;
+		left:2%;
+		top:48%;
+	}
+	.img_phone02{
+		width:35%;
+		left:29%;
+		top:63%;
+	} 
+	.img_phone03{
+		top:35%;
+		width:75%;
+		right:-7%;
+	}
+	@keyframes img_phone03{
+		0%{margin-right:0px;  margin-top:20px;transition: .5s;}
+		100%{margin-right:0; margin-top:0; transition:.5s;}
+	}
+	
+	/**/
+	.keyword_frame .col.experience,
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.exhibition,
+	.keyword_frame .col.contents {
+		background-size:100%;
+		height:370px;
+	}
+	.keyword_frame .col.experience,
+	.keyword_frame .col.exhibition {
+		padding-top:11.6em;
+	}
+	
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.contents {
+		padding-bottom:11.6em;
+		background-position:0 bottom;
+	}
+	.keyword_frame .col .info {
+		padding:25px;
+		width:100%;
+	}
+	.keyword_frame .col .info strong {
+		padding-bottom:12px;
+		font-size:18px;	
+	}
+	.keyword_frame .col .info p,
+	.keyword_frame .col .info li {
+		font-size:15px;
+	}
+	.keyword_frame .col .info li {
+		padding-bottom:3px;
+	}	
+	
+	
+	/* 솔루션 3개 이미지 */
+	.keyword_frame.frame_03 .col {
+		width:100%;
+	}
+	.keyword_frame.frame_03 .col.left {
+		padding-top:0;
+		padding-left:50%;
+		height:160px;
+	}
+	.keyword_frame.frame_03 .col.right {
+		padding-bottom:0;
+		padding-right:50%;
+		height:160px;
+	}
+	
+	
+	.keyword_frame.frame_03 .col.top:hover {
+		padding-top:0;
+	}
+	.keyword_frame.frame_03 .col.bottom:hover {
+		padding-bottom:0;
+	}
+	.keyword_frame.frame_03 .col .info {
+		height:100%;
+	}
+	
+	
+	
+	/* 회사소개 */
+	.company_cont .company_img {
+		background-size:90%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:21%;
+		font-size:15px;
+		line-height:20px;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:38%;
+	}
+	.company_cont .company_img .com_col:first-child strong,
+	.company_cont .company_img .com_col:first-child p {
+		margin-left:-15px;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong,
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:-15px;
+	}
+	.company_cont .company_img .com_col strong {
+		font-size:16px;
+	}
+	.company_cont .company_img .com_col p {
+		padding-top:32px;
+		font-size:15px;
+	}
+	
+	.company_text_info {
+		padding:0 20px;
+	}
+	
+	.keyword_frame.frame_03.expis .col.left {
+		height:265px;
+		background-size:51% 100%;
+		background-position:0%;
+	}
+	.keyword_frame.frame_03.expis .col.right {
+		height:265px;
+		background-size:51% 100%;
+		background-position:100%;
+	}
+	
+	
+	.spec_img {
+		height:340px;
+	}
+	/* 컨텐츠 모바일 솔루션 */
+	.on_cont{
+		bottom:-75%;
+		padding:23px 30px;
+	}
+	.on_cont .on_sub_tit{
+		font-size:12px;
+		padding: 2px 15px 2px;
+	}
+	.on_cont ul{
+		font-size:13px;
+		height:120px;
+	}
+	.on_cont ul li div span{
+		display:block;
+		opacity:.7;
+	}
+	.on_cont strong{
+		font-size:22px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:20px 30px;
+	}
+	.mobile_off_box:hover > .on_cont strong{
+		margin-top:20px;
+	}
+	.keyword_frame.frame_03 .col:hover .info.charcoal {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d01.gif);
+		background-color:#828a93;
+		background-position:0 90%, 95% 60%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03 .col:hover .info.blue {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d02.gif);
+		background-color:#2d4674;
+		background-position:0 90%, 95% 40%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.keyword_frame.frame_03 .col:hover .info.navy {
+		background-image:url(../img/sub/pattern_keyword_frame.png), url(../img/sub/img_4d03.gif);
+		background-color:#296aae;
+		background-position:0 90%, 95% 60%;
+		background-repeat:repeat-x, no-repeat;
+	}
+	.spec_img.img02 {
+		height:350px;
+	}
+	
+	/* 회사 홍보 동영상 */
+	.video_pup{
+		margin-left: -240px;
+	    margin-top: -190px;
+	    width: 474px;
+	    height: 300px;
+	}
+	
+}
+@media all and (min-width:550px) and (max-width: 600px){
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:18%;
+	}
+	#wrapper_bu{
+		display:none;
+	}
+	#wrapper_mr{
+		margin-top:240px;
+	}
+	.mobile_tile02{
+		margin-left:-95px;
+	}
+	.bg_mobile_tile02{
+		top:42px;
+		margin-left:-78px;
+	}
+	.holder_mr_center{
+		top:46px;
+		margin-left:-76px;
+	}
+	.holder_mr_awayL1{
+		top:67px;
+		left:8%;
+	}
+	.holder_mr_awayR1{
+		top:67px;
+	}
+	.holder_mr_awayL2,
+	.holder_mr_awayR2{
+		top:84px;
+	}
+	.holder_mr_awayL3,
+	.holder_mr_awayR3{
+			top:84px;
+	}
+	.bg_mobile_hiddne_r02,
+	.bg_mobile_hiddne_l02{
+		width:40px;
+		background-position: -14px center;
+	}
+	/* section3 - eXPIS 전자기술교범 */
+	#section3{
+		padding-top:18%;
+	}
+	.img_phone01{
+		width:35%;
+		left:2%;
+		top:48%;
+	}
+	.img_phone02{
+		width:35%;
+		left:29%;
+		top:70%;
+	} 
+	.img_phone03{
+		top:35%;
+		width:75%;
+		right:-7%;
+	}
+	
+	/* 솔루션 4개 이미지 */
+	.keyword_frame .col {
+		width:100%;
+	}
+	.keyword_frame .col.experience,
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.exhibition,
+	.keyword_frame .col.contents {
+		padding-top:71%;
+		padding-bottom:0;
+		height:auto;
+		background-size:100%;
+		background-position: 0 top;
+	}
+	.keyword_frame .col.experience:hover,
+	.keyword_frame .col.lifelike:hover,
+	.keyword_frame .col.exhibition:hover,
+	.keyword_frame .col.contents:hover {
+		padding-top:71%;
+	}
+	
+	.keyword_frame .col.left.experience:hover .info {
+		background:#4c4c4c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.left.lifelike:hover .info {
+		background:#2d4674 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.right.exhibition:hover .info {
+		background:#ee3542 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.right.contents:hover .info {
+		background:#c59c0c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	
+	.keyword_frame .col .info {
+		height:190px;
+	}
+	.keyword_frame.frame_03 .col:hover .info {
+		padding:35px;
+	}
+	.keyword_frame .col.top .info.gray:before {
+		top:-20px;
+		left:45%;
+		border-width:0 20px 20px 20px;
+		border-color:#4c4c4c transparent #4c4c4c transparent;
+	}
+	.keyword_frame .col.bottom .info.blue:before {
+		top:-20px;
+		left:45%;
+		bottom:inherit;
+		border-width:0 20px 20px 20px;
+		border-color:#2d4674 transparent #2d4674 transparent;
+	}
+	.keyword_frame .col.top .info.red:before {
+		top:-20px;
+		left:45%;
+		border-width:0 20px 20px 20px;
+		border-color:#ee3542 transparent #ee3542 transparent;
+	}
+	.keyword_frame .col.bottom .info.camel:before {
+		right: inherit;
+		top:-20px;
+		left:45%;
+		bottom:inherit;
+		border-width:0 20px 20px 20px;
+		border-color:#c59c0c transparent #c59c0c transparent;
+	}
+	
+	/* 솔루션 3개 이미지 */
+	.keyword_frame.frame_03 .col.top,
+	.keyword_frame.frame_03 .col.bottom {
+		padding-left:0;
+		padding-right:0;
+		padding-top:55%;
+		background-size:100%;
+		height:auto;
+	}
+	.keyword_frame.frame_03 .col.top:hover {
+		padding-top:55%;
+	}
+	.keyword_frame.frame_03 .col .info {
+		height:180px;
+	}
+	
+	
+	
+	/* 화살표 색상 */
+	.keyword_frame.frame_03 .col .info:before {
+		left:calc(50% - 20px);
+	}
+	.keyword_frame.frame_03 .col.top .info.charcoal:before {
+		top:-20px;
+		left:50%;
+		margin-top:0;
+		margin-left:-20px;
+		border-width:0 20px 20px 20px;
+		border-color:#828a93 transparent #828a93 transparent;
+	}
+	.keyword_frame.frame_03 .col.bottom .info.blue:before {
+		top:-20px;
+		bottom:20em;
+		left:50%;
+		right:50%;
+		margin-top:0;
+		margin-left:-20px;
+		border-width:0 20px 20px 20px;
+		border-color:#2d4674 transparent #2d4674 transparent;
+	}
+	.keyword_frame.frame_03 .col.top .info.navy:before {
+		top:-20px;
+		left:50%;
+		margin-top:0;
+		margin-left:-20px;
+		border-width:0 20px 20px 20px;
+		border-color:#296aae transparent #296aae transparent;
+	}
+	
+	
+	
+	
+	/* 회사소개 */
+	.company_cont {
+		padding:3em 30px 3em;
+	}
+	.company_cont .company_img {
+		background-size:90%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:21%;
+		font-size:14px;
+		line-height:18px;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:38%;
+	}
+	.company_cont .company_img .com_col:first-child strong,
+	.company_cont .company_img .com_col:first-child p {
+		margin-left:-15px;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong,
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:-15px;
+	}
+	.company_cont .company_img .com_col strong {
+		font-size:14px;
+	}
+	.company_cont .company_img .com_col p {
+		padding-top:28px;
+		font-size:13px;
+		line-height:18px;
+	}
+	.company_text_info {
+		padding:0 20px;
+	}
+	
+	.keyword_frame.frame_03.expis .col .info {
+		height:auto;
+		padding:25px 25px 55px 25px;
+	}
+	
+	/* cbt */
+	.spec_img {
+		height:340px;
+	}
+	/* 컨텐츠 모바일 솔루션 */
+	.on_cont{
+		bottom:-75%;
+		padding:20px 30px;
+	}
+	.on_cont strong{
+		font-size:20px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:20px 30px;
+	}
+	.mobile_off_box:hover > .on_cont strong{
+		margin-top:10px;
+	}
+	
+	
+	.keyword_frame.frame_03 .col:hover .info.charcoal {
+		background:#828a93 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame.frame_03 .col:hover .info.blue {
+		background:#2d4674 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame.frame_03 .col:hover .info.navy {
+		background:#296aae url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	
+	/* expis system */
+	.expis_form {
+	    height:350px;
+	    background-size:33em;
+	}
+	.expis_tab_box ul.tabs li a {
+		width: 70px;
+	    height: 70px;
+	    line-height: 39px;
+	    font-size: 15px;
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+		padding:108px 0 28px;
+		width:342px;
+	}
+	/* 회사 홍보 동영상 */
+	.video_pup{
+		margin-left: -240px;
+	    margin-top: -190px;
+	    width: 474px;
+	    height: 300px;
+	}
+}
+@media all and (min-width:500px) and (max-width:550px){
+	.keyword_frame .col.experience:hover, 
+	.keyword_frame .col.lifelike:hover, 
+	.keyword_frame .col.exhibition:hover, 
+	.keyword_frame .col.contents:hover {
+	    padding-top: 71%;
+	    padding-bottom: 0;
+	    height: auto;
+	    background-size: 100%;
+	    background-position: 0 top;
+	}
+	.keyword_frame .col.left.experience:hover .info {
+	    background: #4c4c4c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.left.lifelike:hover .info {
+	    background: #2d4674 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.right.exhibition:hover .info {
+	    background: #ee3542 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.right.contents:hover  .info {
+	    background: #c59c0c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:20%;
+	}
+	#wrapper_bu{
+		display:none;
+	}
+	#wrapper_mr{
+		margin-top:220px;
+	}
+	.mobile_tile02{
+		margin-left:-90px;
+	}
+	.bg_mobile_tile02{
+		top:37px;
+		margin-left:-74px;
+	}
+	.holder_mr_center{
+		top:46px;
+		margin-left:-76px;
+	}
+	.holder_mr_awayL1{
+		top:60px;
+		left: 8%;
+	}
+	.holder_mr_awayR1{
+		top:60px;
+	}
+	.holder_mr_awayL2,
+	.holder_mr_awayR2{
+		top:74px;
+	}
+	.holder_mr_awayL3,
+	.holder_mr_awayR3{
+		top:74px;
+	}
+	.bg_mobile_hiddne_r02,
+	.bg_mobile_hiddne_l02{
+		width:31px;
+		background-position: -14px center;
+	}
+	/* section3 - eXPIS 전자기술교범 */
+	#section3{
+		padding-top:20%;
+	}
+	.img_phone01{
+		width:36%;
+		left:2%;
+		top:48%;
+	}
+	.img_phone02{
+		width:35%;
+		left:29%;
+		top:69%;
+	} 
+	.img_phone03{
+		top:35%;
+		width:75%;
+		right:-7%;
+	}
+	@keyframes img_phone03{
+		0%{margin-right:0px;  margin-top:20px;transition: .5s;}
+		100%{margin-right:0; margin-top:0; transition:.5s;}
+	}
+	
+	/**/
+	.keyword_frame .col {
+		width:100%;
+	}
+	.keyword_frame .col.experience,
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.exhibition,
+	.keyword_frame .col.contents {
+		padding-top:71%;
+		padding-bottom:0;
+		height:auto;
+		background-size:100%;
+		background-position: 0 top;
+	}
+	.keyword_frame .col .info {
+		height:190px;
+	}
+	.keyword_frame .col.top .info.gray:before {
+		top:-20px;
+		left:45%;
+		border-width:0 20px 20px 20px;
+		border-color:#4c4c4c transparent #4c4c4c transparent;
+	}
+	.keyword_frame .col.bottom .info.blue:before {
+		top:-20px;
+		left:45%;
+		bottom:inherit;
+		border-width:0 20px 20px 20px;
+		border-color:#2d4674 transparent #2d4674 transparent;
+	}
+	.keyword_frame .col.top .info.red:before {
+		top:-20px;
+		left:45%;
+		border-width:0 20px 20px 20px;
+		border-color:#ee3542 transparent #ee3542 transparent;
+	}
+	.keyword_frame .col.bottom .info.camel:before {
+		right: inherit;
+		top:-20px;
+		left:45%;
+		bottom:inherit;
+		border-width:0 20px 20px 20px;
+		border-color:#c59c0c transparent #c59c0c transparent;
+	}
+	
+	/* 솔루션 3개 이미지 */
+	.keyword_frame.frame_03 .col.top,
+	.keyword_frame.frame_03 .col.bottom {
+		padding-left:0;
+		padding-right:0;
+		padding-top:55%;
+		background-size:100%;
+		height:auto;
+	}
+	.keyword_frame.frame_03 .col.top:hover {
+		padding-top:55%;
+	}
+	.keyword_frame.frame_03 .col .info {
+		height:180px;
+	}
+	
+	/* 화살표 색상 */
+	.keyword_frame.frame_03 .col .info:before {
+		left:calc(50% - 20px);
+	}
+	.keyword_frame.frame_03 .col.top .info.charcoal:before {
+		top:-20px;
+		left:50%;
+		margin-top:0;
+		margin-left:-20px;
+		border-width:0 20px 20px 20px;
+		border-color:#828a93 transparent #828a93 transparent;
+	}
+	.keyword_frame.frame_03 .col.bottom .info.blue:before {
+		top:-20px;
+		bottom:20em;
+		left:50%;
+		right:50%;
+		margin-top:0;
+		margin-left:-20px;
+		border-width:0 20px 20px 20px;
+		border-color:#2d4674 transparent #2d4674 transparent;
+	}
+	.keyword_frame.frame_03 .col.top .info.navy:before {
+		top:-20px;
+		left:50%;
+		margin-top:0;
+		margin-left:-20px;
+		border-width:0 20px 20px 20px;
+		border-color:#296aae transparent #296aae transparent;
+	}
+	.company_text_info {
+		padding:0 20px;
+	}
+	
+	.keyword_frame.frame_03.expis .col.interactiv,
+	.keyword_frame.frame_03.expis .col.vr,
+	.keyword_frame.frame_03.expis .col.scene {
+		background-size:100% 54%;
+		padding-top: 50%;
+		background-position:0 0;
+			
+	}
+	.keyword_frame.frame_03 .col:hover .info {
+		padding:35px;
+	}
+	
+	
+	/* 회사소개 모바일용 이미지 */
+	.company_cont .company_img {
+		margin:0 16%;
+	    background: url(../img/company/img_m_company_01.gif) no-repeat center 0;
+	    background-size:100%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:59%;
+		line-height:23px;
+		font-size:20px;
+	}
+	.company_cont .company_img .com_col {
+		width:100%;
+		padding-top:57%;
+	}
+	.company_cont .company_img .com_col:first-child {
+		padding:0;
+	}
+	.company_cont .company_img .com_col p {
+		margin-top:15%;
+		padding-top:0;
+		background-color:#f6f4f7;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:85%;		
+	}
+	.company_cont .company_img .com_col:nth-child(1) strong, 
+	.company_cont .company_img .com_col:nth-child(1) p {
+		margin-left:0;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong, 
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:0;
+	}
+	
+	.keyword_frame.frame_03.expis .col .info {
+		height:auto;
+		padding:25px 25px 55px 25px;
+	}
+	
+	.spec_img,
+	.spec_img.img02 {
+		height:310px;
+	}	
+	/* 컨텐츠 모바일 솔루션 */
+	.on_cont{
+		bottom:-76%;
+		padding:20px 30px;
+	}
+	.on_cont .on_sub_tit{
+		margin-bottom:10px;
+	}
+	.on_cont ul{
+		padding: 10px 0px;
+	}
+	.on_cont strong{
+		font-size:20px;
+	}
+	.on_cont p{
+		margin-top:10px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:20px 30px;
+	}
+	.mobile_off_box:hover > .on_cont strong{
+		margin-top:5px;
+	}
+	
+	.keyword_frame.frame_03.expis .col.interactiv:hover .info {
+		background:#828a93 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame.frame_03.expis .col.vr:hover .info {
+		background:#2d4674 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame.frame_03.expis .col.scene:hover .info {
+		background:#296aae url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	
+	.keyword_frame.frame_03 .col:hover .info.charcoal {
+		background:#828a93 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame.frame_03 .col:hover .info.blue {
+		background:#2d4674 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame.frame_03 .col:hover .info.navy {
+		background:#296aae url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	
+	/* expis system */
+	.expis_form {
+	    height:313px;
+	    background-size:28em;
+	}
+	.expis_tab_box ul.tabs li {
+		margin-left:10px;
+	}
+	.expis_tab_box ul.tabs li a {
+		width: 70px;
+	    height: 70px;
+	    line-height: 39px;
+	    font-size: 15px;
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+		padding:107px 0 25px;
+		width:290px;
+	}
+	/* 회사 홍보 동영상 */
+	.video_pup{
+		margin-left: -220px;
+	    margin-top: -169px;
+	    width: 440px;
+	    height: 281px;
+	}
+}
+
+/* (min-width:500px) and (max-width: 767px)
+---------------------------------------------------------------------------------------------------------------*/
+@media all and (min-width:500px) and (max-width: 767px){
+	#section0, #section1{
+		padding-top:55%;
+	}
+	.main_txt_box{
+		margin: 43% auto 0;
+	}
+	#section2{
+		padding-top: 20%;
+	}
+	.vertual_cont .col:nth-child(1) p, 
+	.vertual_cont .col:nth-child(1) div {
+		margin-right:-60px;
+	}
+	
+	.vertual_cont .col:nth-child(3) p, 
+	.vertual_cont .col:nth-child(3) div {
+		margin-left:-60px;
+	}
+	.vertual_cont .col div {
+		height:250px;
+	}
+	.vertual_cont .col:nth-child(2) div {
+		height:290px;
+	}
+	
+	.diagonal_line {
+		margin-top:0;
+		margin-left:-14em;
+	}
+	.company_cont img {
+		width:80%;
+	}
+	.company_text_info {
+		text-align:left;
+	}
+	.company_cont {
+		background-size: contain, 150%;
+	}
+	
+	/*-------------- 교육훈련 운용 시뮬레이션 --------------*/
+	/* 시뮬레이션 스펙 테이블 */
+	.character_ul li div{
+		height:120px;
+		text-align:center;
+	}
+	
+	/*-------------- 교육용 증강현실 --------------*/
+	/* 모바일 vr 지게차 */
+	.education_vr{
+		height:320px;
+	}
+	.mobile_box{
+		height:200px;
+	}
+	.educationi_tit{
+		font-size:26px;
+		line-height:24px;
+		margin-top:20px;
+	}
+	.education_explain{
+		font-size:16px;
+	}
+	.mobile_box div{
+		width:65px;
+		height:65px;
+	}
+	.btn05{
+		left:-7%;
+		top:42%;
+	}
+	.btn06{
+		left:7%;
+		top:31%;
+	}
+	.btn07{
+		left:4%;
+		top:56%;
+	}
+	.pop_education.pop01, 
+	.pop_education.pop02, 
+	.pop_education.pop03{
+		top:-98px;
+		left:-92px;
+	}
+	/* 주요 기능 */
+	.function_ul02 li{
+		width:100%;
+		border-right:0;
+	}
+	.function_ul02 li:last-child{
+		width:100%;
+	}
+	/* 적용 사례 */
+	.video_example_gp div{
+		width:100%;
+		margin-bottom:10px;
+	}
+	
+	/* 슬라이드 이미지 */
+	.sys_rolling {
+		width:90%;
+	}
+	.sys_rolling li {
+		width: 50% !important;
+	}
+	.sys_rolling li {
+	    width: 5.65% !important;
+	    margin-right:1% !important;
+	}
+	.sys_rolling li:before {
+		left:-9%;
+	}
+	
+	/* cbt font */
+	.cbt_info li p {
+		padding:10px 15px;
+		font-size:15px;
+		border-left:0;
+	}
+	.cbt_info li.category_2 strong,
+	.cbt_info li.category_4 strong {
+		border-left:0;
+	}
+	/* --------- site map  ---------- */
+	.cont_sub_box {
+		padding:40px 20px;
+	}
+	
+	footer > * {
+		font-size: 13px;
+	}
+	.spec_video.img03,
+	.spec_video.img04 {
+		height:300px;
+		background-size: contain;
+	}
+	
+}
+
+@media all and (max-width:600px) {
+	.location {
+		display:none;
+	}
+	.cbt_tab_box ul.tabs li a {
+		height:63px;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(1) a, 
+	.cbt_tab_box ul.tabs li:nth-child(3) a, 
+	.cbt_tab_box ul.tabs li:nth-child(5) a, 
+	.cbt_tab_box ul.tabs li:nth-child(6) a {
+		padding-top:22px;
+	}
+	/* sitemap */
+	.sitemap_form .site_tit span{
+		display:none;
+	}
+	.sitemap_form .site_util li{
+		display:table;
+		height:60px;
+		padding:2px 10px;
+	}
+	.sitemap_form .site_util li a{
+		display:table-cell;
+		vertical-align:middle;
+		line-height:22px;
+	}
+	/* 회사소개 */
+	.sub_head strong{
+		padding-top:3.2em;
+	}
+	.tab_box{
+		bottom:13px;
+	}
+	.tabs.tab03{
+		width:25em;
+	}
+	.tabs.tab03:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.tabs.tab03 li{
+		width:50%;
+		margin:0;
+		box-sizing:border-box;
+		float:left;
+	}
+	.tabs.tab03 li:nth-child(1) a{
+		border-width:1px 0px 0px 1px;
+	}
+	.tabs.tab03 li:nth-child(2) a{
+		border-width:1px 1px 0px 1px;
+	}
+	.tabs.tab03 li:nth-child(3) a{
+		border-width:1px 0px 1px 1px;
+	}
+	.tabs.tab03 li:nth-child(4) a{
+		border-width:1px 1px 1px 1px;
+	}
+	.tabs.tab03 li a{
+		width:100%;
+		height:43px;
+		line-height:41px;
+	}
+	ul.tabs li span.btn_ci{
+		background-position:center -521px;
+		background-size:3.8em;
+	}
+	/* c.i 소개 */
+	
+	.btn_download_gp > *{
+		vertical-align:middle;
+	}
+	.btn_download_gp:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.btn_download_gp a{
+		width:49%;
+		float:left;
+		margin:0;
+		height:45px;
+		line-height:40px;
+		font-size:16px;
+	}
+	.btn_download_gp a.btn_jpg_download{
+		float:right;
+	}
+}
+
+@media all and (max-width:500px) {
+	
+	.video_example_gp video {
+		max-height:400px;
+	}
+	#section0, #section1, #section2, #section3{
+		padding-top:20%;
+	}
+	.main_txt_box{
+		margin: 54% auto 0;
+	}
+	
+	.vertual_cont .col:nth-child(1) p, 
+	.vertual_cont .col:nth-child(1) div {
+		margin-right:-45px;
+	}
+	
+	.vertual_cont .col:nth-child(3) p, 
+	.vertual_cont .col:nth-child(3) div {
+		margin-left:-45px;
+	}
+	.vertual_cont .col div {
+		height:250px;
+	}
+	.vertual_cont .col:nth-child(2) div {
+		height:217px;
+	}
+	.vertual_cont .col:nth-child(1), 
+	.vertual_cont .col:nth-child(3) {
+		padding-top:30px;
+	}
+	.vertual_cont .col div {
+		height: 175px;
+	}
+	.vertual_cont .col p {
+		font-size: 1em;
+	}
+	.vertual_cont .col:nth-child(2) p {
+		margin-bottom:-30px;
+	}
+	.vertual_cont .col:nth-child(2) p {
+		padding-top:34px;
+	}
+	/* 타이틀  폰트 사이즈 */
+	.intro strong,
+	.main_title {
+		font-size:2em;
+		font-weight: 600;
+		padding-left:0;
+	}
+	.intro p,
+	.main_sub_title {
+		padding-top:15px;
+		padding-bottom:15px;
+		padding-left:0;
+		font-size:0.9em;
+		line-height:20px;
+	}
+	.intro .btn_view{
+		font-size:0.9em;
+		padding:8px 40px 8px 25px;
+	}
+	#section1 .intro strong {
+		font-size:1.3em;
+		text-align:center;
+	}
+	#section1	.intro p{
+		padding: 20px 20px;
+	}
+	/* 메인 - expis 모바일 위치 */
+	.img_phone01{
+		top:70%;
+		left: 3%;
+		width: 30%;
+	}
+	.img_phone02{
+		top:80%;
+		left:30%;
+		width: 30%;
+	}
+	.img_phone03{
+		top:49%;
+		right:-40%;
+		width: 70%;
+	}
+	
+	
+	/*-------------- 360도 전 방향 가상훈련시스템 --------------*/
+	/* ETRI 박스 */
+	.etri_box{
+		margin-bottom:30px;
+	}
+	/* ETRI 기술 활용 분야 */
+	.technology_gp > div{
+		height:115px;
+		padding: 15px 15px 15px 90px;
+		background-size:85px !important;
+		background-position:15px center !important;
+	}
+	
+	
+	/* 4d 실사 스포츠 시뮬레이션 */
+	
+	.spec_data{
+		width:100%;
+	}
+	.spec_img,
+	.spec_img.img02 {
+		width:100%;
+		height:200px;
+	}
+	.spec_ul01 li{
+		padding-top: 62px;
+		background-position:center -17px !important;
+		line-height:53px;
+	}
+	.spec_ul02{
+		margin-top:10px;
+	}
+	.spec_ul02 li > span{
+		height:100px;
+	}
+	.company_text_info {
+		margin-top:35px;
+		text-align:left;
+		font-size:16px;
+		width:90%;
+	}
+	/*-------------- 교육훈련 운용 시뮬레이션 --------------*/
+	/* 이미지 슬라이드 - 이미지 영역 */
+	.slide,
+	.slide02 {
+		height:300px;
+	}
+	.spec_video{
+		height:250px;
+	}
+	/* cbt */
+	.cbt_info li {
+		width:100%;
+	}
+	
+	/* 리모콘 */
+	.remote a {
+		width:25%;
+		word-break:break-all;
+		font-size:11px;
+	}
+	.remote a.btn_top {
+		width:25%;
+	}
+	
+	.cont_sub_box {
+		padding:40px 20px;
+		margin-top:30px;
+	}
+	.cont_tit02_explain {
+		padding:0 30px 35px;
+	}
+	.tit_explain {
+		padding:20px;
+		margin:0 auto;
+		box-sizing:border-box;
+	}
+	.etri_box {
+		width:90%;
+	}
+	.diagonal_line {
+		margin-left:-11em;
+	}
+	.cbt .cbt_special .cbt_video {
+		height:250px;
+	}
+	
+	/* 탭  */
+	ul.tabs {
+		padding:0 20px;
+	}
+	ul.tabs li {
+		display:block;
+		float:left;
+		margin:0;
+	}
+	ul.tabs.tab02 li {
+		width:50%;
+	}
+	ul.tabs.tab03 li {
+		width:33.3%;
+	}
+	
+	ul.tabs li a {
+		width:100%;
+		border:1px solid #ddd;
+		border-width:1px 1px 1px 0;
+	}
+	ul.tabs li:first-child a {
+		border-left:1px solid #ddd;
+	}
+	ul.tabs li a:hover, ul.tabs li.selected a, ul.tabs li.selected a:hover {
+		border:1px solid #ee3542;
+	}
+	.location {
+		display:none;
+	}
+	.location_ul li {
+		font-size:16px;
+	}
+	
+	.cbt_tab_box ul.tabs {
+		padding:0;
+	}
+	
+	
+	
+	footer > * {
+		font-size: 13px;
+	}
+	footer address {
+		padding:20px;
+	}
+	footer address img {
+		display:block;
+	}
+	footer address p, footer address .email {
+		line-height:18px;
+	}
+	footer address p.copy {
+		font-size:12px;
+	}
+	footer .foot_info {
+		padding:0;
+		height:55px;
+		line-height:55px;
+		box-sizing:border-box;
+	}
+	footer .foot_info li {
+		margin:0;
+		padding:0;
+		width:33.3%;
+		height:100%;
+		border-left: 1px solid #616161;
+		box-sizing:border-box;
+	}
+	footer .foot_info li:first-child {
+		border-left:0;
+	}
+	footer .foot_info li:before {
+		border:0;
+	}
+	footer .foot_info li a {
+		padding:0 32px 0 10px;
+		height:100%;
+		line-height:55px;
+		text-align:center;
+	}
+	footer .foot_info li a.com_down:after {
+		right:16px;
+    	top:17px;
+	}
+	footer .foot_info li a.com_video:after {
+		right:12px;
+    	top:17px;
+	}
+	footer .foot_info li a.com_video {
+		padding-right:37px; 
+	}
+	footer .foot_info li a.com_groupware:after {
+		right:28px;
+    	top:17px;
+	}
+	footer .btn_tab_share{
+		right:30px;
+		bottom:20px;
+	}
+	footer .tab_share_form{
+		right:26px;
+		bottom:16px;
+	}
+	
+	
+	
+	
+	
+	
+	/* 솔루션 탭 */
+	.tab_box.tab_box04 {
+		bottom:15px;
+	}
+	ul.tabs.tab04 {
+		width:100%;
+		box-sizing:border-box;
+	}
+	ul.tabs.tab04 li a {
+		height:40px;
+		line-height:38px;
+		border:1px solid #ddd;
+	}
+	ul.tabs.tab04 li:nth-child(2),
+	ul.tabs.tab04 li:nth-child(4){
+		margin-left:-1px;
+	}
+	ul.tabs.tab04 li:nth-child(3),
+	ul.tabs.tab04 li:nth-child(4){
+		margin-top:-1px;
+	}
+	
+	
+	ul.tabs.tab04 li:nth-child(3),
+	ul.tabs.tab04 li:nth-child(4) {
+		margin-top:-1px;
+	}
+	/* 회사소개 탭 */
+	.tab_box{
+		bottom:15px;
+	}
+	ul.tabs.tab03{
+		width:100%;
+		box-sizing:border-box;
+	}
+	ul.tabs.tab03 li{
+		margin:0;
+		width:50%;
+	}
+	ul.tabs.tab03 li a{
+		height:40px;
+		line-height:38px;
+	}
+	
+	
+	/* 연혁 */
+	.history_cont {
+		width: 90%;
+		padding:2em 0 7em;
+		margin:0 auto 0;
+	}
+	.history_cont .history_title {
+		position:relative;
+		top:0;
+		right:0;
+		bottom:auto;
+		width:100%;
+		background-position:left bottom;
+		background-size:7em;
+	}
+	.history_cont .history_title strong {
+		padding:9px 30px;
+		font-size:22px;
+		background-position:right 0;
+		background-size:7em;
+	}
+	.diagonal_line {
+		margin-top:0;
+		margin-left:-21em;
+	}
+	.history_cont ul {
+		padding-top:2em;
+		padding-left:0;
+	}
+	.history_cont li,
+	.history_data {
+		border:0;
+		
+	}
+	.history_cont ul > li span {
+		float:none;
+		width:100%;
+		height:35px;
+		line-height:38px;
+		color:#fff;
+		font-size:18px;
+		background-color:#4a4a4a;
+	}
+	.history_cont dl:first-child dt,
+	.history_cont dl:first-child dd {
+		padding-top:25px;
+	}
+	.history_cont dl:first-child dt:after {
+		top:30px;
+	}
+	.history_cont dl:last-child dd {
+		padding-bottom:25px;
+	}
+	.history_data {
+		width:100%;
+	}
+	
+	.history_cont dl dd {
+		padding-right:0;
+		font-size:15px;
+	}
+	.history_cont dl dt strong {
+		font-size:17px;
+	}
+	
+	
+	/* section3 - eXPIS 전자기술교범 */
+	#section3{
+		padding-top:25%;
+	}
+	.img_phone01{
+		width:36%;
+		left:2%;
+		top:57%;
+	}
+	.img_phone02{
+		width:35%;
+		left:29%;
+		top:75%;
+	} 
+	.img_phone03{
+		top:44%;
+		width:75%;
+		right:-7%;
+	}
+	@keyframes img_phone03{
+		0%{margin-right:0px;  margin-top:20px;transition: .5s;}
+		100%{margin-right:0; margin-top:0; transition:.5s;}
+	}
+	
+	/* 솔루션 4개 이미지 */
+	.keyword_frame .col {
+		width:100%;
+	}
+	.keyword_frame .col.experience,
+	.keyword_frame .col.lifelike,
+	.keyword_frame .col.exhibition,
+	.keyword_frame .col.contents {
+		padding-top:71%;
+		padding-bottom:0;
+		height:auto;
+		background-size:100%;
+		background-position: 0 top;
+	}
+	.keyword_frame .col .info {
+		height:190px;
+		padding:25px
+	}
+	.keyword_frame .col .info strong {
+		font-size:20px;
+	}
+	.keyword_frame .col .info p,
+	.keyword_frame .col .info li {
+		font-size:16px;
+	}
+	
+	.keyword_frame .col.top .info.gray:before {
+		top:-20px;
+		left:45%;
+		border-width:0 20px 20px 20px;
+		border-color:#4c4c4c transparent #4c4c4c transparent;
+	}
+	.keyword_frame .col.bottom .info.blue:before {
+		top:-20px;
+		left:45%;
+		bottom:inherit;
+		border-width:0 20px 20px 20px;
+		border-color:#2d4674 transparent #2d4674 transparent;
+	}
+	.keyword_frame .col.top .info.red:before {
+		top:-20px;
+		left:45%;
+		border-width:0 20px 20px 20px;
+		border-color:#ee3542 transparent #ee3542 transparent;
+	}
+	.keyword_frame .col.bottom .info.camel:before {
+		right: inherit;
+		top:-20px;
+		left:45%;
+		bottom:inherit;
+		border-width:0 20px 20px 20px;
+		border-color:#c59c0c transparent #c59c0c transparent;
+	}
+	
+	
+	/* 솔루션 3개 이미지 */
+	.keyword_frame.frame_03 .col.top,
+	.keyword_frame.frame_03 .col.bottom {
+		padding-left:0;
+		padding-right:0;
+		padding-top:55%;
+		background-size:100%;
+		height:auto;
+	}
+	.keyword_frame.frame_03 .col.top:hover {
+		padding-top:55%;
+	}
+	.keyword_frame.frame_03 .col .info {
+		height:180px;
+	}
+	.keyword_frame.frame_03 .col .info strong {
+		font-size:20px;
+	}
+	.keyword_frame.frame_03 .col .info p,
+	.keyword_frame.frame_03 .col .info li {
+		font-size:16px;
+	}
+	
+	.keyword_frame.frame_03 .col:hover .info {
+		padding:25px;
+	}
+	
+	/* 서브타이틀  */
+	.cont_tit {
+	    font-size:25px;
+	    line-height: normal;
+	    padding:40px 0 20px;
+	}
+	.tit_explain {
+		font-size:15px;
+		line-height:19px;
+	}
+	
+	/* 화살표 색상 */
+	.keyword_frame.frame_03 .col .info:before {
+		left:calc(50% - 20px);
+	}
+	.keyword_frame.frame_03 .col.top .info.charcoal:before {
+		top:-20px;
+		left:50%;
+		margin-top:0;
+		margin-left:-20px;
+		border-width:0 20px 20px 20px;
+		border-color:#828a93 transparent #828a93 transparent;
+	}
+	.keyword_frame.frame_03 .col.bottom .info.blue:before {
+		top:-20px;
+		bottom:20em;
+		left:50%;
+		right:50%;
+		margin-top:0;
+		margin-left:-20px;
+		border-width:0 20px 20px 20px;
+		border-color:#2d4674 transparent #2d4674 transparent;
+	}
+	.keyword_frame.frame_03 .col.top .info.navy:before {
+		top:-20px;
+		left:50%;
+		margin-top:0;
+		margin-left:-20px;
+		border-width:0 20px 20px 20px;
+		border-color:#296aae transparent #296aae transparent;
+	}
+	
+	.keyword_frame.frame_03.expis .col.interactiv,
+	.keyword_frame.frame_03.expis .col.vr,
+	.keyword_frame.frame_03.expis .col.scene {
+		background-size:100% 52%;
+		padding-top:66%;
+		background-position:0 0;
+			
+	}
+	
+	.company_text_info {
+		padding:0 10px;
+	}
+	
+	/* vr/ar 가상현실 */
+	#section2 .vr_box01{
+		top:36%;
+		left:5%;
+		width:90%;
+		height:17%;
+	}
+	#section2 .vr_box02{
+		top:55%;
+		left:5%;
+		width:90%;
+		height:17%;
+	}
+	#section2 .vr_box03{
+		top:74% ;
+		left:5%;
+		width:90%;
+		height:17%;
+	}
+	.btn_down{
+		display:none;
+	}
+	.vr_box01,
+	.vr_box02,
+	.vr_box03{
+		padding:10px 10px 10px 115px;
+		display:table;
+	}
+	.vr_box01 div,
+	.vr_box02 div,
+	.vr_box03 div{
+		display:table-cell;
+		vertical-align:middle;
+	}
+	.vr_box01{
+		background:#ec4b4b url(../img/bg_vr_keyword01.png) no-repeat  -25px center;
+		background-size:160px;
+	}
+	.vr_box:hover .vr_box01{
+		background:#792626 url(../img/bg_vr_keyword01_hover.png) no-repeat  -25px center;
+		background-size:160px;
+	}
+	.vr_box02{
+		background:#484855 url(../img/bg_vr_keyword02.png) no-repeat  -25px center;
+		background-size:160px;
+	}
+	.vr_box:hover .vr_box02{
+		background:#292931 url(../img/bg_vr_keyword02_hover.png) no-repeat  -25px center;
+		background-size:160px;
+	}
+	.vr_box03{
+		background:#dddcdc url(../img/bg_vr_keyword03.png) no-repeat  -25px center;
+		background-size:160px;
+	}
+	.vr_box:hover .vr_box03 {
+		background:#767575 url(../img/bg_vr_keyword03_hover.png) no-repeat  -25px center;
+		background-size:160px;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view,
+	.vr_box:hover .vr_box02 .btn_vr_view,
+	.vr_box:hover .vr_box03 .btn_vr_view{
+		top:30px;
+		margin-left:-130px;
+		font-size:0.9em;
+		height:30px;
+		line-height:30px;
+	}
+	.vr_box01 .vr_box_txt,
+	.vr_box02 .vr_box_txt,
+	.vr_box03 .vr_box_txt{
+		font-size:0.8em;
+		padding-bottom:7px;
+	}
+	.vr_box01 .vr_box_txt:after,
+	.vr_box02 .vr_box_txt:after,
+	.vr_box03 .vr_box_txt:after{
+		padding-top:7px;
+	}
+	.vr_box01 .vr_box_txt span,
+	.vr_box02 .vr_box_txt span,
+	.vr_box03 .vr_box_txt span{
+		display:none;
+	}
+	.vr_box:hover .vr_box01.vr_box_txt span,
+	.vr_box:hover .vr_box02 .vr_box_txt span,
+	.vr_box:hover .vr_box03 .vr_box_txt span{
+		display:none;
+	}
+	.vr_box01 .vr_box_tit,
+	.vr_box02 .vr_box_tit,
+	.vr_box03 .vr_box_tit{
+		font-size:1em;
+	}
+	
+	/* 회사소개 모바일용 이미지 */
+	.company_cont .company_img {
+		margin:0 16%;
+	    background: url(../img/company/img_m_company_01.gif) no-repeat center 0;
+	    background-size:100%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:59%;
+		line-height:23px;
+		font-size:20px;
+	}
+	.company_cont .company_img .com_col {
+		width:100%;
+		padding-top:57%;
+	}
+	.company_cont .company_img .com_col:first-child {
+		padding:0;
+	}
+	.company_cont .company_img .com_col p {
+		margin-top:15%;
+		padding-top:0;
+		background-color:#f6f4f7;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:85%;		
+	}
+	.company_cont .company_img .com_col:nth-child(1) strong, 
+	.company_cont .company_img .com_col:nth-child(1) p {
+		margin-left:0;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong, 
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:0;
+	}
+	
+	.spec_video.img03,
+	.spec_video.img04 {
+		height:300px;
+		background-size: contain;
+	}
+	
+	.solution_ul.vr {
+		padding-right:0;
+	}
+	.solution_ul {
+		width:50%;
+	}
+	.solution_ul strong {
+		margin-bottom:0;
+		border-bottom: 1px solid #ec454e;
+	    font-size: 17px;
+	    height: auto;
+	    line-height: normal;
+	    padding:10px 15px;
+	}
+	.solution_ul.mobile strong {
+		padding:4px 15px 9px;
+	}
+	
+	
+	.keyword_frame.frame_03.expis .col .info {
+		height:auto;
+		padding:25px 25px 55px 25px;
+	}
+	
+	.keyword_frame .col.experience:hover,
+	.keyword_frame .col.lifelike:hover,
+	.keyword_frame .col.exhibition:hover,
+	.keyword_frame .col.contents:hover {
+		padding-top:71%;
+	}
+	
+	.keyword_frame .col.left.experience:hover .info {
+		background:#4c4c4c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.left.lifelike:hover .info {
+		background:#2d4674 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.right.exhibition:hover .info {
+		background:#ee3542 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame .col.right.contents:hover .info {
+		background:#c59c0c url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	
+	.keyword_frame.frame_03.expis .col.interactiv:hover .info {
+		background:#828a93 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame.frame_03.expis .col.vr:hover .info {
+		background:#2d4674 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame.frame_03.expis .col.scene:hover .info {
+		background:#296aae url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	/* expis system */
+	.expis_form {
+	    height:313px;
+	    background-size:28em;
+	}
+	.expis_tab_box ul.tabs li {
+		margin-left: 4px;
+		width: auto;
+	}
+	.expis_tab_box ul.tabs li a {
+		width: 70px;
+	    height: 70px;
+	    line-height: 39px;
+	    font-size: 15px;
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+		padding:107px 0 25px;
+		width:290px;
+	}
+	.keyword_frame.frame_03 .col:hover .info.charcoal {
+		background:#828a93 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame.frame_03 .col:hover .info.blue {
+		background:#2d4674 url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	.keyword_frame.frame_03 .col:hover .info.navy {
+		background:#296aae url(../img/sub/pattern_keyword_frame.png) repeat-x 0 90%;
+	}
+	
+	/* 회사 홍보 동영상 */
+	.video_pup{
+		margin-left: -205px;
+	    margin-top: -157px;
+	    width: 409px;
+	    height: 252px;
+	}
+	/* c.i 소개 */
+	.symbol_txt p, .ci_tit p,.ci_tit_p{
+		font-size:15px;
+	}
+	.color_red strong{
+		padding:16px 20px 8px 20px;
+	}
+	.color_red p{
+		padding-left:20px;
+	}
+}
+
+@media all and (min-width:450px) and (max-width:500px){
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:20%;
+	}
+	#wrapper_bu{
+		display:none;
+	}
+	#wrapper_mr{
+		margin-to:220px;
+	}
+	.mobile_tile02{
+		margin-left:-80px;
+	}
+	.bg_mobile_tile02{
+		top:36px;
+		margin-left:-64px;
+	}
+	.holder_mr_center{
+		top:39px;
+		margin-left:-64px;
+	}
+	.holder_mr_awayL1{
+		top:60px;
+		left: 8%;
+	}
+	.holder_mr_awayR1{
+		top:60px;
+	}
+	.holder_mr_awayL2,
+	.holder_mr_awayR2{
+		top:74px;
+	}
+	.bg_mobile_hiddne_r02,
+	.bg_mobile_hiddne_l02{
+		width:30px;
+		background-position: -14px center;
+	}
+	.company_text_info {
+		padding:0 10px;
+	}
+	
+	
+	/* 회사소개 모바일용 이미지 */
+	.company_cont .company_img {
+		margin:0 16%;
+	    background: url(../img/company/img_m_company_01.gif) no-repeat center 0;
+	    background-size:100%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:59%;
+		line-height:21px;
+		font-size:17px;
+	}
+	.company_cont .company_img .com_col {
+		width:100%;
+		padding-top:52%;
+	}
+	.company_cont .company_img .com_col:first-child {
+		padding:0;
+	}
+	.company_cont .company_img .com_col strong {
+		font-size:17px;
+	}
+	.company_cont .company_img .com_col p {
+		margin-top:16%;
+		padding-top:0;
+		font-size:15px;
+		background-color:#f6f4f7;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:83%;		
+	}
+	.company_cont .company_img .com_col:nth-child(1) strong, 
+	.company_cont .company_img .com_col:nth-child(1) p {
+		margin-left:0;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong, 
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:0;
+	}
+	
+	.keyword_frame.frame_03.expis .col.interactiv,
+	.keyword_frame.frame_03.expis .col.vr,
+	.keyword_frame.frame_03.expis .col.scene {
+		background-size:100% 59%;
+		padding-top:65%;
+		background-position:0 0;
+			
+	}
+	/* 컨텐츠 모바일 솔루션 */
+	.bxslider_02 > li{
+		width:14% !important;
+		margin-right:0.5% !important;
+	}
+	.on_cont{
+		bottom:-78%;
+		padding:32px 50px;
+	}
+	.on_cont .on_sub_tit{
+		margin-bottom:20px;
+	}
+	.on_cont strong{
+		font-size:20px;
+	}
+	.on_cont p{
+		margin-top:10px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:50px 50px;
+	}
+	.mobile_off_box:hover > .on_cont strong{
+		margin-top:30px;
+	}
+	.off_cont img{
+		width:80%;
+	}
+	
+	/* expis system */
+	.expis_form {
+	    height:313px;
+	    background-size:28em;
+	}
+	.expis_tab_box ul.tabs {
+		padding:0;
+	}
+	.expis_tab_box ul.tabs li {
+		margin-left: 4px;
+		width: auto;
+	}
+	.expis_tab_box ul.tabs li a {
+		width: 70px;
+	    height: 70px;
+	    line-height: 39px;
+	    font-size: 15px;
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+		padding:107px 0 25px;
+		width:290px;
+	}
+	.expis_tab_box ul.tabs li a:hover,
+	.expis_tab_box ul.tabs li.selected a, .expis_tab_box ul.tabs li.selected a:hover {
+		border:0;
+	}
+	
+	.video_spec_gp iframe {
+		width:100%;
+		height:249px;
+	}
+	
+}
+@media all and (min-width:400px) and (max-width:450px){
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:25%;
+	}
+	#wrapper_bu{
+		display:none;
+	}
+	#wrapper_mr{
+		margin-top:220px;
+	}
+	.mobile_tile02{
+		margin-left:-70px;
+	}
+	.bg_mobile_tile02{
+		top:32px;
+		margin-left:-56px;
+	}
+	.holder_mr_center{
+		top:33px;
+		margin-left:-55px;
+	}
+	.holder_mr_awayL1,
+	.holder_mr_awayR1{
+		top:45px;
+	}
+	.holder_mr_awayL2,
+	.holder_mr_awayR2{
+		top:59px;
+	}
+	.holder_mr_awayL3,
+	.holder_mr_awayR3{
+		top:59px;
+	}
+	.bg_mobile_hiddne_r02,
+	.bg_mobile_hiddne_l02{
+		width:25px;
+		background-position: -40px center;
+	}
+	.company_text_info {
+		padding:0 10px;
+	}
+		/* 회사소개 모바일용 이미지 */
+	.company_cont .company_img {
+		margin:0 12%;
+	    background: url(../img/company/img_m_company_01.gif) no-repeat center 0;
+	    background-size:100%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:59%;
+		line-height:21px;
+		font-size:17px;
+	}
+	.company_cont .company_img .com_col {
+		width:100%;
+		padding-top:51%;
+	}
+	.company_cont .company_img .com_col:first-child {
+		padding:0;
+	}
+	.company_cont .company_img .com_col strong {
+		font-size:17px;
+	}
+	.company_cont .company_img .com_col p {
+		margin-top:17%;
+		padding-top:0;
+		font-size:15px;
+		background-color:#f6f4f7;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:83%;		
+	}
+	.company_cont .company_img .com_col:nth-child(1) strong, 
+	.company_cont .company_img .com_col:nth-child(1) p {
+		margin-left:0;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong, 
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:0;
+	}
+	
+	
+	/* cbt */
+	.cbt_tab_box ul.tabs li a {
+		padding:12px 5px;
+		height:55px;
+		font-size:15px;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(1) a, 
+	.cbt_tab_box ul.tabs li:nth-child(3) a, 
+	.cbt_tab_box ul.tabs li:nth-child(5) a, 
+	.cbt_tab_box ul.tabs li:nth-child(6) a {
+		padding-top:20px;
+	}
+	
+	.keyword_frame.frame_03.expis .col.interactiv,
+	.keyword_frame.frame_03.expis .col.vr,
+	.keyword_frame.frame_03.expis .col.scene {
+		background-size:100% 52%;
+		padding-top:65%;
+		background-position:0 0;
+			
+	}
+	
+	.ico_panorama {
+		width:50px;
+		height:50px;
+		background-size:100%;
+	}
+	/* 컨텐츠 모바일 솔루션 */
+	.bxslider_02 > li{
+		width:14% !important;
+		margin-right:0.5% !important;
+	}
+	.on_cont{
+		bottom:-78%;
+		padding:20px 50px;
+	}
+	.on_cont .on_sub_tit{
+		margin-bottom:20px;
+	}
+	.on_cont strong{
+		font-size:20px;
+	}
+	.on_cont p{
+		margin-top:10px;
+		line-height:18px;
+		font-size:15px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:40px 50px;
+	}
+	.mobile_off_box:hover > .on_cont strong{
+		margin-top:10px;
+	}
+	.off_cont img{
+		width:80%;
+	}
+	
+	/* expis system */
+	.expis_form {
+	    height:313px;
+	    background-size:28em;
+	}
+	.expis_tab_box ul.tabs {
+		padding:0;
+	}
+	.expis_tab_box ul.tabs li {
+		margin-left:2px;
+		width: auto;
+	}
+	.expis_tab_box ul.tabs li a {
+		width:65px;
+	    height:65px;
+	    line-height: 39px;
+	    font-size:13px;
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+		padding:107px 0 25px;
+		width:290px;
+	}
+	.expis_tab_box ul.tabs li a:hover,
+	.expis_tab_box ul.tabs li.selected a, .expis_tab_box ul.tabs li.selected a:hover {
+		border:0;
+	}
+	/* 회사 홍보 동영상 */
+	.video_pup{
+		margin-left: -187px;
+	    margin-top: -134px;
+	    width: 375px;
+	    height: 228px;
+	}
+	.etri_info_img.three_box li span {
+		padding-top:56px;
+		background-size:60px !important;
+    	background-position: center -1px !important;
+		word-break: keep-all;
+	}
+	.technology_gp > div p {
+		font-size:14px;
+		line-height:14px;
+	}
+}
+
+
+
+@media all and (min-width:320px) and (max-width:500px) {
+	.etri_popup div .etri_pop_tit {
+	    padding: 15px;
+	    height: auto;
+	    line-height: normal;
+	}
+	.slide, .slide02 {
+		height:240px;
+	}
+	#section0{
+		padding-top:60%;
+	}
+	 #section1, #section2{
+		padding-top:25%;
+	}
+	.main_txt_box{
+		margin: 55% auto 0;
+	}
+	.vertual_cont .col:nth-child(1) p, 
+	.vertual_cont .col:nth-child(1) div {
+		margin-right:-25px;
+	}
+	
+	.vertual_cont .col:nth-child(3) p, 
+	.vertual_cont .col:nth-child(3) div {
+		margin-left:-25px;
+	}
+	/* sub 헤더 */
+	.sub_head{
+/* 		height:300px; */
+/* 		padding-top:75px !important; */
+		background-size:330% !important;
+		background-position: center 59px !important;
+	}
+	
+	.sub_head.training {
+		height:250px;
+/* 		background-size:170% !important; */
+	}
+/
+	/*-------------- 교육훈련 운용 시뮬레이션 --------------*/
+	/* 이미지 슬라이드 - 이미지 영역 */
+	.slide,
+	.slide02 {
+		height:215px;
+	}
+	.slide_btn, 
+	.slide_btn02{
+		right:10px;
+		bottom:22%;
+	}
+	/* 시뮬레이션 스펙 테이블 */
+	.character_data{
+		width:100%;
+		margin-top:10px;
+	}
+	.character_ul li{
+		width:100%;
+		border-right:0;
+	}
+	.character_ul li div{
+		height:auto;
+		text-align:center;
+	}
+	.character_ul li.long_sentence div strong{
+		margin-bottom:10px;
+	}
+	/*-------------- 교육용 증강현실 --------------*/
+	/* 모바일 vr 지게차 */
+
+	.education_vr{
+		height:238px;
+	}
+	.mobile_box{
+		height:120px;
+		width:80%;
+		margin-top:10px;
+	}
+	.educationi_tit{
+		font-size:20px;
+		line-height:20px;
+		margin-top:15px;
+	}
+	.education_explain{
+		font-size:14px;
+	}
+	.education_explain:before,
+	.education_explain:after{
+		display:none;
+	}
+	.mobile_box div{
+		width:50px;
+		height:50px;
+	}
+	.btn_etri_view{
+		width:50px;
+		height:50px;
+	}
+	.btn05{
+		left:-1%;
+		top:33%;
+	}
+	.btn06{
+		left:5%;
+		top:25%;
+	}
+	.btn07{
+		left:1%;
+		top:42%;
+	}
+	
+	
+	.pop_education {
+		width:240px;
+		
+	}
+	.pop_education span {
+		padding-top:29px;
+		padding-right:22px;
+		font-size:.83em;
+		line-height:normal;
+	}
+	.pop_education.pop01 span,
+	.pop_education.pop02 span,
+	.pop_education.pop03 span {
+		background-position:15px 13px;
+	}
+	.pop_education.pop01, 
+	.pop_education.pop02, 
+	.pop_education.pop03{
+		top:-99px;
+		left:-94px;
+	}
+	/* 주요 기능 */
+	.cont_tit02{
+		font-size:20px;
+		line-height:24px;
+		margin-top:15px;
+		background-size:200%;
+	}
+	.cont_tit03{
+		font-size:20px;
+		line-height:24px;
+	}
+	.function_ul02 li{
+		width:100%;
+		border-right:0;
+		padding-left:80px;
+		padding-top:0;
+		text-align:left;
+	}
+	.function_ul02 li:last-child{
+		width:100%;
+	}
+	.spec_ico29,
+	.spec_ico30,
+	.spec_ico31{
+		background-position: -14px center;
+	}
+	.function_ul02 li div strong{
+		font-size:14px;
+	}
+	
+	/* 적용 사례 */
+	.video_example_gp div{
+		width:100%;
+		height:292px;
+		margin-bottom:10px;
+	}
+	.video_example_gp div strong{
+		height:42px;
+		line-height:42px;
+		font-size:14px;
+	}
+	
+	/* 슬라이드 이미지 */
+	.sys_rolling ul {
+		   width: 1300% !important;
+	}
+	.sys_rolling {
+		width:90%;
+	}
+	.sys_rolling li {
+		width: 50% !important;
+	}
+	.sys_rolling li {
+	    width: 8% !important;
+	    margin-right: 0 !important;
+	}
+	.sys_rolling li:before {
+		left:-23%;
+	}
+	.sys_rolling li:before {
+		border:0;
+	}
+	.cbt_ico_function li {
+		height:115px;
+	}
+
+
+	
+	
+	/*-------------- 오시는 길 --------------*/
+
+	.company_cont img {
+		width:90%;
+	}
+	.company_cont {
+		background-size:contain, 240%;
+	}
+	.feature_form .part .feature_topic {
+		padding:16px 15px;
+	}
+	.diagonal_line {
+		margin-left:-4em;
+	}
+	
+	
+	/* 타이틀 */
+	.sub_head strong {
+		padding-top:3.4em;
+	}
+	.sub_head.mobile strong {
+		padding-top:5em;
+	}
+	.sub_head p {
+		padding:0 20px;
+		font-size:13px;
+		line-height:17px;
+	}
+	
+	/* 탭  */
+	ul.tabs {
+		padding:0 20px;
+	}
+	ul.tabs li {
+		display:block;
+		float:left;
+		margin:0;
+		width:33.3%;
+	}
+	ul.tabs li a {
+		width:100%;
+		height:42px;
+		line-height:40px;
+		font-size:15px;
+		border:1px solid #ddd;
+		border-width:1px 1px 1px 0;
+	}
+	ul.tabs li:first-child a {
+		border-left:1px solid #ddd;
+	}
+	ul.tabs li a:hover, ul.tabs li.selected a, ul.tabs li.selected a:hover {
+		border:1px solid #ee3542;
+		border-right:0;
+	}
+	ul.tabs li span:first-child {
+		display:none;
+	}
+	.location_ul li:after {
+		left:-13px;
+	}
+	.sub_head p {
+		width:auto;
+		padding:0;
+	}
+	.sub_head.company {
+		background-size:cover !important;
+	}
+	.company_text_info {
+		padding:0 10px;
+	}
+	
+	.company_text_info {
+		margin-top:25px;
+	}
+	
+	.spec_video.img03,
+	.spec_video.img04 {
+		height:195px;
+		background-size: contain;
+	}
+	
+	.cbt_tab_box ul.tabs li a:hover,
+	.cbt_tab_box ul.tabs li.selected a, .cbt_tab_box ul.tabs li.selected a:hover {
+	    color:#fff;
+		border:0;
+		background-color:transparent;
+	}
+	
+	/* expis system */
+	.expis_form {
+	    height:308px;
+	    background-size:20em;
+	}
+	.expis_tab_box ul.tabs {
+		width:203px;
+	}
+	.expis_tab_box ul.tabs li {
+		margin-left:2px;
+		width: auto;
+	}
+	.expis_tab_box ul.tabs li:nth-child(4){
+		margin-left:34px;
+	}
+	.expis_tab_box ul.tabs li a {
+		width:65px;
+	    height:65px;
+	    line-height: 39px;
+	    font-size:13px;
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+		padding:163px 0 18px;
+		width:207px;
+	}
+	.expis_tab_box ul.tabs li a:hover,
+	.expis_tab_box ul.tabs li.selected a, .expis_tab_box ul.tabs li.selected a:hover {
+		border:0;
+	}
+	.etri_info_img.three_box li span {
+	    padding-top: 47px;
+	    background-size: 57px !important;
+	    background-position: center -4px !important;
+	    word-break: keep-all;
+	}
+	/* c.i 회사소개 */
+	.ci_tit{
+		margin-top:40px;
+	}
+	.ci_tit strong:before{
+		top:-12px;
+		left:50%;
+		margin-left:-15px;
+	}
+	.symbol_txt strong,
+	.ci_tit strong{
+		font-size:20px;
+		margin-bottom:12px;
+		text-align:center;
+	}
+	.symbol_img > img{
+		width:100%;
+	}
+	.symbol_img .logo_bg{
+		padding:10px 0;
+	}
+	.btn_download_gp > *{
+		vertical-align:middle;
+	}
+	.btn_download_gp:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.btn_download_gp a{
+		width:49%;
+		float:left;
+		margin:0;
+		height:45px;
+		line-height:43px;
+		font-size:16px;
+	}
+	.btn_download_gp a.btn_jpg_download{
+		float:right;
+	}
+	.symbol_img .logo_bg img{
+		width:80%;
+	}
+}
+@media all and (max-width:400px){
+	.util ul {
+		padding:18px 5px 20px 0;
+	}
+	.company_topic {
+		font-size:24px;
+	}
+	/* 타이틀  폰트 사이즈 */
+	.intro strong,
+	.main_title{
+		font-size:1.6em;
+		font-weight: 600;
+		padding-left:0;
+	}
+	.intro p,
+	.main_sub_title {
+		padding-top:10px;
+		padding-bottom:10px;
+		padding-left:0;
+		font-size:0.8em;
+		line-height:18px;
+	}
+	.intro .btn_view{
+		font-size:0.8em;
+		padding:8px 45px 8px 25px;
+	}
+	/*-------------- 교육훈련 운용 시뮬레이션 --------------*/
+	/* 이미지 슬라이드 - 이미지 영역 */
+	.slide,
+	.slide02 {
+		height:160px;
+	}
+	.slide_btn, 
+	.slide_btn02{
+		right:10px;
+		bottom:18%;
+	}
+	.spec_video{
+		height:210px;
+	}
+	/*-------------- 오시는 길 --------------*/
+	.map_side {
+		padding-top:25em;
+		z-index:0;
+	}
+	
+	.company_cont img {
+		width:90%;
+	}
+	.feature_form .part .feature_topic {
+		padding:16px 15px;
+	}
+	
+	/* 솔루션 탭 */
+	ul.tabs.tab04 {
+		width:100%;
+	}
+	footer .foot_info li a,
+	footer .foot_info li a.com_video {
+		padding:0 10px;
+		font-size:13px;
+		line-height:57px;
+	}
+	footer .foot_info li a:after {
+		display:none;
+	}
+	
+	
+	/* 회사소개 모바일용 이미지 */
+	.company_cont .company_img {
+		margin:0 12%;
+	    background: url(../img/company/img_m_company_01.gif) no-repeat center 0;
+	    background-size:100%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:59%;
+		line-height:21px;
+		font-size:17px;
+	}
+	.company_cont .company_img .com_col {
+		width:100%;
+		padding-top:51%;
+	}
+	.company_cont .company_img .com_col:first-child {
+		padding:0;
+	}
+	.company_cont .company_img .com_col strong {
+		font-size:17px;
+	}
+	.company_cont .company_img .com_col p {
+		margin-top:17%;
+		padding-top:0;
+		font-size:15px;
+		background-color:#f6f4f7;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:83%;		
+	}
+	.company_cont .company_img .com_col:nth-child(1) strong, 
+	.company_cont .company_img .com_col:nth-child(1) p {
+		margin-left:0;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong, 
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:0;
+	}
+	
+	.location_ul {
+		display:flex;
+	}
+	.location_ul li {
+		width:33.3%;
+	}
+	
+	.spec_ul01 li.spec_ico06 > span,
+	.spec_ul01 li.spec_ico07 > span {
+		height:60px;
+	}
+	.spec_ul01 li.spec_ico08 > span,
+	.spec_ul01 li.spec_ico09 > span {
+		height:70px; 
+		padding:0 5px;
+	}
+	.spec_ul01 li > span > span {
+		
+	}
+	
+	/* cbt */
+	.cbt_tab_box ul.tabs li {
+		width:50%;
+	}
+	.cbt_tab_box ul.tabs li a {
+		padding:15px 5px;
+		height:45px;
+		font-size:15px;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(1) a, 
+	.cbt_tab_box ul.tabs li:nth-child(3) a, 
+	.cbt_tab_box ul.tabs li:nth-child(5) a, 
+	.cbt_tab_box ul.tabs li:nth-child(6) a {
+		padding:15px 5px;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(3),
+	.cbt_tab_box ul.tabs li:nth-child(5) {
+		border-top:1px solid #3e4c58;
+		border-left:0;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(4) {
+		border-left:1px solid #3e4c58;
+	}
+	
+	
+	.ico_panorama {
+		width:50px;
+		height:50px;
+		background-size:100%;
+	}
+	/* 컨텐츠 모바일 솔루션 */
+	.bxslider_02 > li{
+		width:14% !important;
+		margin-right:0.5% !important;
+		height:100%;
+	}
+	.on_cont{
+		bottom:-76%;
+		padding:22px 50px;
+	}
+	.on_cont .on_sub_tit{
+		margin-bottom:22px;
+	}
+	.on_cont ul{
+		padding: 7px 0px;
+	}
+	.on_cont strong{
+		font-size:18px;
+	}
+	.on_cont p{
+		margin-top:10px;
+		line-height:18px;
+		font-size:15px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:50px 50px;
+	}
+	.mobile_off_box:hover > .on_cont .on_sub_tit{
+		margin-bottom:10px;
+	}
+	.mobile_off_box:hover > .on_cont strong{
+		margin-top:10px;
+	}
+	.off_cont img{
+		width:80%;
+	}
+	/* 교육훈련 운용 시뮬레이션 */
+	.flex-control-nav.flex-control-paging{
+		right:20px;
+		margin-top:-48px;
+	}
+	.video_spec_gp iframe {
+		width:100%;
+		height:193px;
+	}
+	
+	
+	/* 회사 홍보 동영상 */
+	.video_pup{
+		margin-left: -167px;
+	    margin-top: -110px;
+	    width: 335px;
+	    height: 195px;
+	}
+	.technology_gp > div p {
+		font-size:14px;
+		line-height:14px;
+	}
+	
+	/* c.i 소개 */
+	.symbol_img .logo_bg img{
+		width:80%;
+	}
+	.btn_download_gp > *{
+		vertical-align:middle;
+	}
+	.btn_download_gp:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.btn_download_gp a{
+		width:49%;
+		float:left;
+		margin:0;
+		height:40px;
+		line-height:39px;
+	}
+	.btn_download_gp a.btn_jpg_download{
+		float:right;
+	}
+	/* c.i 소개 */
+	.color_red{
+		height:auto;
+		min-height:180px;
+	}
+	.color_red strong{
+		display:block;
+		padding:10px 10px 8px 10px;
+		font-size:20px;
+		line-height:24px;
+		width:70%;
+		margin: 0 auto;
+		text-align:center;
+	}
+	.color_red p{
+		font-size:12px;
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:10px;
+	}
+}
+@media all and (min-width:320px) and (max-width:350px){
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:25%;
+	}
+	#wrapper_bu{
+		display:none;
+	}
+	#wrapper_mr{
+		margin-top:150px;
+	}
+	.mobile_tile02{
+		margin-left:-56px;
+	}
+	.bg_mobile_tile02{
+		top:24px;
+		margin-left:-46px;
+	}
+	.holder_mr_center{
+		top:27px;
+		margin-left:-45px;
+	}
+	.holder_mr_awayL1,
+	.holder_mr_awayR1{
+		top:43px;
+	}
+	.holder_mr_awayL2,
+	.holder_mr_awayR2{
+		top:59px;
+	}
+	.holder_mr_awayL3,
+	.holder_mr_awayR3{
+		top:59px;
+	}
+	.bg_mobile_hiddne_r02,
+	.bg_mobile_hiddne_l02{
+		width:20px;
+		background-position: -40px center;
+	}
+	/* section3 - eXPIS 전자기술교범 */
+	#section3{
+		padding-top:28%;
+	}
+	.img_phone01{
+		width:36%;
+		left:2%;
+		top:55%;
+	}
+	.img_phone02{
+		width:35%;
+		left:29%;
+		top:71%;
+	} 
+	.img_phone03{
+		top:43%;
+		width:75%;
+		right:-7%;
+	}
+	.company_topic {
+		font-size: 21px;
+    	line-height: 29px;
+    	padding-top: 30px;
+	}
+	.company_text_info {
+		margin-top:25px;
+	}
+	
+	
+	/* 회사소개 모바일용 이미지 */
+	.company_cont .company_img {
+		margin:0 5%;
+	    background: url(../img/company/img_m_company_01.gif) no-repeat center 0;
+	    background-size:100%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:59%;
+		line-height:19px;
+		font-size:15px;
+	}
+	.company_cont .company_img .com_col {
+		width:100%;
+		padding-top:48%;
+	}
+	.company_cont .company_img .com_col:first-child {
+		padding:0;
+	}
+	.company_cont .company_img .com_col strong {
+		font-size:16px;
+	}
+	.company_cont .company_img .com_col p {
+		margin-top:16%;
+		padding-top:0;
+		font-size:14px;
+		background-color:#f6f4f7;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:82%;		
+	}
+	.company_cont .company_img .com_col:nth-child(1) strong, 
+	.company_cont .company_img .com_col:nth-child(1) p {
+		margin-left:0;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong, 
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:0;
+	}
+	.company_topic {
+		padding:50px 20px 30px
+	}
+	
+	/* cbt */
+	.cbt_tab_box ul.tabs li a {
+		padding:12px;
+		height:55px;
+		font-size:15px;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(1) a, 
+	.cbt_tab_box ul.tabs li:nth-child(3) a, 
+	.cbt_tab_box ul.tabs li:nth-child(5) a, 
+	.cbt_tab_box ul.tabs li:nth-child(6) a {
+		padding-top:20px;
+	}
+	/* cbt */
+	.cbt_tab_box ul.tabs li {
+		width:50%;
+	}
+	.cbt_tab_box ul.tabs li a {
+		padding:12px 5px;
+		height:55px;
+		font-size:15px;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(1) a, 
+	.cbt_tab_box ul.tabs li:nth-child(3) a, 
+	.cbt_tab_box ul.tabs li:nth-child(5) a, 
+	.cbt_tab_box ul.tabs li:nth-child(6) a {
+		padding-top:20px;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(3),
+	.cbt_tab_box ul.tabs li:nth-child(5) {
+		border-top:1px solid #3e4c58;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(4) {
+		border-left:1px solid #3e4c58;
+	}
+	.keyword_frame.frame_03.expis .col.interactiv,
+	.keyword_frame.frame_03.expis .col.vr,
+	.keyword_frame.frame_03.expis .col.scene {
+		background-size:100% 52%;
+		padding-top:65%;
+		background-position:0 0;
+			
+	}
+	
+	
+}
+
+@media all and (min-width:350px) and (max-width:400px){
+	/* 회사소개 모바일용 이미지 */
+	.company_cont .company_img {
+		margin:0 5%;
+	    background: url(../img/company/img_m_company_01.gif) no-repeat center 0;
+	    background-size:100%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:60%;
+		line-height:19px;
+		font-size:17px;
+	}
+	.company_cont .company_img .com_col {
+		width:100%;
+		padding-top:53%;
+	}
+	.company_cont .company_img .com_col:first-child {
+		padding:0;
+	}
+	.company_cont .company_img .com_col strong {
+		font-size:16px;
+	}
+	.company_cont .company_img .com_col p {
+		margin-top:16%;
+		padding-top:0;
+		font-size:16px;
+		background-color:#f6f4f7;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:83%;		
+	}
+	.company_cont .company_img .com_col:nth-child(1) strong, 
+	.company_cont .company_img .com_col:nth-child(1) p {
+		margin-left:0;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong, 
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:0;
+	}
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:25%;
+	}
+	#wrapper_bu{
+		display:none;
+	}
+	#wrapper_mr{
+		margin-top:150px;
+	}
+	.mobile_tile02{
+		margin-left:-56px;
+	}
+	.bg_mobile_tile02{
+		top:24px;
+		margin-left:-46px;
+	}
+	.holder_mr_center{
+		top:28px;
+		margin-left:-45px;
+		width:32%;
+	}
+	.holder_mr_awayL1,
+	.holder_mr_awayR1{
+		top:43px;
+	}
+	.holder_mr_awayL2,
+	.holder_mr_awayR2{
+		top:59px;
+	}
+	.holder_mr_awayL3,
+	.holder_mr_awayR3{
+		top:59px;
+	}
+	.bg_mobile_hiddne_r02,
+	.bg_mobile_hiddne_l02{
+		width:22px;
+		background-position: -40px center;
+	}
+	.spec_ul01 li.spec_ico06 > span,
+	.spec_ul01 li.spec_ico07 > span {
+		height:60px;
+	}
+	
+	.video_spec_gp iframe {
+		width:100%;
+		height:166px;
+	}
+}
+
+@media all and (min-width:320px) and (max-width:350px){
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:25%;
+	}
+	#wrapper_bu{
+		display:none;
+	}
+	#wrapper_mr{
+		margin-top:150px;
+	}
+	.mobile_tile02{
+		margin-left:-56px;
+	}
+	.bg_mobile_tile02{
+		top:24px;
+		margin-left:-46px;
+	}
+	.holder_mr_center{
+		top:27px;
+		margin-left:-45px;
+	}
+	.holder_mr_awayL1,
+	.holder_mr_awayR1{
+		top:43px;
+	}
+	.holder_mr_awayL2,
+	.holder_mr_awayR2{
+		top:59px;
+	}
+	.holder_mr_awayL3,
+	.holder_mr_awayR3{
+		top:59px;
+	}
+	.bg_mobile_hiddne_r02,
+	.bg_mobile_hiddne_l02{
+		width:20px;
+		background-position: -40px center;
+	}
+	/* section3 - eXPIS 전자기술교범 */
+	#section3{
+		padding-top:28%;
+	}
+	.img_phone01{
+		width:36%;
+		left:2%;
+		top:55%;
+	}
+	.img_phone02{
+		width:35%;
+		left:29%;
+		top:71%;
+	} 
+	.img_phone03{
+		top:43%;
+		width:75%;
+		right:-7%;
+	}
+	.company_topic {
+		font-size: 22px;
+    	line-height: 29px;
+	}
+	.company_text_info {
+		margin-top:25px;
+	}
+	/* 컨텐츠 모바일 솔루션 */
+	.on_cont{
+		bottom:-75%;
+		padding:24px 50px;
+	}
+	.on_cont .on_sub_tit{
+		margin-bottom:30px;
+	}
+	.on_cont strong{
+		font-size:20px;
+	}
+	.on_cont p{
+		margin-top:10px;
+	}
+	.mobile_off_box:hover >  .on_cont{
+		padding:20px 50px;
+	}
+	.mobile_off_box:hover > .on_cont .on_sub_tit{
+		margin-bottom:10px;
+	}
+	.mobile_off_box:hover > .on_cont strong{
+		margin-top:10px;
+	}
+	.off_cont img{
+		width:65%;
+	}
+	.spec_ul01 li.spec_ico06 > span,
+	.spec_ul01 li.spec_ico07 > span {
+		height:60px;
+	}
+	
+	/* 회사 홍보 동영상 */
+	.video_pup{
+		margin-left: -138px;
+	    margin-top: -101px;
+	    width: 275px;
+	    height: 170px;
+	}
+	
+	.etri_info_img.three_box li span {
+		padding-top:47px;
+		background-size: 57px !important;
+    	background-position: center -4px !important;
+    	word-break: keep-all;
+	}
+	/* c.i 소개 */
+	.btn_download_gp a span{
+		display:none;
+	}
+}
+@media all and (max-width:320px){
+	.slide_btn, .slide_btn02{
+		display:none;
+	}
+	#section0{
+		padding-top:55%;
+	}
+	#section1, #section2, #section3{
+		padding-top:25%;
+	}
+	.main_txt_box{
+		margin: 50% auto 0;
+	}
+
+	.sub_head.company,
+	.sub_head.training {
+		background-size:350% !important;
+	}
+	
+	/* 4d 실사 스포츠 시뮬레이션 */
+	.keyword_box .img_box_horizontal02,
+	.keyword_box .img_box_vertical02{
+		height:279px !important;
+	}
+	.keyword_box .img_box_horizontal02.box_img01,
+	.keyword_box .img_box_horizontal02.box_img02,
+	.keyword_box .img_box_vertical02.box_img03{
+		background-position:-70px 0 !important;
+		background-size:140% auto !important;
+	}
+	.keyword_box .img_box_horizontal02.box_img01 div,
+	.keyword_box .img_box_horizontal02.box_img02 div,
+	.keyword_box .img_box_vertical02.box_img03 div{
+		height:140px !important;
+		padding:20px 20px !important;
+		margin-top:130px !important;
+	}
+	.keyword_box .img_box_horizontal02 div p,
+	.keyword_box .img_box_vertical02 div p{
+		font-size:14px;
+		line-height:18px;
+	}
+	.spec_ul li .spec_txt{
+		padding:100px 10px 10px 10px;
+		background-position:center 6px !important;
+	}
+
+	.vertual_cont .col:nth-child(1) p, 
+	.vertual_cont .col:nth-child(1) div {
+		margin-right:-25px;
+	}
+	
+	.vertual_cont .col:nth-child(3) p, 
+	.vertual_cont .col:nth-child(3) div {
+		margin-left:-25px;
+	}
+	.vertual_cont .col div {
+		height:250px;
+	}
+	.vertual_cont .col:nth-child(2) div {
+		height:230px;
+	}
+	/*-------------- 오시는 길 --------------*/
+	.map_form {
+		height:250px !important; 
+	}
+	
+	
+	/* 연혁 */
+	.history_cont .history_title {
+		right:0;
+		bottom:auto;
+		width:100%;
+		background-position:left bottom;
+		background-size:7em;
+	}
+	.history_cont .history_title strong {
+		padding:15px 30px;
+		font-size:24px;
+		background-position:right -1px;
+		background-size:7em;
+	}
+	.diagonal_line {
+		margin-top:0;
+		margin-left:-1em;
+	}
+	.history_cont ul {
+		padding-top:1em;
+		padding-left:0;
+	}
+	
+	.company_cont img {
+		width:80%;
+	}
+	/*-------------- 교육훈련 운용 시뮬레이션 --------------*/
+	/* 이미지 슬라이드 - 이미지 영역 */
+	.slide,
+	.slide02 {
+		height:130px;
+	}
+	.slide_btn, 
+	.slide_btn02{
+		right:10px;
+		bottom:9%;
+	}
+	.character_ul li{
+		width:100%;
+		border-right:0;
+	}
+	.character_ul li div{
+		height:auto;
+		text-align:center;
+	}
+	.spec_video{
+		height:143px;
+	}
+	/*-------------- 교육용 증강현실 --------------*/
+	/* 모바일 vr 지게차 */
+	.education_vr{
+		height:150px;
+	}
+	.mobile_box{
+		height:90px;
+		width:80%;
+		margin-top:10px;
+	}
+	.educationi_tit{
+		font-size:20px;
+		line-height:20px;
+		margin-top:0px;
+	}
+	.education_explain{
+		display:none;
+	}
+	
+	.mobile_box div{
+		width:50px;
+		height:50px;
+	}
+	.btn_etri_view{
+		width:50px;
+		height:50px;
+	}
+	.btn05{
+		left:17%;
+		top:33%;
+	}
+	.btn06{
+		left:5%;
+		top:12%;
+	}
+	.btn07{
+		left:-19%;
+		top:42%;
+	}
+	.pop_education.pop01, 
+	.pop_education.pop02, 
+	.pop_education.pop03{
+		top:-103px;
+		left:-118px;
+	}
+	/* 주요 기능 */
+	.function_ul02 li{
+		width:100%;
+		border-right:0;
+		padding-left:80px;
+		padding-top:0;
+		text-align:left;
+	}
+	.function_ul02 li:last-child{
+		width:100%;
+	}
+	.spec_ico29,
+	.spec_ico30,
+	.spec_ico31{
+		background-position: -14px center;
+	}
+	/* 적용 사례 */
+	.video_example_gp div{
+		width:100%;
+		height:180px;
+		margin-bottom:10px;
+	}
+	.video_example_gp div strong{
+		height:42px;
+		line-height:42px;
+	}
+	
+	/* 슬라이드 이미지 */
+	.sys_rolling ul {
+		   width: 1300% !important;
+	}
+	.sys_rolling {
+		width:90%;
+	}
+	.sys_rolling li {
+		width: 50% !important;
+	}
+	.sys_rolling li {
+	    width: 8% !important;
+	    margin-right: 0 !important;
+	}
+	.sys_rolling li:before {
+		left:-23%;
+	}
+	.sys_rolling li:before {
+		border:0;
+	}
+	
+	/* 오시는길 */
+	.train_box > div p {
+		float:left;
+		padding:5px 0;
+		width:100%;
+		box-sizing:border-box;
+	}
+	
+	.feature_form .part .feature_topic {
+		padding:16px 15px;
+	}
+	
+
+	.diagonal_line {
+		margin-left:-2em;
+	}
+	
+	/* 타이틀 */
+	.sub_head strong {
+		padding-top:3.4em;
+	}
+	.sub_head p {
+		font-size:13px;
+		line-height:17px;
+	}
+	
+	.sub_head {
+		height:260px;
+	}
+	.sub_head p {
+		width:auto;
+		padding:0;
+	}
+	.sub_head.company {
+		background-size:cover !important;
+	}
+	
+	/* 탭  */
+	ul.tabs {
+		padding:0 20px;
+	}
+	ul.tabs li {
+		display:block;
+		float:left;
+		margin:0;
+		width:33.3%;
+	}
+	ul.tabs li a {
+		width:100%;
+		height:42px;
+		line-height:40px;
+		font-size:15px;
+		border:1px solid #ddd;
+		border-width:1px 1px 1px 0;
+	}
+	ul.tabs li:first-child a {
+		border-left:1px solid #ddd;
+	}
+	ul.tabs li a:hover, ul.tabs li.selected a, ul.tabs li.selected a:hover {
+		border:1px solid #ee3542;
+		border-right:0;
+	}
+	ul.tabs li span:first-child {
+		display:none;
+	}
+	/* 메인 - 모바일 솔루션 */
+	#section4{
+		padding-top:25%;
+	}
+	#wrapper_bu{
+		display:none;
+	}
+	#wrapper_mr{
+		margin-top:150px;
+	}
+	.mobile_tile02{
+		margin-left:-49px;
+	}
+	.bg_mobile_tile02{
+		top:20px;
+		margin-left:-40px;
+	}
+	.holder_mr_center{
+		top:22px;
+		margin-left:-39px;
+	}
+	.holder_mr_awayL1,
+	.holder_mr_awayR1{
+		top:32px;
+	}
+	.holder_mr_awayL2,
+	.holder_mr_awayR2{
+		top:41px;
+	}
+	.holder_mr_awayL3,
+	.holder_mr_awayR3{
+		top:41px;
+	}
+	.bg_mobile_hiddne_r02,
+	.bg_mobile_hiddne_l02{
+		width:16px;
+		background-position: -40px center;
+	}
+	/* section3 - eXPIS 전자기술교범 */
+	#section3{
+		padding-top:28%;
+	}
+	.img_phone01{
+		width:36%;
+		left:2%;
+		top:55%;
+	}
+	.img_phone02{
+		width:35%;
+		left:29%;
+		top:67%;
+	} 
+	.img_phone03{
+		top:43%;
+		width:75%;
+		right:-7%;
+	}
+	.company_topic {
+		font-size: 22px;
+    	line-height: 29px;
+	}
+	.company_text_info {
+		margin-top:25px;
+	}
+		
+	/* 회사소개 모바일용 이미지 */
+	.company_cont .company_img {
+		margin:0 5%;
+	    background: url(../img/company/img_m_company_01.gif) no-repeat center 0;
+	    background-size:100%;
+	}
+	.company_cont .company_img h3 {
+		padding-top:59%;
+		line-height:19px;
+		font-size:15px;
+	}
+	.company_cont .company_img .com_col {
+		width:100%;
+		padding-top:48%;
+	}
+	.company_cont .company_img .com_col:first-child {
+		padding:0;
+	}
+	.company_cont .company_img .com_col strong {
+		font-size:16px;
+	}
+	.company_cont .company_img .com_col p {
+		margin-top:16%;
+		padding-top:0;
+		font-size:14px;
+		background-color:#f6f4f7;
+	}
+	.company_cont .company_img .comm_cont {
+		padding-top:82%;		
+	}
+	.company_cont .company_img .com_col:nth-child(1) strong, 
+	.company_cont .company_img .com_col:nth-child(1) p {
+		margin-left:0;
+	}
+	.company_cont .company_img .com_col:nth-child(3) strong, 
+	.company_cont .company_img .com_col:nth-child(3) p {
+		margin-right:0;
+	}
+	
+	.spec_video.img03,
+	.spec_video.img04 {
+		height:195px;
+		background-size: contain;
+	}
+	.company_topic {
+		font-size: 21px;
+    	line-height: 29px;
+    	padding-top: 30px;
+	}
+	/* cbt */
+	.cbt_tab_box ul.tabs li {
+		width:50%;
+	}
+	.cbt_tab_box ul.tabs li a {
+		padding:12px 5px;
+		height:55px;
+		font-size:15px;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(1) a, 
+	.cbt_tab_box ul.tabs li:nth-child(3) a, 
+	.cbt_tab_box ul.tabs li:nth-child(5) a, 
+	.cbt_tab_box ul.tabs li:nth-child(6) a {
+		padding-top:20px;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(3),
+	.cbt_tab_box ul.tabs li:nth-child(5) {
+		border-top:1px solid #3e4c58;
+	}
+	.cbt_tab_box ul.tabs li:nth-child(4) {
+		border-left:1px solid #3e4c58;
+	}
+	.keyword_frame.frame_03.expis .col.interactiv,
+	.keyword_frame.frame_03.expis .col.vr,
+	.keyword_frame.frame_03.expis .col.scene {
+		background-size:100% 43%;
+		padding-top:65%;
+		background-position:0 0;
+	}
+	/* expis system */
+	.expis_form {
+	    height:308px;
+	    background-size:20em;
+	}
+	.expis_tab_box ul.tabs {
+		width:203px;
+	}
+	.expis_tab_box ul.tabs li {
+		margin-left:2px;
+		width: auto;
+	}
+	.expis_tab_box ul.tabs li:nth-child(4){
+		margin-left:34px;
+	}
+	.expis_tab_box ul.tabs li a {
+		width:65px;
+	    height:65px;
+	    line-height: 39px;
+	    font-size:13px;
+	}
+	#expisView1, #expisView2, #expisView3, #expisView4, #expisView5 {
+		padding:163px 0 18px;
+		width:207px;
+	}
+	.expis_tab_box ul.tabs li a:hover,
+	.expis_tab_box ul.tabs li.selected a, .expis_tab_box ul.tabs li.selected a:hover {
+		border:0;
+	}
+	.spec_ul01 li.spec_ico06 > span,
+	.spec_ul01 li.spec_ico07 > span {
+		height:60px;
+	}
+	
+	/* 회사 홍보 동영상 */
+	.video_pup{
+		margin-left: -138px;
+	    margin-top: -101px;
+	    width: 275px;
+	    height: 170px;
+	}
+	
+	.etri_info_img.three_box li span {
+		padding-top:47px;
+		background-size: 57px !important;
+    	background-position: center -4px !important;
+    	word-break: keep-all;
+	}
+	.etri_popup div .etri_pop_tit {
+	    padding: 15px;
+	    height: auto;
+	    line-height: normal;
+	}
+	
+	/* c.i 소개 */
+	.btn_download_gp a span{
+		display:none;
+	}
+	.ci_tit{
+		margin-top:40px;
+	}
+	.ci_tit strong:before{
+		top:-12px;
+		left:50%;
+		margin-left:-15px;
+	}
+	.symbol_txt strong,
+	.ci_tit strong{
+		font-size:20px;
+		margin-bottom:12px;
+		text-align:center;
+	}
+}
+
+
+/* ############################ height ##################################### */
+
+
+@media all and (min-height:600px) and (max-height:650px), and (min-width:600px){
+	.vr_box01,
+	.vr_box02,
+	.vr_box03 {
+		top:44%;
+		padding:25px 10px;
+		height:37%;
+		background-position: center 74px;
+    	background-size: 115%;
+	}
+/* 	.main_txt_box { */
+/* 		margin:25% auto 0; */
+/* 	} */
+	.vr_box:hover .vr_box01,
+	.vr_box:hover .vr_box02,
+	.vr_box:hover .vr_box03 {
+		background-position: center 74px;
+    	background-size: 115%;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view, 
+	.vr_box:hover .vr_box02 .btn_vr_view, 
+	.vr_box:hover .vr_box03 .btn_vr_view {
+	    top:50%;
+	    margin-top:-15px;
+	    height:34px;
+	    line-height:34px;
+	    background-color:rgba(0, 0, 0, 0.5);
+	    z-index:2;
+	}
+	.vr_box:hover .vr_box01 .vr_box_hover,
+	.vr_box:hover .vr_box02 .vr_box_hover,
+	.vr_box:hover .vr_box03 .vr_box_hover {
+		display:block;
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		background:rgba(0, 0, 0, 0.3);
+		transform: rotateY(.5turn);
+		z-index:1;
+	}
+	.img_phone03 {
+		top:39%;
+		right:-35%;
+	}
+}
+@media all and (min-height:550px) and (max-height:600px){
+	.vr_box01,
+	.vr_box02,
+	.vr_box03 {
+		top:42%;
+		padding:18px 10px;
+		height:40%;
+		background-position: center 57px;
+    	background-size: 105%;
+	}
+	.vr_box:hover .vr_box01,
+	.vr_box:hover .vr_box02,
+	.vr_box:hover .vr_box03 {
+		background-position: center 57px;
+    	background-size: 105%;
+	}
+	.vr_box_tit {
+		font-size: 20px;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view, 
+	.vr_box:hover .vr_box02 .btn_vr_view, 
+	.vr_box:hover .vr_box03 .btn_vr_view {
+	    top:50%;
+	    margin-top:-15px;
+	    height:34px;
+	    line-height:34px;
+	    background-color:rgba(0, 0, 0, 0.5);
+	    z-index:2;
+	}
+	.vr_box:hover .vr_box01 .vr_box_hover,
+	.vr_box:hover .vr_box02 .vr_box_hover,
+	.vr_box:hover .vr_box03 .vr_box_hover {
+		display:block;
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		background:rgba(0, 0, 0, 0.3);
+		transform: rotateY(.5turn);
+		z-index:1;
+	}
+	.img_phone01 {
+	    width:28%;
+	    left:5%;
+	    top:50%;
+	}
+	.img_phone02 {
+	    width:28%;
+	    left:31%;
+	    top:62%;
+	}
+	.img_phone03 {
+		top:48%;
+		right:-18%;
+		width:56%;
+	}
+}
+@media all and (min-height:500px) and (max-height:550px){
+/* 	.intro strong { */
+/* 		font-size: 2.1em; */
+/* 	} */
+	.intro p {
+		padding-top: 13px;
+		font-size:.9em;
+    	line-height:19px;
+	}
+	.vr_box01,
+	.vr_box02,
+	.vr_box03 {
+		top:44%;
+		padding:18px 10px;
+		height:35%;
+		background-position: center 57px;
+    	background-size: 105%;
+	}
+	.vr_box:hover .vr_box01,
+	.vr_box:hover .vr_box02,
+	.vr_box:hover .vr_box03 {
+		background-position: center 57px;
+    	background-size: 105%;
+	}
+/* 	#section2 { */
+/* 		padding-top:11%; */
+/* 	} */
+	.vr_box_tit {
+		font-size:18px;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view, 
+	.vr_box:hover .vr_box02 .btn_vr_view, 
+	.vr_box:hover .vr_box03 .btn_vr_view {
+	    top:50%;
+	    margin-top:-15px;
+	    height:34px;
+	    line-height:34px;
+	    background-color:rgba(0, 0, 0, 0.5);
+	    z-index:2;
+	}
+	.vr_box:hover .vr_box01 .vr_box_hover,
+	.vr_box:hover .vr_box02 .vr_box_hover,
+	.vr_box:hover .vr_box03 .vr_box_hover {
+		display:block;
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		background:rgba(0, 0, 0, 0.3);
+		transform: rotateY(.5turn);
+		z-index:1;
+	}
+	.img_phone03 {
+		right:-49%;
+	}
+	.img_phone01 {
+	    width:28%;
+	    left:5%;
+	    top:50%;
+	}
+	.img_phone02 {
+	    width:28%;
+	    left:31%;
+	    top:62%;
+	}
+	.img_phone03 {
+		top:48%;
+		right:-18%;
+		width:56%;
+	}
+/* 	#section4 { */
+/* 		padding-top:14%; */
+/* 	} */
+	#wrapper_mr {
+		margin-top:183px;
+	}
+	#wrapper_bu {
+		margin-top:165px;
+	}
+}
+@media all and (min-height:400px) and (max-height:500px){
+	.intro strong {
+		font-size: 2.1em;
+	}
+	.intro p {
+		padding-top: 13px;
+		font-size: 1em;
+    	line-height: 21px;
+	}
+/* 	.main_txt_box { */
+/* 		margin:15% auto 0; */
+/* 	} */
+	.intro p, .main_sub_title {
+		padding-top:20px;
+		font-size:1em;
+		line-height:21px;
+	}
+	.btn_view {
+		padding:10px 40px 10px 25px;
+		font-size:1em;
+	}
+	.btn_down {
+		display:none;
+	}
+	
+	#section2 {
+		padding-top:14%;
+	}
+	#section3,
+	#section4 {
+		padding-top:16%;
+	}
+	
+	.vr_box01,
+	.vr_box02,
+	.vr_box03 {
+		top:54%;
+		padding:18px 10px;
+		width:30%;
+    	height:35%;
+	}
+	.vr_box01 {
+		left:3.5%;
+		background:#ec4b4b;
+	}
+	.vr_box02 {
+		left: 35%;
+		background:#484855;
+	}
+	.vr_box03 {
+		left:66.5%;
+		background:#dddcdc;
+	}
+	.vr_box_tit {
+		font-size:20px;
+	}
+	.vr_box_txt {
+		padding-bottom:18px;
+		font-size:16px;
+	}
+	.vr_box_txt:after {
+		padding-top:18px;
+	}
+	.vr_box:hover .vr_box01 {
+		background:#ec4b4b;
+	}
+	.vr_box:hover .vr_box02 {
+		background:#484855;
+	}
+	.vr_box:hover .vr_box03 {
+		background:#dddcdc;
+	}
+	.vr_box:hover .vr_box03 .vr_box_txt,
+	.vr_box:hover .vr_box03 .vr_box_tit {
+		color:#000;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view, 
+	.vr_box:hover .vr_box02 .btn_vr_view, 
+	.vr_box:hover .vr_box03 .btn_vr_view {
+	    top:50%;
+	    margin-top:-15px;
+	    height:34px;
+	    line-height:34px;
+	    background-color:rgba(0, 0, 0, 0.5);
+	    z-index:2;
+	}
+	.vr_box:hover .vr_box01 .vr_box_hover,
+	.vr_box:hover .vr_box02 .vr_box_hover,
+	.vr_box:hover .vr_box03 .vr_box_hover {
+		display:block;
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		background:rgba(0, 0, 0, 0.3);
+		transform: rotateY(.5turn);
+		z-index:1;
+	}
+	#section5 {
+		height: inherit !important;
+		padding-top:3.7em;
+		background-color:#54a6ef;
+	}
+	footer {
+		height:100%;
+	}
+	footer .foot_info {
+		padding:7px 25px;
+	}
+	footer .foot_info li a {
+		font-size:13px; 
+	}
+	footer .foot_info li a:after {
+		top:2px;
+	}
+	footer address {
+		padding:15px;
+	}
+	footer > * {
+		font-size:12px;
+	}
+	footer address p span {
+		line-height:12px;
+	}
+	footer address p.copy {
+		padding-top:5px;
+	}
+	footer address img {
+		position:absolute;
+		top:63px;
+		right:0;
+		width:120px;
+	}
+	.btn_tab_share {
+		bottom:18px;
+	}
+	.tab_share_form {
+		right:22px;
+		bottom:15px;
+	}
+	.img_phone01 {
+	    width:26%;
+	    left:5%;
+	    top:52%;
+	}
+	.img_phone02 {
+	    width:26%;
+	    left:31%;
+	    top:65%;
+	}
+	.img_phone03 {
+		top:54%;
+		right:-15%;
+		width:51%;
+	}
+	#wrapper_bu {
+		margin-top:165px;
+	}
+	#wrapper_mr {
+	    margin-top: 180px;
+	}
+	/* menu */
+	.site_gp {
+		float:left;
+	}
+	.sitemap_form .site_box,
+	.sitemap_form .site_box.notification {
+		width:25%;
+	}
+	.sitemap_form .site_box.solution {
+		width:50%;
+		height:100%;
+	}
+	.sitemap_form .site_tit.site_bg01, 
+	.sitemap_form .site_tit.site_bg02, 
+	.sitemap_form .site_tit.site_bg03 {
+		background:#ef4753;
+		border:0;
+	}
+	.sitemap_form .site_tit.site_bg03 {
+		padding-right: 60px;
+	}
+	.sitemap_form .site_tit {
+		padding:15px;
+		text-align:center;
+	}
+	.sitemap_form .site_tit strong {
+		float:none;
+		text-align:center;
+		font-size:16px;
+	}
+	.sitemap_form .site_tit span {
+		display:none;
+	}
+	.sitemap_form .site_cont {
+		padding:65px 15px 10px;
+	}
+	.sitemap_form .solution_ul strong {
+		margin-bottom:5px;
+		height:30px;
+		line-height:30px;
+		font-size:15px;
+	}
+	.sitemap_form .site_cont ul li {
+		height:27px; 
+	}
+	.sitemap_form .site_cont ul li a {
+		font-size:15px;
+	}
+	.sitemap_form .site_box.solution {
+		border:1px dashed #ddd;
+		border-width:0 1px 0 1px;
+		box-sizing:border-box;
+	}
+	.sitemap_form .solution_ul.mobile {
+		margin-top:1px;
+	}
+	.sitemap_form .site_util li {
+		width:25%;
+	}
+	.sitemap_form .site_util li a {
+		margin:2px 0px 2px 10px;
+		line-height:45px;
+		font-size:14px;
+	}
+	.sitemap_form .site_util li a.ico_site_util04 {
+		line-height:45px;
+	}
+	.sitemap_form .site_util li a.ico_site_util01,
+	.sitemap_form .site_util li a.ico_site_util02,
+	.sitemap_form .site_util li a.ico_site_util03,
+	.sitemap_form .site_util li a.ico_site_util04 {
+		background-size:2.6em;
+	}
+}
+
+@media all and (min-height:350px) and (max-height:400px){
+/* 	.main_txt_box { */
+/* 		margin:19% auto 0; */
+/* 	} */
+	.intro strong, .main_title {
+		font-size:1.6em;
+	}
+	.intro p, .main_sub_title {
+		padding-top:12px;
+		font-size:.95em;
+		line-height:19px;
+	}
+	.btn_view {
+		padding:7px 40px 7px 25px;
+		font-size:0.85em;
+	}
+	.btn_down {
+		display:none;
+	}
+	
+	#section2 {
+		padding-top:6em;
+	}
+	
+	.vr_box01,
+	.vr_box02,
+	.vr_box03 {
+		top:54%;
+		padding:23px 10px;
+		width:30%;
+    	height:39%;
+	}
+	.vr_box01 {
+		left:3.5%;
+		background:#ec4b4b;
+	}
+	.vr_box02 {
+		left: 35%;
+		background:#484855;
+	}
+	.vr_box03 {
+		left:66.5%;
+		background:#dddcdc;
+	}
+	.vr_box_tit {
+		font-size:18px;
+	}
+	.vr_box:hover .vr_box01{
+		background:#ec4b4b;
+	}
+	.vr_box:hover .vr_box02{
+		background:#484855;
+	}
+	.vr_box:hover .vr_box03 {
+		background:#dddcdc;
+	}
+	.vr_box:hover .vr_box03 .vr_box_txt,
+	.vr_box:hover .vr_box03 .vr_box_tit {
+		color:#000;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view, 
+	.vr_box:hover .vr_box02 .btn_vr_view, 
+	.vr_box:hover .vr_box03 .btn_vr_view {
+	    top:50%;
+	    margin-top:-15px;
+	    height:34px;
+	    line-height:34px;
+	    background-color:rgba(0, 0, 0, 0.5);
+	    z-index:2;
+	}
+	.vr_box:hover .vr_box01 .vr_box_hover,
+	.vr_box:hover .vr_box02 .vr_box_hover,
+	.vr_box:hover .vr_box03 .vr_box_hover {
+		display:block;
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		background:rgba(0, 0, 0, 0.3);
+		transform: rotateY(.5turn);
+		z-index:1;
+	}
+	
+	#section5 {
+		height: inherit !important;
+		padding-top:3.7em;
+		background-color:#54a6ef;
+	}
+	footer {
+		height:100%;
+	}
+	footer .foot_info {
+		padding:7px 25px;
+	}
+	footer .foot_info li a {
+		font-size:13px; 
+	}
+	footer .foot_info li a:after {
+		top:2px;
+	}
+	footer address {
+		padding:15px;
+	}
+	footer > * {
+		font-size:12px;
+	}
+	footer address p span {
+		line-height:12px;
+	}
+	footer address p.copy {
+		padding-top:5px;
+	}
+	footer address img {
+		position:absolute;
+		top:63px;
+		right:0;
+		width:120px;
+	}
+	.btn_tab_share {
+		bottom:18px;
+	}
+	.tab_share_form {
+		right:22px;
+		bottom:15px;
+	}
+	
+	.img_phone01 {
+	    width:26%;
+	    left:5%;
+	    top:52%;
+	}
+	.img_phone02 {
+	    width:26%;
+	    left:31%;
+	    top:65%;
+	}
+	.img_phone03 {
+		top:54%;
+		right:-15%;
+		width:51%;
+	}
+	#section4 {
+		padding-top:5.5em;
+	}
+	#wrapper_bu {
+		margin-top:150px;
+	}
+	#wrapper_mr {
+	    margin-top:142px;
+	}
+	/* menu */
+	.site_gp {
+		float:left;
+	}
+	.sitemap_form .site_box,
+	.sitemap_form .site_box.notification {
+		width:25%;
+	}
+	.sitemap_form .site_box.solution {
+		width:50%;
+		height:100%;
+	}
+	.sitemap_form .site_tit.site_bg01, 
+	.sitemap_form .site_tit.site_bg02, 
+	.sitemap_form .site_tit.site_bg03 {
+		background:#ef4753;
+		border:0;
+	}
+	.sitemap_form .site_tit.site_bg03 {
+		padding-right: 60px;
+	}
+	.sitemap_form .site_tit {
+		padding:15px;
+		text-align:center;
+	}
+	.sitemap_form .site_tit strong {
+		float:none;
+		text-align:center;
+		font-size:16px;
+	}
+	.sitemap_form .site_tit span {
+		display:none;
+	}
+	.sitemap_form .site_cont {
+		padding:65px 15px 10px;
+	}
+	.sitemap_form .solution_ul strong {
+		margin-bottom:5px;
+		height:27px;
+		line-height:27px;
+		font-size:14px;
+	}
+	.sitemap_form .site_cont ul li {
+		height:27px; 
+	}
+	.sitemap_form .site_cont ul li a {
+		font-size:15px;
+	}
+	.sitemap_form .site_box.solution {
+		border:1px dashed #ddd;
+		border-width:0 1px 0 1px;
+		box-sizing:border-box;
+	}
+	.sitemap_form .solution_ul.mobile {
+		margin-top:1px;
+	}
+	.sitemap_form .site_util li {
+		width:25%;
+	}
+	.sitemap_form .site_util li a {
+		margin:2px 0px 2px 10px;
+		padding-left:40px;
+		line-height:45px;
+		font-size:14px;
+	}
+	.sitemap_form .site_util li a.ico_site_util04 {
+		line-height:45px;
+	}
+	.sitemap_form .site_util li a.ico_site_util01,
+	.sitemap_form .site_util li a.ico_site_util02,
+	.sitemap_form .site_util li a.ico_site_util03,
+	.sitemap_form .site_util li a.ico_site_util04 {
+		background-size:2.6em;
+	}
+	
+	/* 회사홍보 동영상 */
+	.video_pup {
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		margin:0;
+		width:100%;
+		height:100%;
+		background-color:#000;
+	}
+	.video_cont iframe {
+		display:block;
+		margin:0 auto;
+		width:80%;
+		height:90%;
+	}
+	
+}
+@media all and (min-height:200px) and (max-height:350px){
+	.slide03 {
+		padding-top:5em;
+	}
+	#section0, #section1 {
+		padding-top:0;
+	}
+/* 	.main_txt_box { */
+/* 		margin:17% auto 0; */
+/* 	} */
+	.intro strong, .main_title {
+		font-size:1.6em;
+	}
+	.intro p, .main_sub_title {
+		padding-top:10px;
+		font-size:.8em;
+		line-height:17px;
+	}
+	.btn_view {
+		padding:7px 40px 7px 25px;
+		font-size:0.85em;
+	}
+	.btn_down {
+		display:none;
+	}
+	
+	#section2 {
+		padding-top:5em;
+		background:transparent;
+	}
+	
+	.vr_box01,
+	.vr_box02,
+	.vr_box03 {
+		top:59%;
+		padding:15px 10px;
+		width:28%;
+    	height:35%;
+	}
+	.vr_box01 {
+		left:5%;
+		background:#ec4b4b;
+	}
+	.vr_box02 {
+		left: 35%;
+		background:#484855;
+	}
+	.vr_box03 {
+		left:65%;
+		background:#dddcdc;
+	}
+	.vr_box_tit {
+	    margin-top: 7px;
+		font-size:15px;
+	}
+	.vr_box_txt {
+		padding-bottom:0;
+		font-size:13px;
+	}
+	.vr_box_txt:after {
+		padding-top:4px;
+	}
+	.vr_box:hover .vr_box01 {
+		background:#ec4b4b;
+	}
+	.vr_box:hover .vr_box02 {
+		background:#484855;
+	}
+	.vr_box:hover .vr_box03 {
+		background:#dddcdc;
+	}
+	.vr_box:hover .vr_box03 .vr_box_txt,
+	.vr_box:hover .vr_box03 .vr_box_tit {
+		color:#000;
+	}
+	.vr_box:hover .vr_box01 .btn_vr_view, 
+	.vr_box:hover .vr_box02 .btn_vr_view, 
+	.vr_box:hover .vr_box03 .btn_vr_view {
+	    top:50%;
+	    margin-top:-15px;
+	    height:34px;
+	    line-height:34px;
+	    background-color:rgba(0, 0, 0, 0.5);
+	    z-index:2;
+	}
+	.vr_box:hover .vr_box01 .vr_box_hover,
+	.vr_box:hover .vr_box02 .vr_box_hover,
+	.vr_box:hover .vr_box03 .vr_box_hover {
+		display:block;
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		background:rgba(0, 0, 0, 0.3);
+		transform: rotateY(.5turn);
+		z-index:1;
+	}
+	#section5 {
+		height: inherit !important;
+		padding-top:3.7em;
+		background-color:#54a6ef;
+	}
+	footer {
+		height:100%;
+	}
+	footer .foot_info {
+		padding:7px 25px;
+	}
+	footer .foot_info li a {
+		font-size:13px; 
+	}
+	footer .foot_info li a:after {
+		top:2px;
+	}
+	footer address {
+		padding:15px;
+	}
+	footer > * {
+		font-size:12px;
+	}
+	footer address p span {
+		line-height:12px;
+	}
+	footer address p.copy {
+		padding-top:5px;
+	}
+	footer address img {
+		position:absolute;
+		top:63px;
+		right:0;
+		width:120px;
+	}
+	.btn_tab_share {
+		bottom:18px;
+	}
+	.tab_share_form {
+		right:22px;
+		bottom:15px;
+	}
+	
+	#section3 {
+	    padding-top: 14%;
+	}
+	.img_phone01 {
+	    width:26%;
+	    left:5%;
+	    top:52%;
+	}
+	.img_phone02 {
+	    width:24%;
+	    left:26%;
+	    top:75%;
+	}
+	.img_phone03 {
+		top:65%;
+		right:-13%;
+		width:50%;
+	}
+	#section4 {
+		padding-top:6em;
+	}
+	
+	/* menu */
+	.site_gp {
+		float:left;
+	}
+	.sitemap_form .site_box,
+	.sitemap_form .site_box.notification {
+		width:25%;
+	}
+	.sitemap_form .site_box.solution {
+		width:50%;
+		height:100%;
+	}
+	.sitemap_form .site_tit.site_bg01, 
+	.sitemap_form .site_tit.site_bg02, 
+	.sitemap_form .site_tit.site_bg03 {
+		background:#ef4753;
+		border:0;
+	}
+	.sitemap_form .site_tit.site_bg03 {
+		padding-right: 60px;
+	}
+	.sitemap_form .site_tit {
+		padding:15px;
+		text-align:center;
+	}
+	.sitemap_form .site_tit strong {
+		float:none;
+		text-align:center;
+		font-size:16px;
+	}
+	.sitemap_form .site_tit span {
+		display:none;
+	}
+	.sitemap_form .site_cont {
+		padding:65px 15px 10px;
+	}
+	.sitemap_form .solution_ul strong {
+		margin-bottom:5px;
+		height:27px;
+		line-height:27px;
+		font-size:14px;
+	}
+	.sitemap_form .site_cont ul li {
+		height:27px; 
+	}
+	.sitemap_form .site_cont ul li a {
+		font-size:15px;
+	}
+	.sitemap_form .site_box.solution {
+		border:1px dashed #ddd;
+		border-width:0 1px 0 1px;
+		box-sizing:border-box;
+	}
+	.sitemap_form .solution_ul.mobile {
+		margin-top:1px;
+	}
+	.sitemap_form .site_util li {
+		width:25%;
+	}
+	.sitemap_form .site_util li a {
+		margin:2px 0px 2px 10px;
+		line-height:45px;
+		font-size:14px;
+	}
+	.sitemap_form .site_util li a.ico_site_util04 {
+		line-height:45px;
+	}
+	.sitemap_form .site_util li a.ico_site_util01,
+	.sitemap_form .site_util li a.ico_site_util02,
+	.sitemap_form .site_util li a.ico_site_util03,
+	.sitemap_form .site_util li a.ico_site_util04 {
+		background-size:2.6em;
+	}
+	
+	/* 회사홍보 동영상 */
+	.video_pup {
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		margin:0;
+		width:100%;
+		height:100%;
+		background-color:#000;
+	}
+	.video_cont iframe {
+		display:block;
+		margin:0 auto;
+		width:80%;
+		height:80%;
+	}
+}
+@media all and (min-height:200px) and (max-height:265px){
+	#section2 {
+		padding-top:4.3em;
+	}
+	#section3 {
+		padding-top:5em;
+	}
+	.intro strong, .main_title {
+	    font-size: 1.3em;
+	}
+	.intro p, .main_sub_title {
+	    padding:5px 0 12px;
+	    font-size:.78em;
+	    line-height:16px;
+	}
+	.main_info_text {
+		margin-top:-65px;
+	}
+	.vr_box01, .vr_box02, .vr_box03 {
+		top:61%;
+		padding:8px 10px;
+		height:33%;
+	}
+	.vr_box_txt {
+		line-height:15px;
+	}
+	.vr_box_tit {
+		margin-top:5px;
+		font-size:14px;
+	}
+	footer .foot_info {
+		padding:5px 25px;
+	}
+	footer address {
+		padding:5px 12px;
+	}
+	footer .foot_info li a {
+		font-size:12px;
+	}
+	footer address p, footer address .email {
+		padding-bottom:0;
+	}
+	footer address p.copy {
+		padding-top:0;
+		font-size:12px; 
+	}
+	footer address img {
+		top:60px;
+		padding:0 20px;
+	}
+	
+	/* menu */
+	.site_gp {
+		float:left;
+	}
+	.sitemap_form .site_box,
+	.sitemap_form .site_box.notification {
+		width:25%;
+	}
+	.sitemap_form .site_box.solution {
+		width:50%;
+		height:100%;
+	}
+	.sitemap_form .site_tit.site_bg01, 
+	.sitemap_form .site_tit.site_bg02, 
+	.sitemap_form .site_tit.site_bg03 {
+		background:#ef4753;
+		border:0;
+	}
+	.sitemap_form .site_tit.site_bg03 {
+		padding-right: 60px;
+	}
+	.sitemap_form .site_tit {
+		padding:15px;
+		text-align:center;
+	}
+	.sitemap_form .site_tit strong {
+		float:none;
+		text-align:center;
+		font-size:16px;
+	}
+	.sitemap_form .site_tit span {
+		display:none;
+	}
+	.sitemap_form .site_cont {
+		padding:65px 15px 10px;
+	}
+	.sitemap_form .solution_ul strong {
+		margin-bottom:0;
+		height:24px;
+		line-height:24px;
+		font-size:14px;
+	}
+	.sitemap_form .site_cont ul li {
+		height:23px; 
+	}
+	.sitemap_form .site_cont ul li a {
+		font-size:15px;
+	}
+	.sitemap_form .site_box.solution {
+		border:1px dashed #ddd;
+		border-width:0 1px 0 1px;
+		box-sizing:border-box;
+	}
+	.sitemap_form .solution_ul.mobile {
+		margin-top:1px;
+	}
+	.sitemap_form .site_util li {
+		width:25%;
+	}
+	.sitemap_form .site_util li a {
+		margin:2px 0px 2px 10px;
+		line-height:36px;
+		font-size:14px;
+	}
+	.sitemap_form .site_util li a.ico_site_util04 {
+		line-height:36px;
+	}
+	.sitemap_form .site_util li a.ico_site_util01,
+	.sitemap_form .site_util li a.ico_site_util02,
+	.sitemap_form .site_util li a.ico_site_util03,
+	.sitemap_form .site_util li a.ico_site_util04 {
+		background-size:2.6em;
+	}
+	
+	/* 회사홍보 동영상 */
+	.video_pup {
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		margin:0;
+		width:100;
+		height:100%;
+		background-color:#000;
+	}
+	.video_cont iframe {
+		display:block;
+		margin:0 auto;
+		width:auto;
+		height:80%;
+	}
+}
